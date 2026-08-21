@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you cite this portfolio, cite the specific manuscript or artifact whenever possible."
+title: "Zackary Loevseth Research Portfolio"
+type: software
+authors:
+  - family-names: Loevseth
+    given-names: Zackary
+url: "https://zackaryloevseth.github.io/research-portfolio/"
+repository-code: "https://github.com/ZackaryLoevseth/research-portfolio"
+version: "2026.08.21-predeployment"
+date-released: 2026-08-21
+abstract: "A public research portfolio for rigorous mathematics, exact computation, verification, human-AI research systems, and applied research."

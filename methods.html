@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Verification-first research methods used by Zackary Loevseth, including proof reconstruction, exact computation, replay, and human-final controls.">
+  <link rel="canonical" href="https://zackaryloevseth.github.io/research-portfolio/methods.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Zackary Loevseth Research Portfolio">
+  <meta property="og:title" content="Methods and Verification | Zackary Loevseth">
+  <meta property="og:description" content="Verification-first methods: proof reconstruction, exact computation, replay, correction, and scoped release.">
+  <meta property="og:url" content="https://zackaryloevseth.github.io/research-portfolio/methods.html">
+  <meta name="twitter:card" content="summary">
+  <title>Methods and Verification | Zackary Loevseth</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="site.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div class="activation-bar">Public research portfolio · preprints under external review</div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Zackary Loevseth research portfolio home">
+        <span class="brand-mark" aria-hidden="true">ZL</span>
+        <span>Zackary Loevseth<br>Research Portfolio</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false">Menu</button>
+      <nav class="site-nav" id="primary-navigation" data-open="false" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="methods.html" aria-current="page">Methods</a></li>
+          <li><a href="applied.html">Applied</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Methods and verification</p>
+          <h1>Research that carries its audit trail</h1>
+          <p>The workflow is designed to preserve mathematical scope while making computation, provenance, corrections, and release decisions inspectable. Verification supports a claim; it does not silently enlarge one.</p>
+        </div>
+        <aside class="hero-aside">
+          <p class="eyebrow">Core principle</p>
+          <p>Proof, computation, archive integrity, prior-art review, and publication status are separate gates with separate evidence.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="workflow-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="kicker">Verification workflow</p>
+          <h2 id="workflow-title">From target selection to human-final release</h2>
+          <p>A reusable control loop supports both mathematical projects and research operations.</p>
+        </div>
+        <ol class="grid grid--3 plain-list">
+          <li class="card">
+            <p class="card-meta">01 · Select</p>
+            <h3>Choose a bounded target</h3>
+            <p>Define the exact question, admissible evidence, stopping conditions, and what would remain open after success.</p>
+          </li>
+          <li class="card">
+            <p class="card-meta">02 · Reconstruct</p>
+            <h3>Make the argument explicit</h3>
+            <p>Separate theorem logic from discovery notes, rebuild key derivations, and record dependencies and assumptions.</p>
+          </li>
+          <li class="card">
+            <p class="card-meta">03 · Compute</p>
+            <h3>Use exact checks where they fit</h3>
+            <p>Prefer integer, rational, symbolic, or exhaustive methods when the claim admits them; label numerical evidence precisely.</p>
+          </li>
+          <li class="card">
+            <p class="card-meta">04 · Replay</p>
+            <h3>Run independent paths</h3>
+            <p>Pair primary scripts with independent checkers, clean-environment reproduction, manifests, and content hashes.</p>
+          </li>
+          <li class="card">
+            <p class="card-meta">05 · Attack</p>
+            <h3>Audit hostile cases</h3>
+            <p>Search for boundary failures, schema conflicts, archive defects, counterexamples, and prior work before promotion.</p>
+          </li>
+          <li class="card">
+            <p class="card-meta">06 · Govern</p>
+            <h3>Correct, supersede, or stop</h3>
+            <p>Preserve failed routes and valid artifacts, issue explicit corrections, stage privately, and require human-final publication approval.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section--white" aria-labelledby="evidence-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="kicker">Evidence architecture</p>
+          <h2 id="evidence-title">What the packages actually verify</h2>
+          <p>The three featured packages expose their own verification summaries rather than relying on a portfolio-level assertion.</p>
+        </div>
+        <div class="grid grid--3">
+          <article class="card card--featured">
+            <p class="card-meta">Graffiti3</p>
+            <h3>Exact family reconstruction</h3>
+            <p>Fifteen package gates cover theorem reconstruction, explicit witnesses, database-scoped checks, archive integrity, and public-safe packaging.</p>
+            <div class="card-actions"><a href="assets/publications/graffiti3/verification-summary.md">Read Graffiti3 verification summary</a></div>
+          </article>
+          <article class="card card--featured">
+            <p class="card-meta">Semiorder</p>
+            <h3>Proof plus finite corroboration</h3>
+            <p>Fifteen gates pair proof reconstruction with exact finite checks across 318,667 cases, while keeping unrestricted parametric closure open.</p>
+            <div class="card-actions"><a href="assets/publications/semiorder/verification-summary.md">Read semiorder verification summary</a></div>
+          </article>
+          <article class="card card--featured">
+            <p class="card-meta">Erdős #64</p>
+            <h3>Theorem-only structural audit</h3>
+            <p>Twenty-one of twenty-one gates pass for the canonical package. Excluded finite-SAT and multipole routes do not enter the theorem claim.</p>
+            <div class="card-actions"><a href="assets/publications/erdos64/verification-summary.md">Read Erdős #64 verification summary</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--deep" aria-labelledby="director-title">
+      <div class="container detail-panel">
+        <p class="card-meta">Methods case</p>
+        <h2 id="director-title">Autonomous Scientific Director workflow</h2>
+        <p class="status-label">METHODS CASE — VERIFIED WORKFLOW SUMMARY</p>
+        <p class="lead">A governed orchestration method coordinates problem selection, proof reconstruction, exact computation, independent replay, correction and supersession, privacy-aware staging, and human-final publication controls across several research programs.</p>
+        <div class="detail-grid">
+          <div>
+            <h3>Operational contribution</h3>
+            <ul class="check-list">
+              <li>Maintains a claim registry that distinguishes open, conditional, finite, verified, and publication-ready states.</li>
+              <li>Freezes contracts and dependencies before costly runs, then records precise obstructions instead of improvising past them.</li>
+              <li>Preserves negative results, stopped routes, immutable certificate packets, and correction history.</li>
+              <li>Routes public-safe outputs separately from raw logs, internal bundles, credentials, and private staging identifiers.</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Current demonstrated status</h3>
+            <p>The workflow produced three canonical publication-ready packages with passing package-specific gates. That is process evidence, not external peer review, independent audit, or evidence that the method is causally superior to alternatives.</p>
+            <p><strong>Public artifact:</strong> this public-safe methods summary and the employer-readable brief. Raw orchestration events, internal handoffs, email drafts, bundles, and private storage identifiers are intentionally excluded.</p>
+            <div class="link-list">
+              <a href="assets/research-programs/scientific-director/brief.pdf">Scientific Director brief PDF</a>
+              <a href="assets/research-programs/scientific-director/brief.md">Scientific Director brief text</a>
+              <a href="assets/methods/reproducibility-methods.md">Reproducibility methods</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--night" aria-labelledby="ai-title">
+      <div class="container grid grid--2">
+        <div>
+          <p class="eyebrow">AI use</p>
+          <h2 id="ai-title">Assistance disclosed; responsibility retained</h2>
+          <p>AI systems assisted source discovery, proof and code development, checker construction, workflow coordination, and manuscript production. AI-generated output is not itself mathematical evidence.</p>
+        </div>
+        <div class="card card--dark">
+          <h3>Human-final controls</h3>
+          <ul class="check-list">
+            <li>AI systems are not listed as authors or external reviewers.</li>
+            <li>Zackary Loevseth is the proposed human author and accountable decision-maker.</li>
+            <li>Final inspection, authorship confirmation, licensing, and public release require human approval.</li>
+          </ul>
+          <div class="link-list">
+            <a href="assets/methods/ai-use-and-research-role.md">Portfolio AI-use and research-role disclosure</a>
+            <a href="assets/publications/graffiti3/ai-use-disclosure.md">Graffiti3 disclosure</a>
+            <a href="assets/publications/semiorder/ai-use-disclosure.md">Semiorder disclosure</a>
+            <a href="assets/publications/erdos64/ai-use-disclosure.md">Erdős #64 disclosure</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© 2026 Zackary Loevseth · Public research portfolio; external review status stated per artifact.</p>
+      <nav aria-label="Footer navigation">
+        <ul class="footer-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
