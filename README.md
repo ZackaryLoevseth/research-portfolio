@@ -7,7 +7,7 @@ and a verification-first research workflow.
 
 ## Publication status
 
-**PUBLIC RESEARCH PORTFOLIO — PREPRINTS UNDER EXTERNAL SPECIALIST REVIEW.**
+**PUBLIC RESEARCH PORTFOLIO — EXTERNAL SPECIALIST REVIEW PENDING.**
 
 The featured papers are public preprints, not peer-reviewed publications. The
 Riemann Hypothesis remains **UNSOLVED / IN PROGRESS**; the global

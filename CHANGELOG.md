@@ -1,5 +1,8 @@
 # Changelog
 
+- Correct public status banners to say external specialist review is pending,
+  and qualify the application PDFs where human fact confirmation remains.
+
 ## Unreleased — public deployment candidate
 
 - Isolated the audited site tree from all private-control Git history.
