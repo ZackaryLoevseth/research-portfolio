@@ -1,6 +1,17 @@
 # Changelog
 
-## 2026-08-21 — canonical public-surface correction
+## 2026-08-22 — live verification receipt
+
+- Verified all 69 intended Pages payload files byte-for-byte from anonymous
+  downloads after Pages build `1167313063` completed for content commit
+  `f1495e55f0112ea0bd0af370bd6208d20c6463f8`.
+- Verified all seven live pages at desktop and true 390-pixel mobile viewports,
+  including zero horizontal overflow and the mobile menu keyboard path.
+- Marked the corrected résumé, selected portfolio, site pages, and public asset
+  ledgers `PUBLIC_VERIFIED_LIVE`; no scientific paper, tag, or release byte was
+  changed.
+
+## 2026-08-22 — canonical public-surface correction
 
 - Replaced pre-deployment “publication-ready” labels with the exact public
   GitHub preprint-release status and preserved pending specialist review and
