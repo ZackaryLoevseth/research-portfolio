@@ -1,6 +1,6 @@
 # Verification summary
 
-Scientific package status: **PUBLICATION-READY PREPRINT — EXTERNAL SPECIALIST REVIEW PENDING**.
+Current portfolio status: **PUBLIC GITHUB PREPRINT RELEASE — EXTERNAL SPECIALIST REVIEW PENDING; NOT JOURNAL/ARXIV SUBMITTED**.
 
 - The computation-independent geometric proof is separated from the finite
   checker and from the unrestricted research campaign.

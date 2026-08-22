@@ -7,11 +7,21 @@ and a verification-first research workflow.
 
 ## Publication status
 
-**PUBLIC RESEARCH PORTFOLIO — EXTERNAL SPECIALIST REVIEW PENDING.**
+**PUBLIC RESEARCH PORTFOLIO — THREE GITHUB PREPRINT RELEASES; EXTERNAL SPECIALIST REVIEW PENDING.**
 
-The featured papers are public preprints, not peer-reviewed publications. The
+The featured papers are public GitHub preprint releases, not peer-reviewed,
+accepted, journal-published, or arXiv-submitted publications. The
 Riemann Hypothesis remains **UNSOLVED / IN PROGRESS**; the global
 Erdős–Gyárfás conjecture remains open; Study 14 has no comparative runs.
+
+## Current professional experience and contact
+
+Zackary is Customer Support Associate I (Norwegian) | Billing, Shipping &
+Fulfillment at SpaceX (Sep 2025 - Present), working with AI-enabled operational
+workflows. This professional role is separate from the independent research:
+SpaceX is not represented as an author, sponsor, reviewer, or endorser.
+
+Email: [zloevseth@gmail.com](mailto:zloevseth@gmail.com)
 
 Live repositories and releases:
 

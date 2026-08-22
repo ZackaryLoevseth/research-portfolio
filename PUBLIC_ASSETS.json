@@ -1,88 +1,88 @@
 {
   "schema_version": 1,
-  "run_id": "PUBLIC-RELEASE-20260821T211555Z",
-  "release_state": "PUBLIC_LIVE_VERIFIED",
+  "run_id": "CANONICAL-RECONCILIATION-20260822",
+  "release_state": "PUBLIC_CORRECTION_STAGED_PENDING_DEPLOYMENT",
   "assets": [
     {
       "asset_id": "portfolio-home",
       "artifact_type": "site-page",
       "relative_path": "index.html",
-      "sha256": "14570de06a07b5aa61b9e79f4b81cc09879bcdd5f19df47d2bfafae19be5c7b6",
+      "sha256": "e0d7564a0105645439fdcaebe0f8e208c5f11ce1cbb905c477829ee7cbc911d4",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/",
-      "public_state": "PUBLIC_VERIFIED_LIVE",
-      "scope": "Portfolio home"
+      "public_state": "PUBLIC_STAGED_PENDING_DEPLOYMENT",
+      "scope": "Portfolio home; public preprint releases, SpaceX professional fact, and direct contact"
     },
     {
       "asset_id": "portfolio-index",
       "artifact_type": "index",
       "relative_path": "Research_Portfolio_Index.md",
-      "sha256": "c9e2c354c984f6eb3d8229cb6686de64a8b989a0d39b5a59d1efbfd165a8fc82",
+      "sha256": "4636b1e0435f3a41f8cd67f5bf616ca1f2bc7515432baf3fd0e5b6784b3e0f63",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/Research_Portfolio_Index.md",
-      "public_state": "PUBLIC_VERIFIED_LIVE",
+      "public_state": "PUBLIC_STAGED_PENDING_DEPLOYMENT",
       "scope": "Human-readable public asset index"
     },
     {
       "asset_id": "publications-page",
       "artifact_type": "site-page",
       "relative_path": "publications.html",
-      "sha256": "c22b00bffc164fc3296aeef7483a5431fefd78cbdf56e18218c5b08c0063b70c",
+      "sha256": "104c41f5bbc4ba0ee597b6e2c330155895a3d6666c06875cec2e800b4088c2e7",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/publications.html",
-      "public_state": "PUBLIC_VERIFIED_LIVE",
+      "public_state": "PUBLIC_STAGED_PENDING_DEPLOYMENT",
       "scope": "Three public preprint releases; external review pending"
     },
     {
       "asset_id": "research-page",
       "artifact_type": "site-page",
       "relative_path": "research.html",
-      "sha256": "f88a70e3af04f1d90bd999920595d08db5d52f8251e45f4010194e7071dc11a5",
+      "sha256": "5eb4e2f727fb242028cc8bf522a8eee5c915abee4e745716a21cb30cbc460cd1",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/research.html",
-      "public_state": "PUBLIC_VERIFIED_LIVE",
+      "public_state": "PUBLIC_STAGED_PENDING_DEPLOYMENT",
       "scope": "Research programs; Erdős 409 pointwise F=104 scope"
     },
     {
       "asset_id": "methods-page",
       "artifact_type": "site-page",
       "relative_path": "methods.html",
-      "sha256": "10341977dd8f7efcefb96fc553c76f7ba09b80ac6145152af2bd320f6f0db237",
+      "sha256": "50be6e8dab5c0f4fc12c2e3942a7b3f884da6fa5f39a14f88fc345ca652484a1",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/methods.html",
-      "public_state": "PUBLIC_VERIFIED_LIVE",
-      "scope": "Verification and AI-use workflow"
+      "public_state": "PUBLIC_STAGED_PENDING_DEPLOYMENT",
+      "scope": "Verification and AI-use workflow; deployed package and certificate status"
     },
     {
       "asset_id": "about-page",
       "artifact_type": "site-page",
       "relative_path": "about.html",
-      "sha256": "77df99dbf19f4cb7ca0ecceb5d8fe889912bdaca08f4e7fec1a9bd5446e0df62",
+      "sha256": "b9744e9340a7d19dfb8fb04f9b1c07197a67d2f747c388544c3f7de68b608c18",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/about.html",
-      "public_state": "PUBLIC_VERIFIED_LIVE",
-      "scope": "Role and exact evidence-status language"
+      "public_state": "PUBLIC_STAGED_PENDING_DEPLOYMENT",
+      "scope": "Research role, current professional experience, and exact evidence-status language"
     },
     {
       "asset_id": "contact-page",
       "artifact_type": "site-page",
       "relative_path": "contact.html",
-      "sha256": "f3a4ad9852730aa3755fcbbb6e7564f0db23cac0256bb401df92dd5aced1b5a0",
+      "sha256": "a188fc53d1b79c968d67a675314d7d471c1bed67c10c9e7632138ac71c547164",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/contact.html",
-      "public_state": "PUBLIC_VERIFIED_LIVE",
-      "scope": "Public contact surface; direct email link remains human-confirmation gated"
+      "public_state": "PUBLIC_STAGED_PENDING_DEPLOYMENT",
+      "scope": "Direct public email zloevseth@gmail.com and verified GitHub profile"
     },
     {
       "asset_id": "research-resume",
       "artifact_type": "application-pdf",
       "relative_path": "assets/application/Zackary_Loevseth_Research_Resume.pdf",
-      "sha256": "5e12fc2656ae29ff9de67bd3b491045ff4d90c3c9875abd65906c3335fa4807f",
+      "sha256": "d20aa843cb961a96e5a110b0e85d057b23f623f4603d19d484d7bce98b4056ce",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/assets/application/Zackary_Loevseth_Research_Resume.pdf",
-      "public_state": "PUBLIC_VERIFIED_F104",
-      "scope": "Two pages; live URLs; bounded F=104 pointwise result"
+      "public_state": "PUBLIC_STAGED_PENDING_DEPLOYMENT",
+      "scope": "Two-page tagged US-letter résumé; current SpaceX, contact, education, public-release, and bounded F=104 facts"
     },
     {
       "asset_id": "selected-research-portfolio",
       "artifact_type": "application-pdf",
       "relative_path": "assets/application/Zackary_Loevseth_Selected_Research_Portfolio.pdf",
-      "sha256": "e5d3dd27d7b0587c05d02f152225c79f0c2c4d1bc61046db5f3bb05d1d618e2f",
+      "sha256": "50ac5e45fb52315de0e9e1dd4f269da35d099c15e492d27a0f6edfb5e91bdb2b",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/assets/application/Zackary_Loevseth_Selected_Research_Portfolio.pdf",
-      "public_state": "PUBLIC_VERIFIED_F104",
-      "scope": "Two pages; live URLs; bounded F=104 pointwise result"
+      "public_state": "PUBLIC_STAGED_PENDING_DEPLOYMENT",
+      "scope": "Two-page tagged US-letter selected portfolio; current contact, live releases, and bounded F=104 scope"
     },
     {
       "asset_id": "graffiti3-manuscript",
@@ -91,7 +91,7 @@
       "sha256": "edc5c123ccdde18a7b8f971c7bf8f59d7b60135125f481c9596f494267517b3d",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/assets/publications/graffiti3/manuscript.pdf",
       "public_state": "PUBLIC_VERIFIED_LIVE",
-      "scope": "Publication-ready public preprint; external review pending"
+      "scope": "Public GitHub preprint release; external review pending; not journal/arXiv submitted"
     },
     {
       "asset_id": "graffiti3-supplement",
@@ -109,7 +109,7 @@
       "sha256": "9dec5eb5d60a296a4e48c145cb9d4952017fc85b2ddb7868be79ab937ede6923",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/assets/publications/semiorder/manuscript.pdf",
       "public_state": "PUBLIC_VERIFIED_LIVE",
-      "scope": "Publication-ready public preprint; unrestricted closure open"
+      "scope": "Public GitHub preprint release; external review pending; unrestricted closure open"
     },
     {
       "asset_id": "semiorder-supplement",
@@ -127,7 +127,7 @@
       "sha256": "fb781880e1d76a6b2fe1b78fe1646ac5e0b3b6a8d93714439c1a95a0607eb8cd",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/assets/publications/erdos64/manuscript.pdf",
       "public_state": "PUBLIC_VERIFIED_LIVE",
-      "scope": "Conditional theorem; global conjecture open"
+      "scope": "Public GitHub preprint release; conditional theorem; external review pending; global conjecture open"
     },
     {
       "asset_id": "erdos64-supplement",
@@ -190,7 +190,7 @@
       "sha256": "-",
       "public_url": "https://github.com/ZackaryLoevseth",
       "public_state": "PUBLIC_PROFILE_LIVE",
-      "scope": "Public profile repository and README are live"
+      "scope": "Public profile; current SpaceX professional fact kept separate from independent research; direct current contact"
     }
   ]
 }

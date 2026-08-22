@@ -1,6 +1,6 @@
 # Erdős #64 public reproducibility guide
 
-Status: **PUBLICATION-READY PREPRINT — EXTERNAL SPECIALIST REVIEW PENDING**
+Current portfolio status: **PUBLIC GITHUB PREPRINT RELEASE — EXTERNAL SPECIALIST REVIEW PENDING; NOT JOURNAL/ARXIV SUBMITTED**
 
 This portfolio mirror contains the public manuscript, supplement, and the
 release’s scoped disclosure records:

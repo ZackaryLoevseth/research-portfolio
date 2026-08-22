@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026-08-21 — canonical public-surface correction
+
+- Replaced pre-deployment “publication-ready” labels with the exact public
+  GitHub preprint-release status and preserved pending specialist review and
+  no-journal/arXiv-submission boundaries.
+- Added the human-confirmed public contact address, current SpaceX professional
+  role, and May 2025 CSUN degree facts without implying employer involvement in
+  the independent research.
+- Distinguished Study 14's 40/40 public-safe parity scaffold from the separate
+  208/208 authored-gold/adversarial development suite; neither is efficacy
+  evidence and no outcome data were collected.
+- Corrected Riemann wording so equation A.1 is a source-formula label, not
+  `A1_CORE_FRAMEWORK`, and recorded the rejected v2 and stopped v3 states.
+- Made the F=104 Markdown brief current while labeling the adjacent F=71-only
+  PDF as an archived, superseded snapshot.
+- Updated the Scientific Director summary for the completed public deployment
+  while preserving the no-causal-validation boundary.
+
 ## 2026-08-21 — live-state reconciliation
 
 - Replaced authentication- and activation-pending copy with verified live
@@ -11,9 +29,6 @@
   pages each.
 - Corrected the custom 404 skip link without changing the site layout.
 - Regenerated public registries and repository manifests.
-
-- Correct public status banners to say external specialist review is pending,
-  and qualify the application PDFs where human fact confirmation remains.
 
 ## 2026-08-21 — initial public deployment
 

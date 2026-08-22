@@ -10,7 +10,7 @@ Does premise-governed context scheduling improve correction behavior in multi-st
 
 The current contribution is a detailed v1.1 preregistered evaluation design, not a performance result. Every held-out base case is planned to run under four conditions in independent stateless sessions: A, full context without status labels; B, the same context with status labels; C, a frozen competitive semantic retriever; and D, premise-governed scheduling with status, provenance, dependencies, contradiction state, unresolved obligations, and dependency-triggered reopening after a correction.
 
-A development harness has been validated for packet construction and parity scaffolding: 40 of 40 parity checks passed. It executed **zero model runs**, consumed no pilot or held-out data, and did not freeze the final Condition C retriever. Prospective naturalistic director episodes were separately recorded with the confirmatory core unchanged and held-out outcomes unread. They are process records, not comparative estimates.
+Two development scopes have been validated and must not be conflated. The public-safe parity scaffold passed **40/40** checks. A broader authored-gold/adversarial development suite passed **208/208** checks. Both are deterministic development checks, not model-performance or efficacy evidence. The work executed **zero model runs**, consumed no pilot or held-out outcome data, and did not freeze the final Condition C retriever. Prospective naturalistic director episodes were separately recorded with the confirmatory core unchanged and held-out outcomes unread. They are process records, not comparative estimates.
 
 ## Methods
 
@@ -26,15 +26,15 @@ AI systems assisted with protocol development, condition scaffolding, packet val
 
 ## Verification
 
-The preregistration and development scaffold exist, and the harness reports `DEVELOPMENT_SCAFFOLD_VALIDATED`. Comparative execution has not started. No pilot outcomes, held-out outcomes, treatment-effect estimates, or replications are available. Condition C remains materially underspecified until its retriever, chunking, query, ranking, and context-allocation rules are frozen.
+The preregistration and development scaffold exist. The public-safe parity scaffold reports 40/40 checks passed; the separate authored-gold/adversarial development suite reports 208/208 checks passed. Comparative execution has not started. No pilot outcomes, held-out outcomes, treatment-effect estimates, or replications are available. Condition C remains materially underspecified until its retriever, chunking, query, ranking, and context-allocation rules are frozen.
 
 ## Exact nonclaims
 
-No causal claim is made that ETI or Condition D outperforms any baseline. Naturalistic cases do not estimate randomized treatment effects. Harness parity is not efficacy evidence. A null result would not establish equivalence without frozen margins, and any gain that violates accuracy, precision, blocking, or cost guardrails would not count as unqualified improvement.
+No causal claim is made that ETI or Condition D outperforms any baseline. Naturalistic cases do not estimate randomized treatment effects. Neither 40/40 public-safe parity checks nor 208/208 authored-gold/adversarial development checks are efficacy evidence. A null result would not establish equivalence without frozen margins, and any gain that violates accuracy, precision, blocking, or cost guardrails would not count as unqualified improvement.
 
 ## Public artifacts
 
-**None yet.** The preregistration and harness remain in private/local research sources.
+This public-safe status brief is the only public artifact. The preregistration, harness, authored-gold/adversarial development materials, and any future pilot or held-out records remain private/local research sources.
 
 ## Employer relevance
 

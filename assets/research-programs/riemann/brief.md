@@ -2,7 +2,7 @@
 
 ## RIEMANN HYPOTHESIS STATUS: UNSOLVED / IN PROGRESS
 
-**Program status: ACTIVE RESEARCH — TARGET OPEN**
+**Program status: UNSOLVED / IN PROGRESS — VERSION 2 REJECTED; VERSION 3 STOPPED**
 
 ## Research question
 
@@ -10,9 +10,9 @@ Can a rigorously specified, independently checkable Weil-form evaluator or a qua
 
 ## Contribution and current result
 
-No proof or disproof of the Riemann Hypothesis was produced. The current v3 result is a precise process obstruction under a contract frozen before implementation: the dependency schema admitted two plausible, incompatible encodings, one used by the producer and one required by the checker. Because choosing an interpretation after seeing both implementations would add post-freeze semantics, the route stopped as `STOPPED_WITH_PRECISE_FROZEN_CONTRACT_OBSTRUCTION`.
+No proof or disproof of the Riemann Hypothesis was produced. Version 2 remains rejected at N06. The version 3 result is a precise process obstruction under a contract frozen before implementation: the dependency schema admitted two plausible, incompatible encodings, one used by the producer and one required by the checker. Because choosing an interpretation after seeing both implementations would add post-freeze semantics, the route stopped as `STOPPED_WITH_PRECISE_FROZEN_CONTRACT_OBSTRUCTION`.
 
-A parallel, context-separated lane produced an internal A.1-to-Hermitian-Weil-form bridge candidate matching the inherited conventions for zeros, poles, prime powers, archimedean terms, reflection, conjugation, and transforms. Its status remains `CHECKED_DERIVATION / SEPARATE_CONTEXT / CANDIDATE`. The quantitative Li route remains active at priority two.
+A parallel, context-separated lane produced an internal source-equation-A.1-to-Hermitian-Weil-form bridge candidate matching the inherited conventions for zeros, poles, prime powers, archimedean terms, reflection, conjugation, and transforms. Here “A.1” is the inherited source-formula label and must not be confused with `A1_CORE_FRAMEWORK`. The bridge status remains `CHECKED_DERIVATION / SEPARATE_CONTEXT / CANDIDATE`; it is not formalized or externally reviewed. No Riemann route is authorized for continuation in this portfolio reconciliation.
 
 ## Methods
 
@@ -28,15 +28,15 @@ AI agents assisted with route generation, formal statement work, producer and ch
 
 ## Verification
 
-The schema-obstruction claim is checked and complete only at `PROCESS_ONLY` scope. The rejected producer’s mathematics remains unassessed because its implementation never passed the contract. No baseline certificate, N01–N10 dependency chain, required mutation suite, or strict replay was accepted. The bridge candidate has no formalization or external specialist review.
+The schema-obstruction claim is checked and complete only at `PROCESS_ONLY` scope. The rejected version 2 producer’s mathematics remains unassessed because its implementation never passed N06. No accepted EvalW certificate, N01–N10 dependency chain, required mutation suite, or strict replay exists. The bridge candidate has no formalization or external specialist review.
 
 ## Exact nonclaims
 
-There is no RH proof, disproof, certified off-line zero, accepted negative Weil entry, or global positivity mechanism. Zero-containing numerical rectangles confer no negativity or RH authority. The A.1 bridge is a candidate, not a theorem-level advance accepted by external review. ETI process discipline is not a mathematical premise for RH.
+There is no RH proof, disproof, certified off-line zero, accepted negative Weil entry, or global positivity theorem. Zero-containing numerical rectangles confer no negativity or RH authority. The source-equation-A.1 bridge is an internal candidate, not a theorem-level advance accepted by external review. ETI process discipline is not a mathematical premise for RH.
 
 ## Public artifacts
 
-**None yet.** The laboratory and checkpoint are private; no approved public summary or repository was found.
+This employer-readable status brief is public. The laboratory, evaluator sources, candidate bridge, and checkpoint remain private; no proof-candidate repository is released.
 
 ## Employer relevance
 

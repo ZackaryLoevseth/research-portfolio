@@ -26,7 +26,7 @@ AI systems substantially assisted with model development, theorem exploration, l
 
 ## Verification
 
-The finite-model results are internally coherent in the working manuscript, but no external claim-specific mathematical audit or load-bearing proof-assistant package was located. A cited 512-policy validator was not recovered as a complete publication packet. Operational demonstrations are naturalistic process evidence only. The planned comparative test is Study 14.1, which has not run.
+The finite-model results are internally coherent in the 37-page v2 working manuscript, but that manuscript is not a peer-reviewed publication and no external claim-specific mathematical audit or load-bearing proof-assistant package was located. A cited 512-policy validator was not recovered as a complete publication packet. Operational demonstrations are naturalistic process evidence only. The planned comparative test is Study 14.1, which has not run.
 
 ## Exact nonclaims
 
@@ -34,7 +34,7 @@ RR-ETI is not claimed to be a universal law of intelligence, a theory outside de
 
 ## Public artifacts
 
-**None yet.** No public RR-ETI repository or approved public manuscript was found during the bounded GitHub/web discovery.
+This public-safe status brief is available. No public RR-ETI repository or approved public manuscript is released; the 37-page v2 document remains a private working manuscript.
 
 ## Employer relevance
 

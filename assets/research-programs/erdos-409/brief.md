@@ -1,4 +1,4 @@
-# Erdős Problem #409 — Pointwise Certificate and Historical Baseline
+# Erdős Problem #409 — Current F=104 Pointwise Certificate
 
 **Status: PUBLIC POINTWISE CERTIFICATE `F(400000287233629)=104`; GLOBAL PROBLEM OPEN**
 
@@ -23,9 +23,10 @@ The earlier public `F=71` baseline certified the chain
 
 all terminating at the prime `9,500,401`. The package contains the 72-node `F=71` trajectory, exact factorizations, 222 recursive Lucas/Pratt-style primality certificates, and an independently reconstructed inverse-totient tree rooted at the `F=68` witness. Its exact level counts are `1, 10, 42, 10, 0` through the direct `F=72` extension level, with 62 parent–child edges.
 
-The linked PDF is retained as an explicitly historical `F=71` baseline brief.
-It is superseded for current pointwise-certificate status by release
-`v3.0.0-f104` and commit `ee62d68d16f187b808c814108fd53881c4e3e614`.
+The adjacent `brief.pdf` is an archived, explicitly historical `F=71`-only
+snapshot. It is **not** the current program brief and is superseded for current
+pointwise-certificate status by this document, release `v3.0.0-f104`, and
+commit `ee62d68d16f187b808c814108fd53881c4e3e614`.
 
 ## Methods
 
@@ -60,6 +61,8 @@ density theorem, inverse-tree completeness, or global solution.
 - [F=104 release](https://github.com/ZackaryLoevseth/Erd-s-Problem-409/releases/tag/v3.0.0-f104)
 - [F=104 verification code and data](https://github.com/ZackaryLoevseth/Erd-s-Problem-409/tree/ee62d68d16f187b808c814108fd53881c4e3e614)
 - [Historical F=71 commit](https://github.com/ZackaryLoevseth/Erd-s-Problem-409/tree/995545f3ab2cfb3c1cb971f8d473140c4108eb6f)
+- Archived local PDF: `brief.pdf` — historical F=71-only snapshot, superseded
+  for current status
 
 ## Employer relevance
 

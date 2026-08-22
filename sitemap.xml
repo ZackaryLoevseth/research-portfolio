@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://zackaryloevseth.github.io/research-portfolio/</loc></url>
-  <url><loc>https://zackaryloevseth.github.io/research-portfolio/publications.html</loc></url>
-  <url><loc>https://zackaryloevseth.github.io/research-portfolio/research.html</loc></url>
-  <url><loc>https://zackaryloevseth.github.io/research-portfolio/methods.html</loc></url>
-  <url><loc>https://zackaryloevseth.github.io/research-portfolio/applied.html</loc></url>
-  <url><loc>https://zackaryloevseth.github.io/research-portfolio/about.html</loc></url>
-  <url><loc>https://zackaryloevseth.github.io/research-portfolio/contact.html</loc></url>
+  <url><loc>https://zackaryloevseth.github.io/research-portfolio/</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://zackaryloevseth.github.io/research-portfolio/publications.html</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://zackaryloevseth.github.io/research-portfolio/research.html</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://zackaryloevseth.github.io/research-portfolio/methods.html</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://zackaryloevseth.github.io/research-portfolio/applied.html</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://zackaryloevseth.github.io/research-portfolio/about.html</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://zackaryloevseth.github.io/research-portfolio/contact.html</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://zackaryloevseth.github.io/research-portfolio/Research_Portfolio_Index.md</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://zackaryloevseth.github.io/research-portfolio/PUBLIC_ASSETS.tsv</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://zackaryloevseth.github.io/research-portfolio/PUBLIC_ASSETS.json</loc><lastmod>2026-08-21</lastmod></url>
 </urlset>

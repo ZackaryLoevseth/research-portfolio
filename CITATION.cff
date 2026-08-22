@@ -7,6 +7,6 @@ authors:
     given-names: Zackary
 url: "https://zackaryloevseth.github.io/research-portfolio/"
 repository-code: "https://github.com/ZackaryLoevseth/research-portfolio"
-version: "2026.08.21-predeployment"
+version: "2026.08.21-canonical-reconciliation"
 date-released: 2026-08-21
-abstract: "A public research portfolio for rigorous mathematics, exact computation, verification, human-AI research systems, and applied research."
+abstract: "A public research portfolio containing three GitHub preprint releases, an exact pointwise computation certificate, verification records, human-AI research systems, and applied research."

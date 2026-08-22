@@ -1,7 +1,7 @@
 # Verification summary
 
-Scientific status: **PUBLICATION-READY PREPRINT — EXTERNAL SPECIALIST REVIEW
-PENDING**.
+Current portfolio status: **PUBLIC GITHUB PREPRINT RELEASE — EXTERNAL
+SPECIALIST REVIEW PENDING; NOT JOURNAL/ARXIV SUBMITTED**.
 
 - The frozen package passed 21 of 21 scientific and publication gates.
 - A definition-level proof reconstruction and hostile audit covered the branch

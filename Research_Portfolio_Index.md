@@ -7,8 +7,10 @@ Permanent URL:
 
 ## Featured preprints
 
-Each paper is a public, publication-ready preprint with external specialist
-review pending. The dedicated repositories and GitHub Releases below are live.
+Each paper is a public GitHub preprint release with external specialist review
+pending. None is peer reviewed, accepted, journal published, or submitted to a
+journal or arXiv. The dedicated repositories and GitHub Releases below are
+live.
 
 - **Graffiti3 finite-group refutations:** [manuscript](assets/publications/graffiti3/manuscript.pdf),
   [supplement](assets/publications/graffiti3/supplementary-appendix.pdf),
@@ -43,7 +45,10 @@ historical priority, peer review, or external independent review.
   It makes no world-record-priority, unboundedness, global-maximality, basin,
   density, inverse-tree-completeness, or global-solution claim.
 - The Riemann Hypothesis remains **UNSOLVED / IN PROGRESS**.
-- Study 14 is preregistered; no comparative runs have occurred.
+- Study 14 is preregistered. Its public-safe parity scaffold passed 40/40
+  checks, while a distinct authored-gold/adversarial development suite passed
+  208/208 checks. Neither is efficacy evidence; no comparative runs or pilot or
+  held-out outcome data exist.
 - ETI/RR-ETI and the Scientific Director workflow are research-method programs,
   not global theorem or causal-superiority claims.
 - Wildfire GIS is a public-safe applied summary without a released dataset,
@@ -59,6 +64,10 @@ See [research.html](research.html), [methods.html](methods.html), and
 
 Both documents are exactly two pages and contain the verified live URLs and
 the bounded `F=104` pointwise result.
+
+Public contact: [zloevseth@gmail.com](mailto:zloevseth@gmail.com). Current
+professional experience at SpaceX is stated separately from the independent
+research; no SpaceX authorship, sponsorship, review, or endorsement is implied.
 
 ## Public registries
 

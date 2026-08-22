@@ -1,6 +1,6 @@
 # Verification summary
 
-Scientific package status: **PUBLICATION-READY PREPRINT — EXTERNAL SPECIALIST REVIEW PENDING**.
+Current portfolio status: **PUBLIC GITHUB PREPRINT RELEASE — EXTERNAL SPECIALIST REVIEW PENDING; NOT JOURNAL/ARXIV SUBMITTED**.
 
 - Exact symbolic reconstruction checks the three unitriangular and two
   dihedral inequalities.
