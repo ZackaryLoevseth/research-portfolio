@@ -14,6 +14,8 @@ The portfolio does **not** claim:
 - comparative or causal superiority of ETI/RR-ETI methods;
 - a validated operational wildfire prediction system.
 
-Public Erdős Problem #409 material is limited to its independently stated
-certificate scope. Any F=104 successor requires a separate fresh replay and
-release record before this site may promote it.
+Public Erdős Problem #409 material is limited to the pointwise certificate
+`F(400000287233629)=104` and its consequence `sup_n F(n) >= 104`. It does not
+claim world-record priority, unboundedness, global maximality, basin
+infinitude, density, inverse-tree completeness, or a solution of the global
+problem.

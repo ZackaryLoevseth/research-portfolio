@@ -1,88 +1,88 @@
 {
   "schema_version": 1,
   "run_id": "PUBLIC-RELEASE-20260821T211555Z",
-  "release_state": "ONLINE_PENDING_AUTH",
+  "release_state": "PUBLIC_LIVE_VERIFIED",
   "assets": [
     {
       "asset_id": "portfolio-home",
       "artifact_type": "site-page",
       "relative_path": "index.html",
-      "sha256": "87749acc72c6a30ed24e3297a9a6ff33a3abcd18b97d1d1930b37fc134a5e6ca",
+      "sha256": "14570de06a07b5aa61b9e79f4b81cc09879bcdd5f19df47d2bfafae19be5c7b6",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/",
-      "public_state": "ONLINE_PENDING_AUTH",
+      "public_state": "PUBLIC_VERIFIED_LIVE",
       "scope": "Portfolio home"
     },
     {
       "asset_id": "portfolio-index",
       "artifact_type": "index",
       "relative_path": "Research_Portfolio_Index.md",
-      "sha256": "c8131c2559bf259d685390f8a06677ec8d5f8a3f2bc46230627fb319bab13a0c",
+      "sha256": "c9e2c354c984f6eb3d8229cb6686de64a8b989a0d39b5a59d1efbfd165a8fc82",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/Research_Portfolio_Index.md",
-      "public_state": "ONLINE_PENDING_AUTH",
+      "public_state": "PUBLIC_VERIFIED_LIVE",
       "scope": "Human-readable public asset index"
     },
     {
       "asset_id": "publications-page",
       "artifact_type": "site-page",
       "relative_path": "publications.html",
-      "sha256": "7bccdd67fc2866cb6c522cfdebf1da31dda0fff8cb596d1482a69c90ca3add37",
+      "sha256": "c22b00bffc164fc3296aeef7483a5431fefd78cbdf56e18218c5b08c0063b70c",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/publications.html",
-      "public_state": "ONLINE_PENDING_AUTH",
-      "scope": "Three publication-ready preprints"
+      "public_state": "PUBLIC_VERIFIED_LIVE",
+      "scope": "Three public preprint releases; external review pending"
     },
     {
       "asset_id": "research-page",
       "artifact_type": "site-page",
       "relative_path": "research.html",
-      "sha256": "a461f289a1f9b13211dff58147043a93b286b82c6b135e5e629f185bb9ddb364",
+      "sha256": "f88a70e3af04f1d90bd999920595d08db5d52f8251e45f4010194e7071dc11a5",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/research.html",
-      "public_state": "ONLINE_PENDING_AUTH",
-      "scope": "Research programs; Erdős 409 held at public F=71"
+      "public_state": "PUBLIC_VERIFIED_LIVE",
+      "scope": "Research programs; Erdős 409 pointwise F=104 scope"
     },
     {
       "asset_id": "methods-page",
       "artifact_type": "site-page",
       "relative_path": "methods.html",
-      "sha256": "2d783d9f6fc8ee5cf444292c7d605f0983e25ec5045997c906489d131f145662",
+      "sha256": "10341977dd8f7efcefb96fc553c76f7ba09b80ac6145152af2bd320f6f0db237",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/methods.html",
-      "public_state": "ONLINE_PENDING_AUTH",
+      "public_state": "PUBLIC_VERIFIED_LIVE",
       "scope": "Verification and AI-use workflow"
     },
     {
       "asset_id": "about-page",
       "artifact_type": "site-page",
       "relative_path": "about.html",
-      "sha256": "ab7f335769068c34358e3aa6acddc833cf761796bd58c8ee212ce539849270ea",
+      "sha256": "77df99dbf19f4cb7ca0ecceb5d8fe889912bdaca08f4e7fec1a9bd5446e0df62",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/about.html",
-      "public_state": "ONLINE_PENDING_AUTH",
+      "public_state": "PUBLIC_VERIFIED_LIVE",
       "scope": "Role and exact evidence-status language"
     },
     {
       "asset_id": "contact-page",
       "artifact_type": "site-page",
       "relative_path": "contact.html",
-      "sha256": "d0321efc3912532fe9c86e5f99e2366aff9fa16818b5b40db36ec7c18fa58bf5",
+      "sha256": "a8283ea9754d11ca53fe8c1f1bec7264284446ca2528cc1eaf2e0ea1febb5c1d",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/contact.html",
-      "public_state": "ONLINE_PENDING_AUTH",
-      "scope": "Public contact surface"
+      "public_state": "PUBLIC_VERIFIED_LIVE",
+      "scope": "Public contact surface; direct email link remains human-confirmation gated"
     },
     {
       "asset_id": "research-resume",
       "artifact_type": "application-pdf",
       "relative_path": "assets/application/Zackary_Loevseth_Research_Resume.pdf",
-      "sha256": "c7d24a1eaae30a7358e81c127fd6126bc91b9809438e2fb8667e8fb2ebfa1b95",
+      "sha256": "5e12fc2656ae29ff9de67bd3b491045ff4d90c3c9875abd65906c3335fa4807f",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/assets/application/Zackary_Loevseth_Research_Resume.pdf",
-      "public_state": "ONLINE_PENDING_AUTH_F71",
-      "scope": "Two pages; F=71 public state"
+      "public_state": "PUBLIC_VERIFIED_F104",
+      "scope": "Two pages; live URLs; bounded F=104 pointwise result"
     },
     {
       "asset_id": "selected-research-portfolio",
       "artifact_type": "application-pdf",
       "relative_path": "assets/application/Zackary_Loevseth_Selected_Research_Portfolio.pdf",
-      "sha256": "10539c6095a84d86a79c278eef3ca82c4865bf021346b654730ed99859a07ca0",
+      "sha256": "e5d3dd27d7b0587c05d02f152225c79f0c2c4d1bc61046db5f3bb05d1d618e2f",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/assets/application/Zackary_Loevseth_Selected_Research_Portfolio.pdf",
-      "public_state": "ONLINE_PENDING_AUTH_F71",
-      "scope": "Two pages; F=71 public state"
+      "public_state": "PUBLIC_VERIFIED_F104",
+      "scope": "Two pages; live URLs; bounded F=104 pointwise result"
     },
     {
       "asset_id": "graffiti3-manuscript",
@@ -90,8 +90,8 @@
       "relative_path": "assets/publications/graffiti3/manuscript.pdf",
       "sha256": "edc5c123ccdde18a7b8f971c7bf8f59d7b60135125f481c9596f494267517b3d",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/assets/publications/graffiti3/manuscript.pdf",
-      "public_state": "ONLINE_PENDING_AUTH",
-      "scope": "Publication-ready preprint; external review pending"
+      "public_state": "PUBLIC_VERIFIED_LIVE",
+      "scope": "Publication-ready public preprint; external review pending"
     },
     {
       "asset_id": "graffiti3-supplement",
@@ -99,8 +99,8 @@
       "relative_path": "assets/publications/graffiti3/supplementary-appendix.pdf",
       "sha256": "769b55d9a438b49421cd9821268cd9bb99a340fe54279094893b3922f7f74f85",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/assets/publications/graffiti3/supplementary-appendix.pdf",
-      "public_state": "ONLINE_PENDING_AUTH",
-      "scope": "Curated first-party public candidate"
+      "public_state": "PUBLIC_VERIFIED_LIVE",
+      "scope": "Curated first-party public asset"
     },
     {
       "asset_id": "semiorder-manuscript",
@@ -108,8 +108,8 @@
       "relative_path": "assets/publications/semiorder/manuscript.pdf",
       "sha256": "9dec5eb5d60a296a4e48c145cb9d4952017fc85b2ddb7868be79ab937ede6923",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/assets/publications/semiorder/manuscript.pdf",
-      "public_state": "ONLINE_PENDING_AUTH",
-      "scope": "Publication-ready preprint; unrestricted closure open"
+      "public_state": "PUBLIC_VERIFIED_LIVE",
+      "scope": "Publication-ready public preprint; unrestricted closure open"
     },
     {
       "asset_id": "semiorder-supplement",
@@ -117,8 +117,8 @@
       "relative_path": "assets/publications/semiorder/supplementary-appendix.pdf",
       "sha256": "7fdc8b6590d1f967e14b55d3591da31ec9d7fad80bc44af1a19de4640b4a6ac1",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/assets/publications/semiorder/supplementary-appendix.pdf",
-      "public_state": "ONLINE_PENDING_AUTH",
-      "scope": "Curated first-party public candidate"
+      "public_state": "PUBLIC_VERIFIED_LIVE",
+      "scope": "Curated first-party public asset"
     },
     {
       "asset_id": "erdos64-manuscript",
@@ -126,7 +126,7 @@
       "relative_path": "assets/publications/erdos64/manuscript.pdf",
       "sha256": "fb781880e1d76a6b2fe1b78fe1646ac5e0b3b6a8d93714439c1a95a0607eb8cd",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/assets/publications/erdos64/manuscript.pdf",
-      "public_state": "ONLINE_PENDING_AUTH",
+      "public_state": "PUBLIC_VERIFIED_LIVE",
       "scope": "Conditional theorem; global conjecture open"
     },
     {
@@ -135,8 +135,8 @@
       "relative_path": "assets/publications/erdos64/supplementary-appendix.pdf",
       "sha256": "5fce8824f153c9c048142b801e3f0baeb2044743eb0ad2d2065711a90de837af",
       "public_url": "https://zackaryloevseth.github.io/research-portfolio/assets/publications/erdos64/supplementary-appendix.pdf",
-      "public_state": "ONLINE_PENDING_AUTH",
-      "scope": "Curated first-party public candidate"
+      "public_state": "PUBLIC_VERIFIED_LIVE",
+      "scope": "Curated first-party public asset"
     },
     {
       "asset_id": "graffiti3-repository",
@@ -144,8 +144,8 @@
       "relative_path": "-",
       "sha256": "-",
       "public_url": "https://github.com/ZackaryLoevseth/graffiti3-counterexample-families",
-      "public_state": "CREATION_PENDING_AUTH",
-      "scope": "Curated first-party replay package; no reuse license"
+      "public_state": "PUBLIC_VERIFIED_LIVE",
+      "scope": "Commit e7b96c80; tag and release v1.0.0-preprint; no reuse license"
     },
     {
       "asset_id": "semiorder-repository",
@@ -153,8 +153,8 @@
       "relative_path": "-",
       "sha256": "-",
       "public_url": "https://github.com/ZackaryLoevseth/semiorder-zonotope-bounds",
-      "public_state": "CREATION_PENDING_AUTH",
-      "scope": "Curated first-party replay package; unrestricted closure open"
+      "public_state": "PUBLIC_VERIFIED_LIVE",
+      "scope": "Commit 84fff910; tag and release v1.0.0-preprint; unrestricted closure open"
     },
     {
       "asset_id": "erdos64-paper-repository",
@@ -162,26 +162,26 @@
       "relative_path": "-",
       "sha256": "-",
       "public_url": "https://github.com/ZackaryLoevseth/erdos-64-excess-degree-bounds",
-      "public_state": "CREATION_PENDING_AUTH",
-      "scope": "Conditional theorem; global conjecture open"
+      "public_state": "PUBLIC_VERIFIED_LIVE",
+      "scope": "Commit dace23d4; tag and release v1.0.0-preprint; global conjecture open"
     },
     {
       "asset_id": "erdos409-public-head",
       "artifact_type": "github-commit",
       "relative_path": "-",
       "sha256": "-",
-      "public_url": "https://github.com/ZackaryLoevseth/Erd-s-Problem-409/tree/995545f3ab2cfb3c1cb971f8d473140c4108eb6f",
-      "public_state": "PUBLIC_VERIFIED_F71",
-      "scope": "Current site scope through F=71; F=104 site promotion pending public validation"
+      "public_url": "https://github.com/ZackaryLoevseth/Erd-s-Problem-409/tree/ee62d68d16f187b808c814108fd53881c4e3e614",
+      "public_state": "PUBLIC_VERIFIED_F104",
+      "scope": "F(400000287233629)=104; sup_n F(n) >= 104; release v3.0.0-f104; no priority or global claim"
     },
     {
       "asset_id": "erdos64-legacy-head",
       "artifact_type": "github-commit",
       "relative_path": "-",
       "sha256": "-",
-      "public_url": "https://github.com/ZackaryLoevseth/Erd-s-Problem-64/tree/53a7d8113f26361f02fd9f4c249566233940dd21",
-      "public_state": "PUBLIC_EXISTING_LEGACY",
-      "scope": "Broader historical repository; paper repository creation pending"
+      "public_url": "https://github.com/ZackaryLoevseth/Erd-s-Problem-64/tree/7d00c4ff3464287b1b0d7ca6514ec79ed08e4b34",
+      "public_state": "PUBLIC_UPDATED_POINTER",
+      "scope": "Broader historical repository; pointer-only update to clean paper repository"
     },
     {
       "asset_id": "github-profile",
@@ -189,8 +189,8 @@
       "relative_path": "-",
       "sha256": "-",
       "public_url": "https://github.com/ZackaryLoevseth",
-      "public_state": "PROFILE_REPOSITORY_PENDING_AUTH",
-      "scope": "Public account exists; profile README repository creation pending"
+      "public_state": "PUBLIC_PROFILE_LIVE",
+      "scope": "Public profile repository and README are live"
     }
   ]
 }

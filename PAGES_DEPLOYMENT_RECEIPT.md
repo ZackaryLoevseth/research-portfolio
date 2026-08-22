@@ -2,8 +2,15 @@
 
 Run: `PUBLIC-RELEASE-20260821T211555Z`
 
-Status: **NOT DEPLOYED — AUTHENTICATED REPOSITORY-CREATION/PAGES CAPABILITY REQUIRED**
+Status: **DEPLOYED — PUBLIC GITHUB PAGES ACTIVE**
 
-The repository name, public commit, source branch, deployment ID, anonymous
-HTTP results, download results, screenshots, and rollback commit will be added
-only after they are observed from the live GitHub deployment.
+- Repository: <https://github.com/ZackaryLoevseth/research-portfolio>
+- Source: `main` from `/`
+- Initial isolated deployment commit: `6794307b7e6093d932f2aa33f70ea9e40ef4314f`
+- Frozen initial tag: `v1.0.0`
+- Pages URL: <https://zackaryloevseth.github.io/research-portfolio/>
+- Deployment state: built and anonymously HTTP-available
+
+The live-state correction is versioned on `main`; its exact commit and final
+anonymous QA are preserved in the private deployment receipt rather than
+self-referenced inside the commit it identifies.

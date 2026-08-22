@@ -13,6 +13,13 @@ The featured papers are public preprints, not peer-reviewed publications. The
 Riemann Hypothesis remains **UNSOLVED / IN PROGRESS**; the global
 Erdős–Gyárfás conjecture remains open; Study 14 has no comparative runs.
 
+Live repositories and releases:
+
+- [Graffiti3 counterexample families](https://github.com/ZackaryLoevseth/graffiti3-counterexample-families/releases/tag/v1.0.0-preprint)
+- [Semiorder zonotope bounds](https://github.com/ZackaryLoevseth/semiorder-zonotope-bounds/releases/tag/v1.0.0-preprint)
+- [Erdős #64 excess-degree bounds](https://github.com/ZackaryLoevseth/erdos-64-excess-degree-bounds/releases/tag/v1.0.0-preprint)
+- [Erdős #409 pointwise F=104 certificate](https://github.com/ZackaryLoevseth/Erd-s-Problem-409/releases/tag/v3.0.0-f104)
+
 ## Local preview
 
 Serve the repository root with any static HTTP server, for example:

@@ -1,6 +1,6 @@
-# Erdős Problem #409 — Certified Records and Inverse-Totient Research
+# Erdős Problem #409 — Pointwise Certificate and Historical Baseline
 
-**Status: CERTIFIED COMPUTATIONAL RECORDS THROUGH `F=71` / ACTIVE RESEARCH — TARGET OPEN**
+**Status: PUBLIC POINTWISE CERTIFICATE `F(400000287233629)=104`; GLOBAL PROBLEM OPEN**
 
 ## Research question
 
@@ -8,17 +8,32 @@ For the iteration `T(n)=φ(n)+1`, how large can the stopping time `F(n)` be befo
 
 ## Contribution and current result
 
-The strongest currently public result is the certified chain
+The current public release establishes the pointwise result
+
+`F(400000287233629)=104`,
+
+with the consequence `sup_n F(n) >= 104`. The released certificate is scoped
+to this exact finite trajectory. It does not claim world-record priority,
+unboundedness, global maximality, basin infinitude, density, inverse-tree
+completeness, or a solution of the global problem.
+
+The earlier public `F=71` baseline certified the chain
 
 `F(6,148,888,817)=68`, `F(6,152,490,577)=69`, `F(6,665,198,137)=70`, and `F(6,668,696,999)=71`,
 
 all terminating at the prime `9,500,401`. The package contains the 72-node `F=71` trajectory, exact factorizations, 222 recursive Lucas/Pratt-style primality certificates, and an independently reconstructed inverse-totient tree rooted at the `F=68` witness. Its exact level counts are `1, 10, 42, 10, 0` through the direct `F=72` extension level, with 62 parent–child edges.
 
-An internal `F=104` packet is a selected continuation target, not a promoted public result. The current director checkpoint requires a fresh independent replay, inverse-fiber reconstruction, bounded-search accounting, and a current record-priority audit before it can supersede the public `F=71` state.
+The linked PDF is retained as an explicitly historical `F=71` baseline brief.
+It is superseded for current pointwise-certificate status by release
+`v3.0.0-f104` and commit `ee62d68d16f187b808c814108fd53881c4e3e614`.
 
 ## Methods
 
-The public archive combines deterministic packet generation, exact totient transitions, compressed certificate data, flat CSV tables, package-free verification, a separate factor-from-scratch implementation, a compact SymPy check, integrity manifests, and continuous integration. The inverse route exhaustively solves the declared rooted predecessor problem while preserving the distinction between local exhaustion and global nonexistence.
+The public release combines exact totient transitions, a canonical trajectory,
+factorization data, package-free verification, a distinct SymPy verifier, an
+independent Pollard–Rho/Miller–Rabin audit, mutation rejection, integrity
+manifests, and continuous integration. These checks establish only the stated
+pointwise certificate and its direct supremum consequence.
 
 ## Zackary’s role
 
@@ -30,17 +45,21 @@ OpenAI and Anthropic systems substantially assisted with forward and inverse sea
 
 ## Verification
 
-At public head commit [`995545f3ab2cfb3c1cb971f8d473140c4108eb6f`](https://github.com/ZackaryLoevseth/Erd-s-Problem-409/commit/995545f3ab2cfb3c1cb971f8d473140c4108eb6f), CI passed. A clean local replay independently verified all 18 manifest entries, `F(6,668,696,999)=71`, the terminal prime, all 222 prime certificates, the inverse-tree counts, and the independent output `71 9500401`.
+At public head commit [`ee62d68d16f187b808c814108fd53881c4e3e614`](https://github.com/ZackaryLoevseth/Erd-s-Problem-409/commit/ee62d68d16f187b808c814108fd53881c4e3e614), the prepared frozen release gates passed. Fresh replay by the SymPy verifier, dependency-free verifier, and independent Pollard–Rho/Miller–Rabin audit agreed on `F=104`, terminal prime `27515203921`, and the trajectory hash; all six required mutations were rejected.
 
 ## Exact nonclaims
 
-The project does not solve Erdős Problem #409. It establishes no global upper bound or maximum, no nonexistence of `F≥72`, no infinitude of a terminal-prime basin, and no density theorem. The empty direct `F=72` level is local to one rooted inverse tree. The repository does not claim that `71` is the current world record without a fresh literature comparison, and the internal `F=104` packet is not yet the current public record.
+The project does not solve Erdős Problem #409. The public result is limited to
+`F(400000287233629)=104` and `sup_n F(n) >= 104`. It establishes no world-record
+priority, global upper bound or maximum, unboundedness, basin infinitude,
+density theorem, inverse-tree completeness, or global solution.
 
 ## Public artifacts
 
 - [Public repository](https://github.com/ZackaryLoevseth/Erd-s-Problem-409)
-- [Commit-pinned research status](https://github.com/ZackaryLoevseth/Erd-s-Problem-409/blob/995545f3ab2cfb3c1cb971f8d473140c4108eb6f/RESEARCH_STATUS.md)
-- [Verification code and data](https://github.com/ZackaryLoevseth/Erd-s-Problem-409/tree/995545f3ab2cfb3c1cb971f8d473140c4108eb6f)
+- [F=104 release](https://github.com/ZackaryLoevseth/Erd-s-Problem-409/releases/tag/v3.0.0-f104)
+- [F=104 verification code and data](https://github.com/ZackaryLoevseth/Erd-s-Problem-409/tree/ee62d68d16f187b808c814108fd53881c4e3e614)
+- [Historical F=71 commit](https://github.com/ZackaryLoevseth/Erd-s-Problem-409/tree/995545f3ab2cfb3c1cb971f8d473140c4108eb6f)
 
 ## Employer relevance
 

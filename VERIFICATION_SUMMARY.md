@@ -1,7 +1,7 @@
 # Verification summary
 
 The inherited portfolio checkpoint passed 20 of 20 quality and privacy gates
-on a clean clone. For this isolated public candidate:
+on a clean clone. For this isolated public repository:
 
 - the site contains no private-control Git ancestry;
 - all site dependencies are local except three explicit commit-pinned GitHub
@@ -18,5 +18,8 @@ on a clean clone. For this isolated public candidate:
   registries; and `PUBLIC_SITE_RELEASE_MANIFEST.tsv` covers the complete
   isolated repository tree.
 
-Live Pages and anonymous-download validation remain pending until the GitHub
-repository can be created.
+The public repository and Pages site were created from the isolated history.
+Repository visibility, Pages HTTP availability, release assets, commit/tag
+identity, and application-document page counts were anonymously verified.
+This live-state correction preserves the same public/private separation and is
+retested after deployment.
