@@ -1,282 +1,35 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Zackary Loevseth's public research portfolio: three GitHub preprint releases, exact computation, verification, applied research, and AI-enabled operations.">
-  <link rel="canonical" href="https://zackaryloevseth.github.io/research-portfolio/">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Zackary Loevseth Research Portfolio">
-  <meta property="og:title" content="Zackary Loevseth | Research Portfolio">
-  <meta property="og:description" content="Three public GitHub preprint releases, exact computation, explicit claim boundaries, and applied research by Zackary Loevseth.">
-  <meta property="og:url" content="https://zackaryloevseth.github.io/research-portfolio/">
-  <meta name="twitter:card" content="summary">
-  <title>Zackary Loevseth | Research Portfolio</title>
-  <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="stylesheet" href="styles.css">
-  <script defer src="site.js"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Research with AI · Zackary Loevseth</title>
+<meta name="description" content="AI-assisted research, clear claim boundaries, and checkable mathematics. Selected work, evidence, and an honest account of my contribution.">
+<link rel="canonical" href="https://zackaryloevseth.github.io/research-portfolio/">
+<meta property="og:title" content="Research with AI · Selected work"><meta property="og:description" content="What I directed, what AI helped produce, and what the evidence actually supports."><meta property="og:type" content="website">
+<style>
+:root{--paper:#f7f8f5;--ink:#182b2b;--muted:#4a5b5b;--line:#d2dbd5;--accent:#17654e;--light:#e7f0e8;--white:#fff}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:var(--accent);text-underline-offset:.2em}a:hover{text-decoration-thickness:2px}a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #a34a19;outline-offset:5px}button{font:inherit;cursor:pointer}.wrap{max-width:1060px;margin:auto;padding:0 28px}.skip{position:absolute;left:10px;top:-80px;background:white;padding:10px;z-index:9}.skip:focus{top:8px}header{border-bottom:1px solid var(--line)}header .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-top:22px;padding-bottom:22px}.identity{font-size:15px;font-weight:650;letter-spacing:.02em}nav{display:flex;gap:22px;font-size:14px;flex-wrap:wrap}nav a{color:var(--ink);text-decoration:none}.hero{padding:78px 0 54px}.eyebrow{font-size:12px;font-weight:750;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);margin:0 0 16px}h1{font-size:clamp(38px,6vw,67px);line-height:1.06;letter-spacing:-.045em;max-width:850px;margin:0 0 26px;font-weight:670}h2{font-size:29px;line-height:1.2;letter-spacing:-.025em;margin:0 0 18px}h3{font-size:21px;line-height:1.3;margin:9px 0 12px}p{margin:0 0 16px}.lead{font-size:21px;line-height:1.6;max-width:750px}.muted,small{color:var(--muted)}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.button{display:inline-block;padding:10px 18px;border:1px solid var(--accent);border-radius:6px;text-decoration:none;font-size:15px;font-weight:600}.primary{background:var(--accent);color:white}.block{padding:42px 0;border-top:1px solid var(--line)}.split{display:grid;grid-template-columns:1fr 2fr;gap:44px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.card{background:var(--white);padding:25px;border:1px solid var(--line);border-radius:10px;display:flex;flex-direction:column}.card p{font-size:16px}.kind{font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--accent);font-weight:750}.links{display:flex;gap:18px;flex-wrap:wrap;margin-top:auto;padding-top:4px;font-size:14px}.boundary{border-left:3px solid var(--accent);padding:4px 0 4px 17px;color:var(--muted);font-size:14px;margin:24px 0 0}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0}.tabs button{border:1px solid var(--line);border-radius:5px;background:white;padding:8px 14px;font-size:14px;color:var(--ink)}.tabs button[aria-selected=true]{background:var(--ink);color:white;border-color:var(--ink)}.panel{padding:27px;border-radius:9px;background:var(--light);min-height:215px}.panel h3{margin-top:0}.panel p{max-width:790px}.role-line{font-size:14px;color:var(--muted)}.note{font-size:14px}.reading{max-width:750px}footer{padding:30px 0 45px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}footer .wrap{display:flex;gap:18px;justify-content:space-between;flex-wrap:wrap}code{font-size:.91em;overflow-wrap:anywhere}details{font-size:14px;margin:12px 0 18px;color:var(--muted)}summary{cursor:pointer;font-weight:600;color:var(--ink)}details p{margin:8px 0 0}.steps-static{display:none}body.no-js .tabs,body.no-js .panel{display:none}body.no-js .steps-static{display:block}body.no-js .steps-static li{margin-bottom:12px}@media(max-width:680px){.wrap{padding:0 20px}.hero{padding:48px 0 38px}.grid,.split{grid-template-columns:1fr;gap:20px}header .wrap{align-items:flex-start;flex-direction:column;gap:12px}nav{gap:17px}.lead{font-size:19px}.block{padding:32px 0}.panel{padding:21px;min-height:250px}.card{padding:22px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media print{header nav,.tabs,.panel,.buttons,.skip{display:none}.steps-static{display:block}.wrap{max-width:none;padding:0}body{background:white;font-size:11pt}.hero{padding:20px 0}h1{font-size:30pt}.card{break-inside:avoid}.block{padding:20px 0}.grid{gap:12px}a{color:inherit}footer{margin-top:15px}}
+</style>
 </head>
-<body>
-  <a class="skip-link" href="#main-content">Skip to main content</a>
-  <div class="activation-bar">Public research portfolio · external specialist review pending</div>
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="brand" href="index.html" aria-label="Zackary Loevseth research portfolio home">
-        <span class="brand-mark" aria-hidden="true">ZL</span>
-        <span>Zackary Loevseth<br>Research Portfolio</span>
-      </a>
-      <button class="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false">Menu</button>
-      <nav class="site-nav" id="primary-navigation" data-open="false" aria-label="Primary navigation">
-        <ul>
-          <li><a href="index.html" aria-current="page">Home</a></li>
-          <li><a href="publications.html">Publications</a></li>
-          <li><a href="research.html">Research</a></li>
-          <li><a href="methods.html">Methods</a></li>
-          <li><a href="applied.html">Applied</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main-content">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">Mathematical research · exact computation · evidence design</p>
-          <h1 id="hero-title">Zackary Loevseth</h1>
-          <p>Researcher in mathematics, exact computation, and verifiable human–AI workflows.</p>
-          <p class="permanent-url">
-            <span>Permanent public portfolio URL</span>
-            <code>https://zackaryloevseth.github.io/research-portfolio/</code>
-          </p>
-        </div>
-        <aside class="hero-aside" aria-label="Current portfolio status">
-          <p class="eyebrow">Current portfolio</p>
-          <p>Three public GitHub preprint releases, active research programs with explicit claim boundaries, and a verification-first workflow. External specialist review remains pending.</p>
-        </aside>
-      </div>
-    </section>
-
-    <section class="section section--compact section--white" aria-labelledby="profile-title">
-      <div class="container">
-        <p class="kicker">Research profile</p>
-        <h2 id="profile-title">Proof-oriented work with inspectable evidence</h2>
-        <p class="lead">My work combines structural mathematics, exact computation, and adversarial checking to turn promising ideas into bounded, reproducible claims. I keep finite evidence, conditional results, open questions, and publication status visibly separate so each artifact says exactly what has—and has not—been established.</p>
-      </div>
-    </section>
-
-    <section class="section" aria-labelledby="featured-title">
-      <div class="container">
-        <div class="section-heading">
-          <p class="kicker">Featured publications</p>
-          <h2 id="featured-title">Three complete research packages</h2>
-          <p>Each live public preprint release includes a manuscript, supplementary appendix, reproduction guide, scope statement, verification summary, and AI-use disclosure. Curated first-party replay files are in the dedicated repositories; mixed-rights private archives remain excluded.</p>
-        </div>
-        <div class="grid grid--3">
-          <article class="card card--featured">
-            <p class="card-meta">Finite groups · exact counterexamples</p>
-            <h3>Explicit Counterexample Families to Five Finite-Group Inequalities from Graffiti3</h3>
-            <p class="status-label status-label--gold">PUBLIC GITHUB PREPRINT RELEASE — EXTERNAL SPECIALIST REVIEW PENDING; NOT JOURNAL/ARXIV SUBMITTED</p>
-            <p>Constructs exact infinite families refuting five specific finite-group inequalities, with explicit finite witnesses and a database-scoped computational audit.</p>
-            <p class="archive-note">The dedicated public repository and preprint release are live. The curated first-party replay package grants no reuse license.</p>
-            <div class="card-actions">
-              <a href="https://github.com/ZackaryLoevseth/graffiti3-counterexample-families">Graffiti3 repository</a>
-              <a href="https://github.com/ZackaryLoevseth/graffiti3-counterexample-families/releases/tag/v1.0.0-preprint">Graffiti3 preprint release</a>
-              <a href="assets/publications/graffiti3/manuscript.pdf">Graffiti3 manuscript PDF</a>
-              <a href="assets/publications/graffiti3/supplementary-appendix.pdf">Graffiti3 supplement PDF</a>
-              <a href="assets/publications/graffiti3/reproducibility-readme.md">Graffiti3 reproduction guide</a>
-              <a href="assets/publications/graffiti3/verification-summary.md">Graffiti3 verification summary</a>
-            </div>
-          </article>
-          <article class="card card--featured">
-            <p class="card-meta">Semiorders · planar geometry</p>
-            <h3>Largest-Index Zonotope Bounds for Planar Projections of Semiorder Ideals</h3>
-            <p class="status-label status-label--gold">PUBLIC GITHUB PREPRINT RELEASE — EXTERNAL SPECIALIST REVIEW PENDING; NOT JOURNAL/ARXIV SUBMITTED</p>
-            <p>For represented semiorders, partitions nonempty ideals by largest selected index and derives translated-zonotope bounds for planar projections of their ideal hulls, supported by exact finite verification.</p>
-            <p class="archive-note">The dedicated public repository and preprint release are live. The curated first-party replay package grants no reuse license.</p>
-            <div class="card-actions">
-              <a href="https://github.com/ZackaryLoevseth/semiorder-zonotope-bounds">Semiorder repository</a>
-              <a href="https://github.com/ZackaryLoevseth/semiorder-zonotope-bounds/releases/tag/v1.0.0-preprint">Semiorder preprint release</a>
-              <a href="assets/publications/semiorder/manuscript.pdf">Semiorder manuscript PDF</a>
-              <a href="assets/publications/semiorder/supplementary-appendix.pdf">Semiorder supplement PDF</a>
-              <a href="assets/publications/semiorder/reproducibility-readme.md">Semiorder reproduction guide</a>
-              <a href="assets/publications/semiorder/verification-summary.md">Semiorder verification summary</a>
-            </div>
-          </article>
-          <article class="card card--featured">
-            <p class="card-meta">Graph theory · structural bounds</p>
-            <h3>Excess-Degree Bounds for Minimal Counterexamples to the Erdős–Gyárfás Conjecture</h3>
-            <p class="status-label status-label--gold">PUBLIC GITHUB PREPRINT RELEASE — EXTERNAL SPECIALIST REVIEW PENDING; NOT JOURNAL/ARXIV SUBMITTED</p>
-            <p>Proves a lower bound on excess degree for a hypothetical lexicographically minimal counterexample; the global conjecture remains open.</p>
-            <p class="archive-note">The dedicated public repository and preprint release are live. Curated first-party replay files are public while the mixed-rights private archive remains excluded.</p>
-            <div class="card-actions">
-              <a href="https://github.com/ZackaryLoevseth/erdos-64-excess-degree-bounds">Erdős #64 paper repository</a>
-              <a href="https://github.com/ZackaryLoevseth/erdos-64-excess-degree-bounds/releases/tag/v1.0.0-preprint">Erdős #64 preprint release</a>
-              <a href="assets/publications/erdos64/manuscript.pdf">Erdős #64 manuscript PDF</a>
-              <a href="assets/publications/erdos64/supplementary-appendix.pdf">Erdős #64 supplement PDF</a>
-              <a href="assets/publications/erdos64/reproducibility-readme.md">Erdős #64 reproduction guide</a>
-              <a href="assets/publications/erdos64/verification-summary.md">Erdős #64 verification summary</a>
-            </div>
-          </article>
-        </div>
-        <p class="button-row" style="margin-top: 1.5rem;"><a class="button button--secondary" href="publications.html">View publication details and files</a></p>
-      </div>
-    </section>
-
-    <section class="section section--white" aria-labelledby="programs-title">
-      <div class="container">
-        <div class="section-heading">
-          <p class="kicker">Research programs</p>
-          <h2 id="programs-title">Active work, labeled by evidence status</h2>
-          <p>Open programs are presented as open. Public artifacts appear only where a stable, commit-pinned source is available.</p>
-        </div>
-        <div class="grid grid--3">
-          <article class="card">
-            <p class="card-meta">Erdős Problem #409</p>
-            <h3>Certified pointwise witness <em>F</em> = 104</h3>
-            <p class="status-label">BOUNDED COMPUTATIONAL RESULT — POINTWISE CERTIFICATE F=104</p>
-            <p>The released certificate establishes <code>F(400000287233629)=104</code>, with the consequence <code>sup_n F(n) &gt;= 104</code>. It does not claim world-record priority, unboundedness, global maximality, basin infinitude, density, inverse-tree completeness, or a solution of the global problem.</p>
-            <div class="card-actions">
-              <a href="https://github.com/ZackaryLoevseth/Erd-s-Problem-409/tree/ee62d68d16f187b808c814108fd53881c4e3e614">F=104 commit</a>
-              <a href="https://github.com/ZackaryLoevseth/Erd-s-Problem-409/releases/tag/v3.0.0-f104">F=104 certificate release</a>
-              <a href="assets/research-programs/erdos-409/brief.md">Current F=104 status brief</a>
-              <a href="assets/research-programs/erdos-409/brief.pdf">Archived F=71-only brief PDF — superseded</a>
-            </div>
-          </article>
-          <article class="card">
-            <p class="card-meta">Epistemic systems</p>
-            <h3>ETI and Revision-Robust ETI</h3>
-            <p class="status-label status-label--open">WORKING TECHNICAL PROGRAM</p>
-            <p>A formal architecture for premise-governed reasoning under revision. Exact finite additive results are stated only with their assumptions; the closure-constrained continuous-cost compression frontier and comparative superiority remain open. The 37-page v2 document is a private working manuscript, not a peer-reviewed publication.</p>
-            <div class="card-actions">
-              <a href="assets/research-programs/eti-rr-eti/brief.pdf">ETI/RR-ETI brief PDF</a>
-              <a href="assets/research-programs/eti-rr-eti/brief.md">ETI/RR-ETI brief text</a>
-            </div>
-          </article>
-          <article class="card">
-            <p class="card-meta">Study 14</p>
-            <h3>Premise-Governed Context Scheduling Evaluation</h3>
-            <p class="status-label status-label--open">PREREGISTERED STUDY — COMPARATIVE RESULTS NOT YET AVAILABLE</p>
-            <p>The public-safe parity scaffold passed 40/40 checks; the broader authored-gold/adversarial development suite passed 208/208 checks. Neither count is efficacy evidence. Confirmatory execution has not started: zero model runs and no pilot or held-out outcome data.</p>
-            <div class="card-actions">
-              <a href="assets/research-programs/study-14/brief.md">Current Study 14 status brief</a>
-              <a href="assets/research-programs/study-14/brief.pdf">Earlier 40/40 public-safe brief PDF snapshot</a>
-            </div>
-          </article>
-          <article class="card">
-            <p class="card-meta">Riemann Hypothesis</p>
-            <h3>Governed proof-development program</h3>
-            <p class="status-label status-label--open">UNSOLVED / IN PROGRESS — CURRENT ROUTES STOPPED</p>
-            <p><strong>RIEMANN HYPOTHESIS STATUS: UNSOLVED / IN PROGRESS.</strong> Version 2 was rejected at N06, and version 3 stopped at a precise frozen dependency-schema obstruction. No accepted EvalW certificate, negative Weil entry, off-line zero, or global positivity theorem exists.</p>
-            <div class="card-actions">
-              <a href="assets/research-programs/riemann/brief.md">Current Riemann status brief</a>
-              <a href="assets/research-programs/riemann/brief.pdf">Earlier program brief PDF snapshot</a>
-            </div>
-          </article>
-          <article class="card">
-            <p class="card-meta">Discrete mathematics</p>
-            <h3>Parametric closure and Erdős Problem #413</h3>
-            <p class="status-label status-label--open">ACTIVE RESEARCH — TARGET OPEN</p>
-            <p>Exploratory theorem-building programs remain in progress. Finite witnesses and internal constructions are not presented as unrestricted theorems.</p>
-          </article>
-        </div>
-        <p class="button-row" style="margin-top: 1.5rem;"><a class="button button--secondary" href="research.html">See program status and boundaries</a></p>
-      </div>
-    </section>
-
-    <section class="section section--night" aria-labelledby="methods-title">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Methods and verification</p>
-          <h2 id="methods-title">Evidence is part of the research result</h2>
-          <p>Claims move through a reproducible workflow: scope definition, proof reconstruction, exact computation where appropriate, independent replay, hostile audit, correction or supersession, and human-final release controls.</p>
-        </div>
-        <div class="grid grid--3">
-          <article class="card card--dark">
-            <p class="card-meta">01</p>
-            <h3>Scope before promotion</h3>
-            <p>Finite, conditional, internal, and process evidence are labeled before public claims are drafted.</p>
-          </article>
-          <article class="card card--dark">
-            <p class="card-meta">02</p>
-            <h3>Replayable verification</h3>
-            <p>Packages pair exact checks with manifests, hashes, source instructions, and clean reproduction steps.</p>
-          </article>
-          <article class="card card--dark">
-            <p class="card-meta">03</p>
-            <h3>Human-final control</h3>
-            <p>AI assists research and production, but AI output is not evidence, authorship, or external review.</p>
-          </article>
-        </div>
-        <p class="button-row" style="margin-top: 1.5rem;"><a class="button button--light" href="methods.html">Inspect the workflow</a></p>
-        <p class="link-list">
-          <a href="assets/methods/reproducibility-methods.md">Reproducibility methods</a>
-          <a href="assets/research-programs/scientific-director/brief.md">Current Scientific Director status brief</a>
-          <a href="assets/research-programs/scientific-director/brief.pdf">Current Scientific Director methods brief (PDF)</a>
-        </p>
-      </div>
-    </section>
-
-    <section class="section" aria-labelledby="applied-title">
-      <div class="container grid grid--2">
-        <div>
-          <p class="kicker">Applied research</p>
-          <h2 id="applied-title">Wildfire risk and dynamic hazard mapping</h2>
-          <p class="status-label status-label--open">APPLIED RESEARCH — PUBLIC-SAFE SUMMARY</p>
-          <p class="lead">A public-safe applied case summary examines how dynamic hazard layers could support operational risk communication. The current evidence is descriptive; it does not establish predictive validity or causal effectiveness.</p>
-          <p class="button-row">
-            <a class="button button--secondary" href="applied.html">Read the applied research boundary</a>
-            <a class="button button--secondary" href="assets/research-programs/wildfire-gis/brief.pdf">Wildfire GIS brief PDF</a>
-          </p>
-        </div>
-        <aside class="notice">
-          <strong>Current boundary:</strong> no public dataset, validated predictive model, or fully reproducible GIS package is linked. Substantial revision and source-rights audit remain before release.
-        </aside>
-      </div>
-    </section>
-
-    <section class="section section--deep" aria-labelledby="role-title">
-      <div class="container">
-        <p class="kicker">Role and AI-use disclosure</p>
-        <h2 id="role-title">Human responsibility, machine-assisted workflow</h2>
-        <p class="role-note">Zackary Loevseth directs problem selection, claim boundaries, verification standards, and publication decisions. AI systems assisted source discovery, proof and code development, checking, workflow coordination, and manuscript production; they are not authors, external reviewers, or substitutes for mathematical evidence. Legal, authorship, affiliation, and submission attestations remain human-only actions.</p>
-        <p class="link-list">
-          <a href="about.html">Read the full role and status statement</a>
-          <a href="assets/methods/ai-use-and-research-role.md">AI-use and research-role disclosure</a>
-        </p>
-      </div>
-    </section>
-
-    <section class="section section--white" aria-labelledby="contact-title">
-      <div class="container callout">
-        <div>
-          <p class="eyebrow">Contact</p>
-          <h2 id="contact-title">Discuss research, verification, or technical roles</h2>
-          <p>Email <a href="mailto:zloevseth@gmail.com">zloevseth@gmail.com</a> or use the verified GitHub profile below.</p>
-        </div>
-        <p class="button-row">
-          <a class="button button--light" href="mailto:zloevseth@gmail.com">Email Zackary</a>
-          <a class="button button--light" href="https://github.com/ZackaryLoevseth">GitHub profile</a>
-          <a class="button button--secondary" style="border-color: #7fd1c7; color: #7fd1c7;" href="contact.html">Contact details</a>
-        </p>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <p>© 2026 Zackary Loevseth · Public research portfolio; external review status stated per artifact.</p>
-      <nav aria-label="Footer navigation">
-        <ul class="footer-nav">
-          <li><a href="publications.html">Publications</a></li>
-          <li><a href="research.html">Research</a></li>
-          <li><a href="methods.html">Methods</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </footer>
-</body>
-</html>
+<body class="no-js">
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="wrap"><span class="identity">Zackary Loevseth / Research</span><nav aria-label="Main"><a href="#work">Selected work</a><a href="#process">How it works</a><a href="research-resume.html">Research résumé</a><a href="mailto:zloevseth@gmail.com">Contact</a></nav></div></header>
+<main id="main" class="wrap">
+<section class="hero"><p class="eyebrow">Human–AI workflows · Reproducible mathematics</p><h1>I work on better ways<br>to do research with AI.</h1><p class="lead">The aim is simple: explore freely, check carefully, and keep the question intact when the answer changes.</p><p class="muted reading">Below are the results, the evidence, and my part in getting there. I'm interested in AI evaluation and research-workflow roles.</p><div class="buttons"><a class="button primary" href="#work">See the work</a><a class="button" href="research-resume.html">Read the research résumé</a></div></section>
+<section class="block split" id="role"><div><p class="eyebrow">My contribution</p><h2>Direction, scrutiny,<br>and follow-through.</h2></div><div><p>I choose the problems, frame the tasks, set the verification requirements, challenge weak claims, and decide what is ready to release.</p><p>AI systems substantially assist with exploration, proof and code development, computation, checking, and writing. I don't claim to have independently written every proof or line of code. The linked arguments and reproducible checks—not the confidence of an AI answer—are the evidence.</p></div></section>
+<section class="block" id="work"><p class="eyebrow">Selected public work</p><h2>Four results you can inspect.</h2><div class="grid">
+<article class="card"><span class="kind">Finite groups / Preprint</span><h3>Five counterexample families</h3><p>Explicit infinite families refute five specified finite-group inequalities in Graffiti³. Symbolic arguments are paired with finite computational checks.</p><details><summary>Exact scope</summary><p>The paper addresses C20, C21, C22, C27, and C28 of the specified preprint version. Database first-failure statements are version- and range-bounded; absolute priority is not claimed.</p></details><div class="links"><a href="assets/publications/graffiti3/manuscript.pdf">Read the paper</a><a href="https://github.com/ZackaryLoevseth/graffiti3-counterexample-families/releases/tag/v1.0.0-preprint">Evidence &amp; replay</a></div></article>
+<article class="card"><span class="kind">Combinatorics / Preprint</span><h3>Semiorder projection bounds</h3><p>A largest-index decomposition gives zonotope bounds for planar projections of represented semiorder ideals. Exact finite replay corroborates the argument.</p><details><summary>Exact scope</summary><p>The result concerns the stated semiorder setting. It does not solve unrestricted parametric closure, and finite replay is not the proof of a general theorem.</p></details><div class="links"><a href="assets/publications/semiorder/manuscript.pdf">Read the paper</a><a href="https://github.com/ZackaryLoevseth/semiorder-zonotope-bounds/releases/tag/v1.0.0-preprint">Evidence &amp; replay</a></div></article>
+<article class="card"><span class="kind">Graph theory / Preprint</span><h3>Minimal-counterexample bounds</h3><p>Excess-degree bounds constrain a hypothetical minimal counterexample to the Erdős–Gyárfás conjecture. The global conjecture remains open.</p><details><summary>Exact scope</summary><p>The theorem uses the paper's lexicographic minimality assumptions. Separate experimental gadget or two-port results are not imported into this theorem.</p></details><div class="links"><a href="assets/publications/erdos64/manuscript.pdf">Read the paper</a><a href="https://github.com/ZackaryLoevseth/erdos-64-excess-degree-bounds/releases/tag/v1.0.0-preprint">Evidence &amp; replay</a></div></article>
+<article class="card"><span class="kind">Number theory / Computational certificate</span><h3>A 104-step totient trajectory</h3><p>The released certificate establishes <code>F(400000287233629) = 104</code> for iteration of <code>φ(n) + 1</code> until a prime is reached.</p><details><summary>Exact scope</summary><p>This proves a lower bound of 104 on the supremum of stopping times. It does not establish a record, maximum, unboundedness, density result, or solution of Erdős Problem #409.</p></details><div class="links"><a href="https://github.com/ZackaryLoevseth/Erd-s-Problem-409/tree/ee62d68d16f187b808c814108fd53881c4e3e614">Inspect the certificate</a><a href="https://github.com/ZackaryLoevseth/Erd-s-Problem-409/releases/tag/v3.0.0-f104">Release &amp; replay</a></div></article>
+</div><p class="boundary">Release status: three public preprints and one computational certificate. Verification is internal and method-diverse, not external peer review. The preprints' recorded status is specialist review pending; not journal- or arXiv-submitted. Check each repository for later changes.</p></section>
+<section class="block" id="process"><p class="eyebrow">The workflow</p><h2>A result is more than an answer.</h2><p class="reading">Select a step to see what I direct, where AI helps, and what has to survive checking. This explains the workflow; it is not a live benchmark.</p>
+<div class="tabs" role="tablist" aria-label="Research workflow"><button role="tab" id="tab-0" aria-selected="true" aria-controls="process-panel" tabindex="0">1. Question</button><button role="tab" id="tab-1" aria-selected="false" aria-controls="process-panel" tabindex="-1">2. Explore</button><button role="tab" id="tab-2" aria-selected="false" aria-controls="process-panel" tabindex="-1">3. Check</button><button role="tab" id="tab-3" aria-selected="false" aria-controls="process-panel" tabindex="-1">4. Correct</button><button role="tab" id="tab-4" aria-selected="false" aria-controls="process-panel" tabindex="-1">5. Release</button></div>
+<div class="panel" id="process-panel" role="tabpanel" aria-labelledby="tab-0" tabindex="0"><h3 id="step-title">Keep the target explicit.</h3><p id="step-copy">I define the question, assumptions, and stopping conditions. AI helps map possible approaches. A nearby, easier problem is not silently substituted for the original one.</p><p class="role-line" id="step-evidence">Evidence gate: a written target and an explicit account of what would count as a result.</p></div>
+<ol class="steps-static"><li><strong>Question.</strong> Define the target, assumptions, and stopping conditions.</li><li><strong>Explore.</strong> Use AI for possible arguments, literature leads, and code; treat outputs as candidates.</li><li><strong>Check.</strong> Inspect proof obligations, run reproducible checks, and test whether deliberate errors are rejected.</li><li><strong>Correct.</strong> Reopen dependent claims when evidence changes; preserve unaffected results.</li><li><strong>Release.</strong> Publish a versioned argument and evidence package with explicit limitations and AI-use disclosure.</li></ol>
+</section>
+<section class="block split"><div><p class="eyebrow">The question behind it</p><h2>Can we help each other notice what we miss?</h2></div><div><p>My working research program, <strong>Epistemic Transition Integrity (ETI)</strong>, asks how people and AI can preserve evidence, correct dependent claims, and avoid mistaking a plausible story for a result.</p><p>The wider idea is that our assumptions can limit what we notice—and that a collaborator can sometimes help reveal them. That is a research hypothesis, not a demonstrated law about every mind or proof that human–AI teams always perform better.</p><p class="note">The comparative study is preregistered; no comparative results are reported here. <a href="research.html">Program background</a> · <a href="methods.html">Earlier methods notes</a></p></div></section>
+<section class="block"><h2>Let's talk about the work.</h2><p class="reading">I'm looking for a career in AI evaluation, research operations, or reliable human–AI workflows. The most useful starting point is one concrete problem and evidence we can check together.</p><div class="buttons"><a class="button primary" href="mailto:zloevseth@gmail.com">Get in touch</a><a class="button" href="https://github.com/ZackaryLoevseth">GitHub</a></div></section>
+</main><footer><div class="wrap"><span>Research-only edition · 4 September 2026</span><span><a href="publications.html">Publication archive</a> · <a href="FRONTEND_RELEASE_2026-09-04.md">Version &amp; scope</a></span></div></footer>
+<script>
+(()=>{'use strict';const steps=[['Keep the target explicit.','I define the question, assumptions, and stopping conditions. AI helps map possible approaches. A nearby, easier problem is not silently substituted for the original one.','Evidence gate: a written target and an explicit account of what would count as a result.'],['Generate candidates—not conclusions.','AI helps explore arguments, find literature leads, and develop code. I direct the search and challenge changes in scope. A fluent explanation still needs a source, an argument, or a test.','Evidence gate: candidate claims stay provisional; origin and dependencies remain visible.'],['Ask what could show the claim is wrong.','I set verification requirements. AI-assisted implementations, exact computation, proof reconstruction, and mutation tests help inspect the result. Different implementations are useful, but do not automatically provide independent external review.','Evidence gate: the argument fits the claim; tests and deliberate-error controls are documented.'],['Change the record when the evidence changes.','A failed premise reopens the conclusions that depend on it. Unaffected results remain intact. I direct correction and release decisions; AI helps trace dependencies and repair artifacts.','Evidence gate: a visible correction trail, narrowed claims, and an honest stopping reason.'],['Publish the claim and its limits.','I decide release scope and remain responsible for public claims. The package links the argument, data or certificate, replay instructions, and AI-use disclosure. Peer review is a separate event.','Evidence gate: a versioned release that someone else can inspect without trusting this summary.']];const tabs=Array.from(document.querySelectorAll('[role=tab]'));function select(i,focus){tabs.forEach((b,j)=>{b.setAttribute('aria-selected',String(j===i));b.tabIndex=j===i?0:-1;});document.getElementById('step-title').textContent=steps[i][0];document.getElementById('step-copy').textContent=steps[i][1];document.getElementById('step-evidence').textContent=steps[i][2];document.getElementById('process-panel').setAttribute('aria-labelledby','tab-'+i);if(focus)tabs[i].focus();}tabs.forEach((b,i)=>{b.addEventListener('click',()=>select(i,false));b.addEventListener('keydown',e=>{let n=i;if(e.key==='ArrowRight')n=(i+1)%tabs.length;else if(e.key==='ArrowLeft')n=(i+tabs.length-1)%tabs.length;else if(e.key==='Home')n=0;else if(e.key==='End')n=tabs.length-1;else return;e.preventDefault();select(n,true);});});document.body.classList.remove('no-js');})();
+</script></body></html>

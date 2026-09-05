@@ -1,0 +1,11 @@
+{
+  "schema": "research-portfolio.frontend.v1",
+  "edition": "2026-09-04",
+  "base_commit": "e9bc058fb5f8f6feb07e06006ca78e4a105da8a7",
+  "scope": "Changed frontend files only; not a whole-repository or scientific-result validation",
+  "files": [
+    {"path": "index.html", "bytes": 15909, "sha256": "fdd41dd162ed4db1f75bed92150c36bdf1cc977b431c941b3393e7b7b4153043"},
+    {"path": "research-resume.html", "bytes": 5764, "sha256": "5b0ece48956ee4934cd82db166e31b2777dae83b21fec2b5b4e9654f294ca93c"},
+    {"path": "README.md", "bytes": 1721, "sha256": "48512ab32cdad562539cb08a9bfc1686f4970a947e78940ce39f21e9aa3800cc"}
+  ]
+}
