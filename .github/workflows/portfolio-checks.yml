@@ -1,0 +1,27 @@
+name: Portfolio publication checks
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - 'tests/**'
+      - '.github/workflows/portfolio-checks.yml'
+  push:
+    branches: [portfolio-foundations-20260907]
+    paths:
+      - '.github/workflows/portfolio-checks.yml'
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the exact revision
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Correction-model regression tests
+        run: node --test tests/correction.test.cjs
+      - name: Publication preflight, exact manuscript and certificate
+        run: node tests/portfolio-preflight.cjs
