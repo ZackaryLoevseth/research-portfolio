@@ -5,7 +5,7 @@ const path = require('node:path');
 const crypto = require('node:crypto');
 const assert = require('node:assert/strict');
 const docs = path.resolve(__dirname, '../docs');
-const pages = ['index.html', 'foundations.html', 'totient-explorer.html', 'papers.html'];
+const pages = fs.readdirSync(docs).filter(file => file.endsWith('.html')).sort();
 const failures = [];
 const requireCheck = (label, fn) => {
   try { fn(); console.log('PASS:', label); }
@@ -22,7 +22,7 @@ for (const file of pages) requireCheck('local destinations in ' + file, () => {
     const href = match[1];
     if (/^(?:https?:|mailto:|data:)/.test(href)) continue;
     const [raw, fragment] = href.split('#');
-    const name = raw || file;
+    const name = (raw || file).replace(/^\/research-portfolio\//, '');
     const destination = path.resolve(docs, name);
     assert.ok(destination.startsWith(docs + path.sep), 'Unexpected path: ' + name);
     assert.ok(fs.existsSync(destination), 'Missing: ' + name);

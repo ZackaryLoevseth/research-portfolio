@@ -1,71 +1,44 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Study 14 evaluation · Research notes</title><meta name="description" content="The preserved four-arm design, source-text parity correction, and no-comparative-results boundary."><meta name="author" content="Zackary Loevseth"><meta name="research-release" content="research-first-2026-09-07">
-<link rel="canonical" href="https://zackaryloevseth.github.io/research-portfolio/evaluation.html"><link rel="stylesheet" href="styles.css"><link rel="icon" href="favicon.png">
-<meta property="og:title" content="Study 14 evaluation"><meta property="og:description" content="The preserved four-arm design, source-text parity correction, and no-comparative-results boundary."><meta property="og:type" content="website"><meta property="og:url" content="https://zackaryloevseth.github.io/research-portfolio/evaluation.html"><meta property="og:image" content="https://zackaryloevseth.github.io/research-portfolio/social-preview.png"><meta property="og:image:alt" content="Reliable human–AI research workflows: claims, evidence, corrections and their limits."><meta name="twitter:card" content="summary_large_image">
+<title>Study 14 evaluation · Research record</title><meta name="description" content="The preserved four-arm design, source-text parity correction, and no-comparative-results boundary."><meta name="research-release" content="research-record-2026-09-07">
+<link rel="canonical" href="https://zackaryloevseth.github.io/research-portfolio/evaluation.html"><link rel="stylesheet" href="portfolio.css">
+<meta property="og:title" content="Study 14 evaluation"><meta property="og:description" content="The preserved four-arm design, source-text parity correction, and no-comparative-results boundary."><meta property="og:type" content="website"><meta property="og:url" content="https://zackaryloevseth.github.io/research-portfolio/evaluation.html"><meta name="twitter:card" content="summary">
 </head><body><a class="skip" href="#main">Skip to content</a>
-<header><div class="wrap mast"><a class="wordmark" href="index.html">Research notes</a>
-<nav aria-label="Primary"><a href="index.html">Overview</a><a href="human-ai-systems.html">Formal systems</a><a href="mathematics.html">Mathematics</a><a href="evaluation.html" aria-current="page">Evaluation</a><a href="evidence.html">Evidence</a><a href="papers.html">Papers</a><a href="methods.html">Methods</a>
-</nav></div>
-</header>
+<header><div class="wrap mast"><a class="identity" href="index.html"><span>Research record<small>Current results · Ongoing work</small></span></a><nav aria-label="Primary"><a href="index.html">Results</a><a href="papers.html">Papers</a><a href="methods.html">Methods</a><a href="evidence.html">Evidence</a><a href="evaluation.html" aria-current="page">Ongoing work</a></nav></div></header>
 <main id="main" class="wrap">
 <section class="hero">
-<p class="kicker">Study 14 · development stage</p>
-<h1>Evaluation with matched information.</h1>
-<p class="lead">Under what conditions does preserving premise, dependency, authority and correction state improve reliability relative to strong simpler baselines?</p>
+<p class="kicker">Study 14 · prospective evaluation</p>
+<h1>Evaluation design</h1>
+<p class="lead">Comparison of correction reliability under matched evidence, including state construction and total costs. The study remains in development.</p>
 </section>
 <section class="section">
-<h2>The four conditions remain distinct.</h2><div class="table-wrap">
-<table><caption>Controlling A/B/C/D comparison</caption>
-<thead>
-<tr>
-<th scope="col">Arm</th>
-<th scope="col">Available context</th>
-<th scope="col">Distinguishing treatment</th>
-</tr>
-</thead>
+<h2>Comparison conditions</h2><div class="table-wrap">
+<table><caption>Preserved A/B/C/D design</caption>
+<thead><tr><th scope="col">Arm</th><th scope="col">Available context</th><th scope="col">Distinguishing treatment</th></tr></thead>
 <tbody>
-<tr>
-<th scope="row">A</th>
-<td>Full raw context</td>
-<td>No status labels or dependency-governed scheduling.</td>
-</tr>
-<tr>
-<th scope="row">B</th>
-<td>Identical full raw context</td>
-<td>The design’s status labels, without dependency-governed scheduling.</td>
-</tr>
-<tr>
-<th scope="row">C</th>
-<td>Competitive semantic retrieval from raw evidence</td>
-<td>Authority and dependency labels do not enter the retrieval index.</td>
-</tr>
-<tr>
-<th scope="row">D</th>
-<td>Premise-governed scheduling</td>
-<td>Operational state must be constructed independently of hidden grading references.</td>
-</tr>
+<tr><th scope="row">A</th><td>Full raw context</td><td>No status labels or dependency-governed scheduling.</td></tr>
+<tr><th scope="row">B</th><td>Identical full raw context</td><td>Status labels, without dependency-governed scheduling.</td></tr>
+<tr><th scope="row">C</th><td>Competitive semantic retrieval from raw evidence</td><td>Authority and dependency labels excluded from the retrieval index.</td></tr>
+<tr><th scope="row">D</th><td>Premise-governed scheduling</td><td>Operational state constructed independently of hidden grading references.</td></tr>
 </tbody>
 </table></div>
-<p class="boundary">No comparative model results are established. Authored fixtures and readiness checks are development evidence. Changes to comparisons require a versioned amendment.</p>
+<p class="boundary">No comparative model results are established. Fixtures and readiness checks are development evidence. Comparison changes require a versioned amendment.</p>
 </section>
 <section class="section split"><div>
-<h2>What the development record establishes.</h2></div><div>
-<p>An earlier A/B source-parity check compared record identifiers and order, so altered source text could pass. Its successor compares the complete source text as well as identity and order and rejects that mismatch.</p>
-<p>This is a demonstrated correction to one checker property. It does not establish improved model performance. The original set of 208 assertions was not fully recovered and freshly reconstructed; no such claim is made.</p>
-<p>Initial-stage reliance, false completion, independent support, required reopening and genuine no-change behavior need explicit controls. Declared separation of construction and grading is not evidence of independent semantic labels.</p></div>
+<h2>Development record</h2></div><div>
+<p>The successor A/B parity checker compares complete source text, identifiers and order, rejecting text changes the earlier check accepted. This demonstrates one checker correction, without establishing model-performance gains. The original 208 assertions have not been fully recovered and freshly reconstructed.</p>
+<p>Controls remain necessary for initial-stage reliance, false completion, independent support, required reopening and valid no-change behavior. Separating construction from grading does not itself establish independent semantic labels.</p></div>
 </section>
 <section class="section">
-<h2>The bridge to the formal model.</h2><div class="reading">
-<p>The formal model assumes correction distinctions are available. The empirical question is whether actual systems can construct and maintain them without an answer advantage, and whether any benefit survives complete cost accounting.</p>
+<h2>Assessment requirements</h2><div class="reading">
+<p>Systems must construct and maintain correction distinctions without privileged answers, with full cost accounting.</p>
 <ul>
-<li><strong>Task unit:</strong> an independently constructed episode, not each correlated stage or assertion.</li>
-<li><strong>Outcomes:</strong> missed necessary corrections, unnecessary reopening, unauthorized reliance, unsupported completion, and task quality.</li>
-<li><strong>Costs:</strong> state construction and maintenance, context tokens, latency, model and tool calls, and human effort.</li>
-<li><strong>Falsification:</strong> no material reliability improvement under matched information/resources, or a gain explained by privileged labels or uncounted construction.</li>
+<li><strong>Unit:</strong> independently constructed episode; correlated stages and assertions are not independent samples.</li>
+<li><strong>Outcomes:</strong> missed corrections, unnecessary reopening, unauthorized reliance, unsupported completion and task quality.</li>
+<li><strong>Costs:</strong> state construction and maintenance, context tokens, latency, model and tool calls, human effort.</li>
+<li><strong>Falsification:</strong> no material reliability gain under matched information and resources, or gains explained by privileged labels or uncounted construction.</li>
 </ul>
-<p>Scoring, retrieval, uncertainty analysis and stopping rules must be fixed before held-out assessment. The development work does not authorize a pilot, new model collection or a confirmatory run.</p></div>
+<p>Scoring, retrieval, uncertainty analysis and stopping rules must be fixed before held-out assessment. Pilot execution, new model collection and confirmatory runs remain separately governed.</p></div>
 </section>
 </main>
-<footer><div class="wrap"><span>Research notes · research-first-2026-09-07</span><div class="footer-links"><a href="methods.html#attribution">Authorship &amp; AI use</a><a href="research-resume.html">CV &amp; documents</a><a href="https://github.com/ZackaryLoevseth/research-portfolio">Source</a></div></div>
-</footer></body></html>
+<footer><div class="wrap footer-inner"><span>Ongoing record · 7 September 2026</span><div class="footer-links"><a href="methods.html#attribution">Attribution</a><a href="papers.html">Source documents</a><a href="https://github.com/ZackaryLoevseth/research-portfolio/tree/main/docs">Version history</a></div></div></footer></body></html>
