@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Correction-sufficient state · Research notes</title><meta name="description" content="Finite ETI assumptions, correction feasibility, grounded support, and the limits of one-shot coding."><meta name="author" content="Zackary Loevseth"><meta name="research-release" content="research-first-2026-09-07">
+<link rel="canonical" href="https://zackaryloevseth.github.io/research-portfolio/human-ai-systems.html"><link rel="stylesheet" href="styles.css"><link rel="icon" href="favicon.png">
+<meta property="og:title" content="Correction-sufficient state"><meta property="og:description" content="Finite ETI assumptions, correction feasibility, grounded support, and the limits of one-shot coding."><meta property="og:type" content="website"><meta property="og:url" content="https://zackaryloevseth.github.io/research-portfolio/human-ai-systems.html"><meta property="og:image" content="https://zackaryloevseth.github.io/research-portfolio/social-preview.png"><meta property="og:image:alt" content="Reliable human–AI research workflows: claims, evidence, corrections and their limits."><meta name="twitter:card" content="summary_large_image">
+</head><body><a class="skip" href="#main">Skip to content</a>
+<header><div class="wrap mast"><a class="wordmark" href="index.html">Research notes</a>
+<nav aria-label="Primary"><a href="index.html">Overview</a><a href="human-ai-systems.html" aria-current="page">Formal systems</a><a href="mathematics.html">Mathematics</a><a href="evaluation.html">Evaluation</a><a href="evidence.html">Evidence</a><a href="papers.html">Papers</a><a href="methods.html">Methods</a>
+</nav></div>
+</header>
+<main id="main" class="wrap">
+<section class="hero">
+<p class="kicker">Formal systems</p>
+<h1>Correction-sufficient state</h1>
+<p class="lead">A finite model of what a compressed state must retain to support a valid response to later evidence.</p>
+</section>
+<section class="section" id="kernel"><span class="tag">ETI finite note and reference code · forthcoming, release under review</span>
+<h2>Required changes and permitted changes.</h2><div class="reading">
+<p>A true state x, an observed event e and a compatible edit universe V determine the sets M<sub>e</sub>(x) ⊆ U<sub>e</sub>(x). The controller sees an information cell rather than the full state. Its correction must work for every state still possible in that cell.</p><div class="formula">
+<p class="tag">Finite common-correction criterion</p>
+<p>A single correction Δ is valid for every possible state x in a retained information cell X<sub>z</sub> exactly when every required edit is permitted throughout that cell.</p><div class="equation" role="math" aria-label="There exists Delta with M sub e of x contained in Delta contained in U sub e of x for every x in X sub z, if and only if the union of mandatory edits is contained in the intersection of permitted edits."><span class="line">∃ Δ: M<sub>e</sub>(x) ⊆ Δ ⊆ U<sub>e</sub>(x), ∀ x ∈ X<sub>z</sub></span><span class="line">⇔ ⋃<sub>x ∈ X<sub>z</sub></sub> M<sub>e</sub>(x) ⊆ ⋂<sub>x ∈ X<sub>z</sub></sub> U<sub>e</sub>(x).</span></div>
+<p class="note">M specifies required edits; U specifies permitted edits; e is the observed event. Allowed patches are the complete interval between M and U, and edit atoms are mutually compatible. The cell is nonempty. Under these assumptions, the union of required edits is the minimum common patch.</p>
+<p class="note">This elementary set criterion is a baseline formulation, not a claim of newly invented set theory.</p></div>
+<p class="compact">The encoder is chosen before the event; the decoder observes the retained code and current event. A shared codebook and the complete interval of allowed patches are explicit assumptions.</p></div>
+</section>
+<section class="section split"><div>
+<h2>One-shot coding has a precise boundary.</h2></div><div>
+<p>Connect two states when an event makes a shared correction impossible. Under the finite interval model, a code cell is feasible exactly when it is an independent set of this conflict graph. The minimum one-shot code count is its chromatic number.</p>
+<p>This uses established graph-coloring machinery. Outside the interval model, pairwise compatibility can fail to guarantee a correction common to an entire cell. A one-shot encoding also need not admit consistent online updates.</p>
+<p class="boundary">Mathematical correctness, originality and practical benefit are separate judgments. No general superiority, scalable optimizer or empirical reliability advantage is established.</p></div>
+</section>
+<section class="section">
+<h2>Grounded alternative support.</h2><div class="reading">
+<p>Independent supports can preserve a conclusion after one premise is withdrawn. Conjunctive rules require every premise; alternative rules require one grounded route. Circular support alone is insufficient. Unsupported conclusions reopen; they do not automatically become false.</p>
+<p>The finite reference suite covers <strong>32,768 support states</strong>: 4,096 subsets of twelve rule templates crossed with eight evidence subsets. It also records <strong>98,304 transitions</strong>, including <strong>49,152 removal scenarios</strong>. These are overlapping finite-corpus accounting units, not independent empirical experiments, and are not summed into a grand total.</p>
+<p><a href="index.html#support">Inspect the deterministic support illustration</a>.</p></div>
+<details><summary>Contribution, verification and boundaries</summary>
+<dl>
+<dt>Direction</dt>
+<dd>The project owner set the correction-preservation problem and the requirement for an inspectable technical object. The source contribution statement assigns formalization, proofs and code materially to AI assistance.</dd>
+<dt>AI assistance</dt>
+<dd>AI materially assisted the formal model, proofs, reference code, adversarial fixtures and explanatory writing.</dd>
+<dt>Verification</dt>
+<dd>The stated finite model, written arguments and source-bound reference suite establish the local result. Audit replays check implementation behavior on the declared domain.</dd>
+<dt>Corrections</dt>
+<dd>The broader prototype passed authored tests while missing intended propagation and authority behavior. The kernel makes its narrower obligations explicit; prototype success is not transferred to the kernel or vice versa.</dd>
+<dt>Boundary</dt>
+<dd>No demonstrated advantage over an equally resourced support-maintenance system; no general agent-reliability or empirical efficacy claim.</dd>
+</dl>
+</details>
+</section>
+<section class="section" id="rr">
+<h2>RR-ETI and sequential maintenance.</h2><div class="reading">
+<p>RR-ETI studies revision decisions under partial information and explicit decision assumptions. Its cost-universal statistic and fixed-cost tied optima have different boundaries. The missing historical RR validation code remains an evidence gap; the manuscript is not represented as freshly replayed.</p>
+<p>Maintaining a compressed state through a sequence adds an update-consistency obligation. The finite release remains a compact note; any substantive later result requires its own version and review.</p>
+<p><a href="evaluation.html">Study 14</a> asks whether actual systems can construct and maintain the distinctions the formal model assumes, and at what cost.</p>
+<p class="note">The note and implementation have no public download yet. Their attribution, source subset, license and destination await exact approval.</p></div>
+</section>
+</main>
+<footer><div class="wrap"><span>Research notes · research-first-2026-09-07</span><div class="footer-links"><a href="methods.html#attribution">Authorship &amp; AI use</a><a href="research-resume.html">CV &amp; documents</a><a href="https://github.com/ZackaryLoevseth/research-portfolio">Source</a></div></div>
+</footer></body></html>

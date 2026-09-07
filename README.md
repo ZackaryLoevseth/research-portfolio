@@ -1,19 +1,13 @@
-# Research portfolio
+# Reliable human–AI research workflows
 
-A concise research-only front page for AI-assisted work: what the results establish, where to inspect the evidence, and what I contributed.
+Formal methods · AI evaluation · reproducible mathematics
 
-**[Open the portfolio](https://zackaryloevseth.github.io/research-portfolio/)** · **[Research résumé](https://zackaryloevseth.github.io/research-portfolio/research-resume.html)**
+Research on preserving task intent, evidence, dependencies, and correction state across long-running AI-assisted work.
 
-The featured work consists of three public mathematical preprints and one computational certificate. External specialist review is pending in the recorded release state. The papers do not solve the wider open problems, and the results do not establish that the ETI workflow improves research performance.
+[Research site](https://zackaryloevseth.github.io/research-portfolio/)
 
-## Contribution
+The site lives in `docs/` and uses the built-in GitHub Pages branch publishing route. `SITE_DEPLOYMENT_ALLOWLIST.json` binds the exact public site files. Original scientific PDFs, evidence assets and frozen releases remain unchanged. Historical root-level site files and old manifests are preserved as history; `docs/` is the current presentation source.
 
-I direct problem selection, task framing, verification requirements, corrections, preservation, and release scope. AI systems substantially assist source discovery, proof and code development, computation, checking, and writing. The public arguments and reproducible checks carry the evidential burden.
+Four mathematical releases are public. The finite ETI note and reference implementation remain under separate attribution and license review. The Study 14 comparison has no established comparative results. Public release, independent specialist review and journal publication are distinct statuses.
 
-## Frontend edition
-
-The 4 September 2026 update makes `index.html` concise and adds a keyboard-accessible workflow stepper and a printable `research-resume.html`. Existing publication files and background pages are preserved. No private research reports or employer details are added to this research-only front page.
-
-See `FRONTEND_RELEASE_2026-09-04.md` for scope and preservation boundaries. Earlier `SHA256SUMS`, `PUBLIC_SITE_SHA256SUMS`, release manifests and deployment receipts are historical records for their original versions, **not current-tree verification claims**. The dated frontend manifest covers only the files explicitly listed in it.
-
-No new license is granted. Existing release-specific license statements remain controlling.
+Human direction and substantial AI assistance are described on the Methods page and in project-specific contribution panels. No new reuse license is granted by this presentation change.

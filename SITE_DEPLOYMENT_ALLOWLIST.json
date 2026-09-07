@@ -1,0 +1,294 @@
+{
+  "release": "research-first-2026-09-07",
+  "publishing_source": "main:/docs",
+  "files": [
+    {
+      "path": "docs/.nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/404.html",
+      "sha256": "c86a7bfdab0fe5fff8e7999eaec2815b607e8311d7761193dcbef53ab80650e7",
+      "bytes": 2918,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/about.html",
+      "sha256": "30e029e9f123b31e23de5df0f1c655c437f03d81db996bc6838d733ccb13876d",
+      "bytes": 2794,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/applied.html",
+      "sha256": "3961b7d679a84f4579d3d55c3ab0d358d8febf835a477f46bbcb283f99d15cbf",
+      "bytes": 2719,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/application/Zackary_Loevseth_Research_Resume.pdf",
+      "sha256": "d20aa843cb961a96e5a110b0e85d057b23f623f4603d19d484d7bce98b4056ce",
+      "bytes": 115340,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/erdos64/ai-use-disclosure.md",
+      "sha256": "d92fc6c4ccc721858204a9de93206e0779da1a6134676326c14af0fce88d10bf",
+      "bytes": 665,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/erdos64/citation.cff",
+      "sha256": "665fc6f3feb6ffb39daf35557d24c4b97bc399fd37b0bc88a450fd699ed7c71f",
+      "bytes": 976,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/erdos64/claim-and-scope.md",
+      "sha256": "a4605b9a325bde725515a6678ed559ece5f9b845b109915ac62f30a010f5d140",
+      "bytes": 1344,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/erdos64/license-status.md",
+      "sha256": "7561bbef1962310e37ff2bad84d65d723f7658e8a0c5c791c44762ee0e7e9aa9",
+      "bytes": 597,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/erdos64/manuscript.pdf",
+      "sha256": "fb781880e1d76a6b2fe1b78fe1646ac5e0b3b6a8d93714439c1a95a0607eb8cd",
+      "bytes": 70307,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/erdos64/reproducibility-readme.md",
+      "sha256": "3563c96e281254ac79ff4450c0dcfd180e425496f6f3fa206b4b37866e1db52d",
+      "bytes": 1506,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/erdos64/supplementary-appendix.pdf",
+      "sha256": "5fce8824f153c9c048142b801e3f0baeb2044743eb0ad2d2065711a90de837af",
+      "bytes": 45060,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/erdos64/verification-summary.md",
+      "sha256": "79541e6bda8927eae24d78a05b69114050c20afce87b66272fce1367de063e90",
+      "bytes": 1896,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/graffiti3/ai-use-disclosure.md",
+      "sha256": "d8940fbca7336cc0b7526b62af2bdccb9b8d2cca08138b4615390f0c89d98997",
+      "bytes": 719,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/graffiti3/citation.cff",
+      "sha256": "99e9dc064481caf0cf55120461d8f14aeac4b456a98443c32d1648558b25ef3c",
+      "bytes": 698,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/graffiti3/claim-and-scope.md",
+      "sha256": "413a307c61e4d38714add741da5059796d157e26de985dbd2e19a50f74f444cd",
+      "bytes": 1005,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/graffiti3/license-status.md",
+      "sha256": "3e901a18c92654fe9e0b6c500e306129985711b3ea5e41b741043d8b97f10e8e",
+      "bytes": 710,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/graffiti3/manuscript.pdf",
+      "sha256": "edc5c123ccdde18a7b8f971c7bf8f59d7b60135125f481c9596f494267517b3d",
+      "bytes": 72134,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/graffiti3/reproducibility-readme.md",
+      "sha256": "6b3ebbfea7a6c06893ab205224b883b5e08d68e54804cec5c4245374a3ecf314",
+      "bytes": 2727,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/graffiti3/supplementary-appendix.pdf",
+      "sha256": "769b55d9a438b49421cd9821268cd9bb99a340fe54279094893b3922f7f74f85",
+      "bytes": 43860,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/graffiti3/verification-summary.md",
+      "sha256": "c43fb43eb0bdf29cab42a9c95a31a00d3c7991aabf2292c87949aab6c519c01e",
+      "bytes": 1513,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/semiorder/ai-use-disclosure.md",
+      "sha256": "fa2d8fe8001b60ba3c271266bbf99b09d4b0d49faba00971c439c85ccaef12a7",
+      "bytes": 606,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/semiorder/citation.cff",
+      "sha256": "0a2017b3d876e826cd00e93244f8201802a8cbdb1ba4638fab644c9c7095c7ca",
+      "bytes": 491,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/semiorder/claim-and-scope.md",
+      "sha256": "5c71cd6132d5a44a6d0df96cf6f4af9a39a2a17f97a41c0c241410873f41005c",
+      "bytes": 930,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/semiorder/license-status.md",
+      "sha256": "81b9b4fd57727ab9a424c8ac0da784a4c32809676e7004ef422822bd22d5e0cf",
+      "bytes": 697,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/semiorder/manuscript.pdf",
+      "sha256": "9dec5eb5d60a296a4e48c145cb9d4952017fc85b2ddb7868be79ab937ede6923",
+      "bytes": 81971,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/semiorder/reproducibility-readme.md",
+      "sha256": "37f50319b5b30f6c51b6512b633de62632576c5d9b80cc7c5b216da584a7a445",
+      "bytes": 1742,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/semiorder/supplementary-appendix.pdf",
+      "sha256": "7fdc8b6590d1f967e14b55d3591da31ec9d7fad80bc44af1a19de4640b4a6ac1",
+      "bytes": 57296,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/semiorder/verification-summary.md",
+      "sha256": "bfb1924257dc1c4f48a2b516e61f04497259a36ebac61d4669c2cacf6d2f3cf0",
+      "bytes": 1135,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/contact.html",
+      "sha256": "77ebf7c0b9c8ee813307887245af649674ffc441a430a0e75e3441302284f14c",
+      "bytes": 2596,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/evaluation.html",
+      "sha256": "ef9f6dc6fef4b5663c293c0d218e118fc4cf761c8868197604c946965a3f430b",
+      "bytes": 5464,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/evidence.html",
+      "sha256": "b0a19a4017bd6c817f08895c10b98ef880de101b69d98c9a55910f314b19dae1",
+      "bytes": 4643,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/favicon.png",
+      "sha256": "8526ee980b77005eed0c149fd719b03f9eae948e6a838b008f9bdf1ec61c6984",
+      "bytes": 2098,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/human-ai-systems.html",
+      "sha256": "939bc351ca0ba4c2ab7bf768a4f28e6d10c66f122837404314fa8b2cbb455f3a",
+      "bytes": 7962,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/index.html",
+      "sha256": "4990ef9ec92ca0227ce6c969357a7292758dd999f39e145345ad6beb5e970d00",
+      "bytes": 8566,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/mathematics.html",
+      "sha256": "7cb5b77610bb8785a3f4854664576c677f7cf6d7b8f54e94af5ec7b1308ce9bc",
+      "bytes": 9158,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/methods.html",
+      "sha256": "0446ff6691041773418451aa58d538e1e3243f6377aaa10de91286285208cb48",
+      "bytes": 4708,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/papers.html",
+      "sha256": "79893767dce5ccc62d6ab5205a09c29ce7793d4eb103e32ba8371d32d17b1d0d",
+      "bytes": 6516,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/publications.html",
+      "sha256": "541eac9f6f1dbe3818e479024187ce6ccd17ee015f79c03b82d43076cb40e600",
+      "bytes": 2812,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/release.json",
+      "sha256": "94a9c7cced44b6a3ef455a82fdd82c53336bdbd2795e59b465ca43b5a996e04b",
+      "bytes": 267,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/research-resume.html",
+      "sha256": "2dc93459ee5f2f9381be0445e33b65cac55da73f65da3ad02368388571744bae",
+      "bytes": 2651,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/research.html",
+      "sha256": "55f3e528b841813ab0f9923c5ccd5ee0e2462a7f8282b66108dff1c993d0d3bd",
+      "bytes": 2686,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/robots.txt",
+      "sha256": "6c8362a5a220a7cef455e58dcf5d10e0d1d7799dbe37265c3a4cb9d1d463990e",
+      "bytes": 97,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/sitemap.xml",
+      "sha256": "976d2162cfed858954c7cc45512165104e5b86f428f173f1860bacfc48bd9de1",
+      "bytes": 722,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/social-preview.png",
+      "sha256": "c32408e1ea5c742a77c6572ffbd6001ce628bd59cf584902bba5ef12cdf0f527",
+      "bytes": 50118,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/social-preview.svg",
+      "sha256": "c7fca491c107a4be76e144b6a65a634742e3b3fddc9452c6696134142a20d56e",
+      "bytes": 630,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/styles.css",
+      "sha256": "47f32c30ae37e1b072be2aebf1e620008d677259d1e226be633f1649abe53786",
+      "bytes": 5091,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/support.js",
+      "sha256": "81e41f673a3502c4890f7009eadd34b246fea1be81f0f72a394d19949cbfcca3",
+      "bytes": 732,
+      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    }
+  ]
+}
