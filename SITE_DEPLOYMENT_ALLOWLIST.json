@@ -28,9 +28,9 @@
     },
     {
       "path": "docs/assets/application/Zackary_Loevseth_Research_Resume.pdf",
-      "sha256": "d20aa843cb961a96e5a110b0e85d057b23f623f4603d19d484d7bce98b4056ce",
-      "bytes": 115340,
-      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+      "sha256": "845ff7439c5af2bde29507a9414f2906c8e427cda493f12bddad3a208f8428f6",
+      "bytes": 87345,
+      "scope": "AUTHORIZED_EXACT_APPROVED_RESUME_REPLACEMENT"
     },
     {
       "path": "docs/assets/publications/erdos64/ai-use-disclosure.md",
@@ -244,9 +244,9 @@
     },
     {
       "path": "docs/research-resume.html",
-      "sha256": "2dc93459ee5f2f9381be0445e33b65cac55da73f65da3ad02368388571744bae",
-      "bytes": 2651,
-      "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+      "sha256": "a653ebe614cfe9103fbdd7f017ea4ad2afa41109e21c2ba09b785f5c1e4ec92a",
+      "bytes": 2844,
+      "scope": "AUTHORIZED_CV_LANDING_PAGE_UPDATE"
     },
     {
       "path": "docs/research.html",
