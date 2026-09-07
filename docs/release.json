@@ -1,7 +1,12 @@
 {
-  "release": "research-first-2026-09-07",
-  "kind": "website-presentation-only",
-  "scientific_assets": "Retained public bytes; no frozen theorem or certificate amended",
-  "eti_release": "FORTHCOMING_UNDER_SEPARATE_REVIEW",
-  "study14": "NO_COMPARATIVE_RESULTS"
+  "release": "foundations-first-2026-09-07",
+  "kind": "website-presentation-and-foundational-working-manuscript",
+  "scientific_assets": "Original ETI synthesis added; existing mathematical PDFs and certificates retained unchanged",
+  "eti_release": "FOUNDATIONAL_WORKING_MANUSCRIPT; SEPARATE_FINITE_NOTE_PACKAGE_UNCHANGED",
+  "study14": "NO_COMPARATIVE_RESULTS",
+  "eti_foundations": {
+    "version": "ETI-SYNTHESIS-2026-09-07.1",
+    "sha256": "e87a88c4dedbd9d53978d4bb90dbfe5186aacc007950dc5a8d87a5b2a31e2578",
+    "path": "assets/publications/eti/ETI_Foundations.pdf"
+  }
 }

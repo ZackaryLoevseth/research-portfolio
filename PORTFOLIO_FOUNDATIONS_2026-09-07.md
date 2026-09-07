@@ -1,3 +1,15 @@
+# Publication completion preflight — 2026-09-07
+
+The current prepared head was rechecked as `09cbb3a9c6e976c99c9117e734cedf47d835c6b6`, with base `397979806703b14caf721ecc980e63870f9fd667`. Its additional CI workflow is retained. All 11 source blobs pinned by the downloaded publication helper still match; the helper was inspected and its offline self-test passed. Its publishing mode was not used because it expects the earlier branch head.
+
+The original foundations PDF is now included unchanged at `docs/assets/publications/eti/ETI_Foundations.pdf` (177843 bytes), and `docs/release.json` records the working manuscript. SHA-256: `e87a88c4dedbd9d53978d4bb90dbfe5186aacc007950dc5a8d87a5b2a31e2578`.
+
+Both required commands passed in this complete checkout: all 13 correction-model tests and all publication-preflight checks. Existing résumé, mathematical PDFs, frozen release files, and unrelated work remain unchanged. These checks establish the publication candidate; successful CI, normal GitHub merge, Pages deployment, and live URL/browser checks are recorded separately when performed.
+
+The original preparation record below is retained as history. Its PDF-transfer blocker is resolved by this completion; the branch now includes the publication CI workflow.
+
+---
+
 # Foundations-first portfolio update
 
 Implementation branch: `portfolio-foundations-20260907`.
