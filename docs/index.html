@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reliable human–AI research workflows · Research notes</title><meta name="description" content="Finite correction-state models, four public mathematical releases, and a prospective AI evaluation."><meta name="author" content="Zackary Loevseth"><meta name="research-release" content="research-first-2026-09-07">
+<link rel="canonical" href="https://zackaryloevseth.github.io/research-portfolio/"><link rel="stylesheet" href="styles.css"><link rel="icon" href="favicon.png">
+<meta property="og:title" content="Reliable human–AI research workflows"><meta property="og:description" content="Finite correction-state models, four public mathematical releases, and a prospective AI evaluation."><meta property="og:type" content="website"><meta property="og:url" content="https://zackaryloevseth.github.io/research-portfolio/"><meta property="og:image" content="https://zackaryloevseth.github.io/research-portfolio/social-preview.png"><meta property="og:image:alt" content="Reliable human–AI research workflows: claims, evidence, corrections and their limits."><meta name="twitter:card" content="summary_large_image">
+</head><body><a class="skip" href="#main">Skip to content</a>
+<header><div class="wrap mast"><a class="wordmark" href="index.html">Research notes</a>
+<nav aria-label="Primary"><a href="index.html" aria-current="page">Overview</a><a href="human-ai-systems.html">Formal systems</a><a href="mathematics.html">Mathematics</a><a href="evaluation.html">Evaluation</a><a href="evidence.html">Evidence</a><a href="papers.html">Papers</a><a href="methods.html">Methods</a>
+</nav></div>
+</header>
+<main id="main" class="wrap">
+<section class="hero">
+<p class="kicker">Formal methods · AI evaluation · reproducible mathematics</p>
+<h1>Reliable human–AI <br>research workflows</h1>
+<p class="lead">Research on preserving task intent, evidence, dependencies, and correction state across long-running AI-assisted work.</p>
+</section>
+<section class="section split"><div>
+<p class="kicker">The formal question</p>
+<h2>What must remain available when a correction arrives?</h2>
+<p>Compression can preserve an answer while losing the distinctions needed to revise it. The finite ETI kernel makes those correction obligations explicit.</p>
+<p><a href="human-ai-systems.html">Model, assumptions and limitations →</a>
+</p></div><div class="formula">
+<p class="tag">Finite common-correction criterion</p>
+<p>A single correction Δ is valid for every possible state x in a retained information cell X<sub>z</sub> exactly when every required edit is permitted throughout that cell.</p><div class="equation" role="math" aria-label="There exists Delta with M sub e of x contained in Delta contained in U sub e of x for every x in X sub z, if and only if the union of mandatory edits is contained in the intersection of permitted edits."><span class="line">∃ Δ: M<sub>e</sub>(x) ⊆ Δ ⊆ U<sub>e</sub>(x), ∀ x ∈ X<sub>z</sub></span><span class="line">⇔ ⋃<sub>x ∈ X<sub>z</sub></sub> M<sub>e</sub>(x) ⊆ ⋂<sub>x ∈ X<sub>z</sub></sub> U<sub>e</sub>(x).</span></div>
+<p class="note">M specifies required edits; U specifies permitted edits; e is the observed event. Allowed patches are the complete interval between M and U, and edit atoms are mutually compatible. The cell is nonempty. Under these assumptions, the union of required edits is the minimum common patch.</p>
+<p class="note">This elementary set criterion is a baseline formulation, not a claim of newly invented set theory.</p></div>
+</section>
+<section class="section" id="work">
+<p class="kicker">Five inspectable objects</p>
+<h2>Formal state, bounded mathematics, exact certificates.</h2><div class="grid">
+<article class="card full"><span class="tag">Finite note · release under review</span>
+<h3><a href="human-ai-systems.html#kernel">Correction-sufficient memory</a>
+</h3>
+<p>What information must survive so that later corrections remain possible?</p>
+<p class="note">A bounded mathematical kernel and finite reference implementation make correction requirements, permitted edits and grounded alternative support explicit.</p>
+</article>
+<article class="card"><span class="tag">Public preprint · specialist review pending</span>
+<h3><a href="mathematics.html#graffiti3">Graffiti³ counterexample families</a>
+</h3>
+<p>Can explicit finite-group families refute specified machine-generated inequalities?</p>
+<p class="note">Explicit unitriangular and dihedral families refute C20–C22 and C27–C28 in the manuscript’s specified Graffiti³ source version.</p>
+</article>
+<article class="card"><span class="tag">Public preprint · specialist review pending</span>
+<h3><a href="mathematics.html#semiorder">Semiorder projection bounds</a>
+</h3>
+<p>How complex can a planar projection of represented-semiorder ideals become?</p>
+<p class="note">A written all-size argument bounds the projected ideal polygon under stated representation and geometric conventions; exact finite verification supplies corroboration.</p>
+</article>
+<article class="card"><span class="tag">Public preprint · specialist review pending</span>
+<h3><a href="mathematics.html#erdos64">Erdős–Gyárfás excess-degree bounds</a>
+</h3>
+<p>What structure would a smallest counterexample to the conjecture require?</p>
+<p class="note">For a counterexample chosen with minimum vertex count and then minimum edge count, the paper derives |A| ≥ 2b+s+4, using its degree-class definitions.</p>
+</article>
+<article class="card"><span class="tag">Public certificate · external replay invited</span>
+<h3><a href="mathematics.html#erdos409">An exact totient trajectory with F=104</a>
+</h3>
+<p>Can one pointwise totient-iteration result be checked independently?</p>
+<p class="note">F(400000287233629)=104 for the specified first-prime stopping convention, hence supₙ F(n) ≥ 104.</p>
+</article></div>
+<p class="boundary">Four mathematical releases are public. The finite ETI note and code remain under separate release review. Public availability is distinct from journal publication and external peer review.</p>
+</section>
+<section class="section split" id="support"><div>
+<p class="kicker">A small support example</p>
+<h2>One support can disappear without losing the conclusion.</h2>
+<p>Two independent premises each suffice for the same conclusion. Withdrawing A leaves support through B. Withdrawing both reopens the conclusion.</p>
+<p class="note">Deterministic synthetic illustration. No model is running, and this is not an empirical benchmark.</p></div><div class="illustration"><div class="support-rail" aria-label="Either support A or support B supports the conclusion"><span class="node">Support A</span><span>or</span><span class="node">Support B</span><span>→</span><span class="node">Conclusion</span></div><fieldset><legend>Retained supports</legend><label><input type="checkbox" id="support-a" checked> A available</label><label><input type="checkbox" id="support-b" checked> B available</label></fieldset><output id="support-status" aria-live="polite">Conclusion supported through both A and B.</output>
+<p class="compact"><button id="support-reset" type="button">Restore both supports</button>
+</p><noscript>
+<p>The controls need JavaScript. The complete rule is: both supports or either one → supported; neither support → reopen as unsupported, not false.</p></noscript>
+<p class="note">Losing justification and proving falsity are different events.</p></div>
+</section>
+<section class="section split" id="process"><div>
+<p class="kicker">The empirical question</p>
+<h2>Can actual systems maintain these distinctions?</h2></div><div>
+<p>Study 14 compares full context, status-labeled full context, semantic retrieval, and premise-governed scheduling. It must account for the construction and maintenance of structured state.</p>
+<p>Comparative efficacy is unestablished. Development fixtures and checker corrections are reported separately from model outcomes.</p>
+<p><a href="evaluation.html">Read the evaluation design →</a>
+</p></div>
+</section><span id="role"></span>
+</main>
+<footer><div class="wrap"><span>Research notes · research-first-2026-09-07</span><div class="footer-links"><a href="methods.html#attribution">Authorship &amp; AI use</a><a href="research-resume.html">CV &amp; documents</a><a href="https://github.com/ZackaryLoevseth/research-portfolio">Source</a></div></div>
+</footer><script src="support.js" defer></script></body></html>

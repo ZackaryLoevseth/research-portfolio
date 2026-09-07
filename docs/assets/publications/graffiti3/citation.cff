@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this preprint or its verification artifacts, cite this repository and the accompanying manuscript."
+type: software
+title: "Explicit Counterexample Families to Five Finite-Group Inequalities from Graffiti3"
+version: 1.0.0-preprint
+authors:
+  - family-names: Loevseth
+    given-names: Zackary
+repository-code: "https://github.com/ZackaryLoevseth/graffiti3-counterexample-families"
+abstract: >-
+  Exact checkers, certificates, and replay scripts for counterexample families
+  to version-1 Graffiti3 Conjectures 20, 21, 22, 27, and 28.
+keywords:
+  - finite groups
+  - conjugacy classes
+  - unitriangular groups
+  - dihedral groups
+  - computational group theory

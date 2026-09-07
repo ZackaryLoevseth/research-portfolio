@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite this preprint without describing it as a solution of Erdős Problem #64."
+title: "Excess-Degree Bounds for Minimal Counterexamples to the Erdős–Gyárfás Conjecture"
+type: software
+version: "1.0.0-preprint"
+date-released: 2026-08-21
+authors:
+  - family-names: "Løvseth"
+    given-names: "Zackary"
+repository-code: "https://github.com/ZackaryLoevseth/erdos-64-excess-degree-bounds"
+url: "https://github.com/ZackaryLoevseth/erdos-64-excess-degree-bounds"
+abstract: >-
+  A conditional excess-degree theorem for a hypothetical lexicographically
+  minimal counterexample to the Erdős–Gyárfás conjecture, proving
+  |A| >= 2b+s+4 with exact density and edge-count consequences. The global
+  conjecture remains open; external specialist review and absolute priority
+  are not claimed.
+keywords:
+  - graph theory
+  - Erdős–Gyárfás conjecture
+  - minimal counterexample
+  - degree sequence
+  - degeneracy
+  - reproducible research

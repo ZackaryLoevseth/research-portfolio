@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this preprint or its verification artifacts, cite this repository and the accompanying manuscript."
+title: "Largest-Index Zonotope Bounds for Planar Projections of Semiorder Ideals"
+type: software
+version: 1.0.0-preprint
+authors:
+  - family-names: "Løvseth"
+    given-names: "Zackary"
+repository-code: "https://github.com/ZackaryLoevseth/semiorder-zonotope-bounds"
+keywords:
+  - parametric closure
+  - semiorders
+  - zonotopes
+  - exact verification
