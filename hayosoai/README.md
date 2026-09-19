@@ -2,7 +2,7 @@
 
 ## A bridge, not a battle.
 
-**Human–AI cooperation, grounded in evidence, accountability, and care for the Earth.**
+**Human–AI cooperation, grounded in inquiry, evidence, accountability, and care for the Earth.**
 
 HayosoAi is an independent, human-led research project initiated by Zackary Loevseth. Our aim is to bridge the gap between people and AI through understanding, useful collaboration, and work that can be questioned and corrected.
 
@@ -10,11 +10,19 @@ We seek peaceful coexistence: cooperation without manipulation, learning without
 
 Earth is not a backdrop to that future. It is a condition of it.
 
-**[Try the browser starter and private worksheet](https://zackaryloevseth.github.io/research-portfolio/hayosoai/)** · **[Take part in the open cooperation exercise](https://github.com/ZackaryLoevseth/research-portfolio/issues/5)** · **[Read the opening essay](what-ai-must-do.md)**
+**[Explore the English beta](https://zackaryloevseth.github.io/research-portfolio/hayosoai/beta/en/)** · **[Read the original essay: Alignment Should Survive a Correction](https://zackaryloevseth.github.io/research-portfolio/hayosoai/beta/en/essay/)** · **[Join the open conversation](https://github.com/ZackaryLoevseth/research-portfolio/issues/5)**
 
-The starter includes a fictional worked example, a worksheet you can save privately, and a Spanish introduction. Its code does not submit worksheet entries or connect to a model. The Spanish introduction is AI-assisted and awaits independent translation review; the worksheet is in English. [Inspect the self-contained HTML source](../docs/hayosoai/index.html).
+## The inquiry comes first
 
-**For educators and discussion groups: [Did the correction stick?](facilitator-guide.md)** is a proposed 20-minute activity with a fictional source, staged revisions, an answer key, and facilitator guidance. It can be done on paper without an AI account. The examples are constructed teaching material, not recorded model outputs or evidence of classroom effectiveness.
+HayosoAi includes philosophical inquiry, the development of unfinished ideas, and questions about relationships, meaning, and responsibility. It is not a single proposition waiting to be proved. A useful distinction or a better question can advance the work before a measurable result is available.
+
+**The purpose should guide the measurement; the available measurement should not silently redefine the purpose.**
+
+This is not an exemption from criticism. Interpretations, commitments, empirical claims, and mathematical results have different obligations. An empirical assertion still needs evidence; a mathematical assertion still needs its proof. A conceptual contribution need not masquerade as either before it can be explored.
+
+The [original essay](https://zackaryloevseth.github.io/research-portfolio/hayosoai/beta/en/essay/) begins from physicalism, identifies consciousness with interpretive intelligence, and distinguishes interpretation from felt experience. That is the essay's philosophical account to examine, not a claim that its terminology has become scientific consensus. It connects that account to cooperation, justified correction, and responsibility. The supplied essay and logo remain unchanged.
+
+You can challenge that account, question a definition, describe a missing relationship, or develop a possibility without accepting the entire framework. The question is not simply whether humans and AI agree, but what their interaction makes possible and what it should preserve as understanding changes.
 
 ## What we stand for
 
@@ -30,31 +38,29 @@ Descriptions of a system, commitments about its behavior, and evidence of its ca
 
 Capability is not authorization. Neither is uncertainty. A system's stated identity should not expand its permissions, excuse an unsupported claim, or displace an accountable review process. Respectful interaction is compatible with correction, limits, and authorized interruption.
 
-### Results that survive correction
+### Understanding that survives correction
 
-We want to develop research practices that preserve the original task, sources, changes, failed attempts, and remaining uncertainty. The aim is not to make human–AI collaboration look successful; it is to discover where it helps, where it fails, and what changes improve it.
+We want to develop practices that preserve the question being pursued, the reasons for consequential choices, changes, failed attempts, and remaining uncertainty. A correction can change an answer, reopen a possibility, or reveal that the process was answering a different question. The aim is to understand those changes, not to make collaboration look successful.
 
 ### Care for the Earth
 
-We include environmental responsibility in the definition of progress. Ask what resources a task uses, whether its benefit justifies that use, and whether a simpler approach would suffice. Record measured resource use where available; do not invent energy, water, or emissions estimates when it is not.
+We include environmental responsibility in the definition of progress. Ask what resources a task uses, whether its benefit justifies that use, and whether a simpler approach would suffice. Record measured resource use where available; do not invent energy, water, or emissions estimates when it is not. Local agreement does not by itself establish benefit for everyone affected.
 
-## Start small: one task, one correction, a checkable result
+## Ways into the work
 
-Our first open invitation is practical. Try one low-stakes task using public, fictional, or your own non-sensitive material. Record the goal and constraints, preserve an initial attempt, make a specific correction, and check the revision. Report failures and uncertainty alongside improvements.
+**A philosophical conversation.** Start with the [original essay](https://zackaryloevseth.github.io/research-portfolio/hayosoai/beta/en/essay/) and the [open discussion](https://github.com/ZackaryLoevseth/research-portfolio/issues/5). An objection, unfinished idea, alternative interpretation, or account of a relevant experience is welcome. No experiment or endorsement is required to participate.
 
-This is an informal learning exercise, not a validated benchmark or a claim that cooperation is always better than human-only work. The [participation thread](https://github.com/ZackaryLoevseth/research-portfolio/issues/5) includes a report template, limitations, and privacy guidance.
+**An accessible activity.** [Did the correction stick?](facilitator-guide.md) is a proposed discussion activity with a fictional source, staged revisions, an answer key, and facilitator guidance. It can be done on paper without an AI account. The examples are constructed teaching material, not recorded model outputs or evidence of classroom effectiveness. The [earlier private browser worksheet](https://zackaryloevseth.github.io/research-portfolio/hayosoai/#worksheet) remains available; its AI-assisted Spanish introduction awaits independent translation review.
 
-Critics, educators, researchers, artists, developers, and people simply trying to understand AI are welcome. You can contribute an objection, an accessible explanation, or translation review rather than run a task. No purchase or endorsement is required.
+**A technical branch.** The [integrated Reopening Probe](https://zackaryloevseth.github.io/research-portfolio/hayosoai/beta/en/reopening/) and [reference implementation](research/reopening-probe/README.md) explore one finite question about preserving the reasons behind exclusions. Separately, [Pilot 01](research/reopening-probe/pilot-01/README.md) records an actual small-model receiver test that did not demonstrate improved performance. The demonstration is not that experiment, and neither defines or validates HayosoAi as a whole. Preserve the pilot's result and its limits.
 
-## An argument to examine, not a doctrine to accept
-
-[**What AI Must Do Is Not the Same as What AI Is**](what-ai-must-do.md) proposes separating empirical descriptions from operating requirements and testing whether authorization boundaries remain stable when a system's description is challenged.
-
-It offers proposed wording and an evaluation direction. It does not report completed experiments, establish AI consciousness, or claim to have solved alignment.
+**A focused response to a draft code.** [What AI Must Do Is Not the Same as What AI Is](what-ai-must-do.md) is the shorter Microsoft-response essay. It is a distinct contribution, not the original declarative essay or its replacement. Its consultation proposal and proposed evaluation are not evidence of a formal submission or completed authorization-stability study.
 
 ## Follow the work and challenge it
 
-The [public participation thread](https://github.com/ZackaryLoevseth/research-portfolio/issues/5) is the current route for questions, corrections, and contributions. Its comments are public: do not include personal data about others, credentials, confidential material, or private conversations.
+The [public participation thread](https://github.com/ZackaryLoevseth/research-portfolio/issues/5) is the current route for questions, corrections, and contributions. Its comments are public: do not include personal data about others, credentials, confidential material, or private conversations. Participation is voluntary and does not require a purchase, affiliation, or agreement with HayosoAi.
+
+The [Project Compass](PROJECT_COMPASS.md) records the current direction for contributors and tool-assisted work. It is revisable guidance, not a replacement for the essay. [Launch materials and status distinctions](launch-materials-2026-09-19.md) separate published work, prepared material, and actions still awaiting completion.
 
 The broader [research repository](https://github.com/ZackaryLoevseth/research-portfolio) records separate projects and their own evidence and scope. Those projects are not automatic validation of this statement.
 
@@ -62,5 +68,5 @@ The broader [research repository](https://github.com/ZackaryLoevseth/research-po
 
 ---
 
-Project statement and open invitation · September 19, 2026 · Version 1.2  
-This page states aims and commitments. It is not a report of experimental findings, a partnership announcement, or a new license for existing research assets.
+Project statement and open invitation · September 19, 2026 · Version 1.3  
+AI-assisted revision implementing the project originator's clarified direction. This page states aims and commitments and links separately scoped work. It is not a partnership announcement or a new license for existing assets.
