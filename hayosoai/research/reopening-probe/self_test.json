@@ -1,0 +1,22 @@
+{
+  "artifact": "HayosoAi Reopening Probe",
+  "version": "0.1.0",
+  "status": "PASS",
+  "nonredundant_rules": 20,
+  "exhaustive_state_checks": 540,
+  "single_update_checks": 4860,
+  "json_roundtrip_checks": 540,
+  "invalid_inputs_rejected": 6,
+  "targeted_sequence_and_coverage_checks": "PASS",
+  "mutation_probes_rejected": {
+    "flatten_OR_to_AND": true,
+    "flatten_AND_to_OR": true,
+    "reopen_after_any_withdrawal": true,
+    "accept_after_reopening": true,
+    "grant_permission_after_reopening": true
+  },
+  "model_calls": 0,
+  "external_actions": 0,
+  "limitation": "Finite synthetic implementation checks only. No measured LLM or human performance; no novelty or general safety claim.",
+  "source_sha256": "d0176557beb48e8a6687839a8dd06c365a081a72eacaac7887d6e8a74de0ea19"
+}
