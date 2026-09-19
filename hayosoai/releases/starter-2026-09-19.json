@@ -1,0 +1,51 @@
+{
+  "release": "hayosoai-starter-2026-09-19-v1.0",
+  "recorded_date": "2026-09-19",
+  "scope": "Additive starter page only; not a replacement for historical site manifests or scientific release records.",
+  "site_files_added": [
+    {
+      "path": "docs/hayosoai/index.html",
+      "bytes": 15959,
+      "sha256": "d18d47d7bc1d39fcfdf9c6bc72f06d4ea1bb3bab5e90b9caaecfe86eca98f217",
+      "git_blob_sha": "930a17048520093537bfcf5f23de088895cf0fa8"
+    }
+  ],
+  "page_commit": "f39b774df2e14a3c3686a3e2c21da2a6b71ec5ba",
+  "public_route": "https://zackaryloevseth.github.io/research-portfolio/hayosoai/",
+  "deployment": {
+    "provider": "GitHub Pages",
+    "workflow_run": 35456924901,
+    "workflow_url": "https://github.com/ZackaryLoevseth/research-portfolio/actions/runs/35456924901",
+    "build_job": 105933758751,
+    "deploy_job": 105933782325,
+    "build_conclusion": "success",
+    "deploy_conclusion": "success",
+    "deployment_success_time_utc": "2026-09-19T17:04:41Z",
+    "verification_basis": "GitHub connector returned completed successful build and deployment jobs; deployment logs reported success for the exact page commit.",
+    "independent_live_page_fetch": "Not verified. The web tool could not retrieve the public route during the launch session."
+  },
+  "local_checks": {
+    "method": "Authored HTML loaded with Playwright set_content into local Chromium; not an external deployed-site browser test.",
+    "passed": [
+      "Exactly one h1",
+      "Eight worksheet fields with associated labels",
+      "Field entry",
+      "Private text download preserves entered text",
+      "Clipboard unavailable fallback",
+      "No horizontal overflow at 390-pixel viewport",
+      "No JavaScript exceptions during tested interactions",
+      "No page-initiated external requests during tested interactions"
+    ],
+    "visual_inspection": "Desktop rendering inspected; mobile screenshot generated and horizontal overflow checked.",
+    "repository_readback": "Returned Git blob SHA matches locally tested file bytes.",
+    "limitations": "No full-repository preflight, cross-browser audit, screen-reader audit, independent security review, or classroom evaluation was performed. Clipboard success path was not tested."
+  },
+  "content_status": {
+    "worked_example": "Fictional and deliberately flawed for teaching, not a model test result",
+    "worksheet": "Informal learning aid, not a validated benchmark",
+    "spanish_introduction": "AI-assisted; independent translation review pending; worksheet remains English",
+    "research_findings": "None claimed by this release",
+    "new_license_for_existing_research": false
+  },
+  "codex_handoff": "The page is self-contained and isolated under docs/hayosoai. Preserve its privacy behavior, fictional-example label, and evidence limitations if integrating it into another site. Update canonical and social metadata only after a new destination is verified. Do not duplicate the starter as a separate conflicting project identity."
+}
