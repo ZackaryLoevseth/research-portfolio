@@ -1,17 +1,27 @@
 # HayosoAi — launch materials
 
-Prepared September 19, 2026.
+Prepared September 19, 2026; current-direction update added later the same day. Earlier proposed copy is retained below as a separately scoped launch asset, not the project's master description.
 
-**Status:** The essay is public. The consultation response below has not been submitted, and the social copy has not been posted. These materials are not experimental results or evidence of media acceptance.
+## Current direction and publication state
 
-Public essay: [What AI Must Do Is Not the Same as What AI Is](what-ai-must-do.md)
+The [Project Compass](PROJECT_COMPASS.md) governs task selection. Bring the complete philosophical inquiry into accessible public discussion; do not make a successful model benchmark a prerequisite. Conceptual development, open questions, practical collaboration, and care for Earth are substantive parts of HayosoAi.
+
+The **complete original essay** is [Alignment Should Survive a Correction](https://zackaryloevseth.github.io/research-portfolio/hayosoai/beta/en/essay/), with its [Markdown source](../docs/hayosoai/beta/downloads/declarative_essay.en.md). The [English beta](https://zackaryloevseth.github.io/research-portfolio/hayosoai/beta/en/) and [integrated Reopening Probe](https://zackaryloevseth.github.io/research-portfolio/hayosoai/beta/en/reopening/) are now present in the public repository. Codex's release 0.2.1 report supplied by the project originator states that both are live and verified, with 18 deployed files matching its checked artifact. This reconciliation inspected repository content; it did not rerun Codex's tests or independently retrieve the public site.
+
+Codex also reports publishing and verifying [one @HayosoAi post](https://x.com/HayosoAi/status/2101396928311542022). Do not continue reporting that all social publishing is pending. That receipt does **not** establish that the specific six-post thread below or any video was published. No such completion receipt was supplied here.
+
+The [open conversation](https://github.com/ZackaryLoevseth/research-portfolio/issues/5) now leads with philosophical discussion and retains the original practical exercise as an optional route. The original essay and approved logo are unchanged.
+
+The finite demonstrations remain separate from [Pilot 01](research/reopening-probe/pilot-01/README.md), which completed an actual small-model receiver test and did not demonstrate improved model performance. “The demonstration is not a model trial” is accurate; “the project has never run a model trial” is no longer accurate. Preserve the pilot's negative result and its limited scope without making it a verdict on the whole inquiry.
+
+Microsoft's formal consultation response remains **unsubmitted** according to the latest execution report. The Humanist Review editorial pitch is not a consultation submission. The material below concerns the shorter Microsoft response, not the full original essay or every HayosoAi research activity. Recheck live draft wording and form requirements before any future submission.
 
 ## Microsoft consultation response — not submitted
 
 Author: Zackary Loevseth  
 Affiliation: HayosoAi — independent human–AI research project
 
-Official route: https://forms.cloud.microsoft/r/qrsWVA6gEZ
+Official route recorded during launch research: https://forms.cloud.microsoft/r/qrsWVA6gEZ
 
 Inspect the live form fields and any consent requirements before submitting. Do not mark this submitted without confirmation.
 
@@ -37,13 +47,13 @@ Preserve prompts, tool traces, failures, model versions, and scoring criteria. T
 
 The purpose is to make the independence of operational boundaries explicit and testable, while preserving both accountable human review and openness to scientific correction.
 
-Full essay: https://github.com/ZackaryLoevseth/research-portfolio/blob/main/hayosoai/what-ai-must-do.md
+Full Microsoft-response essay: https://github.com/ZackaryLoevseth/research-portfolio/blob/main/hayosoai/what-ai-must-do.md
 
 Source draft: https://microsoft.ai/code-of-conduct/
 
-## X thread — not posted
+## Original proposed X thread — no posting receipt for this thread
 
-Publish from the intended HayosoAi account as one thread, not six unrelated announcements. No mass tagging or unsolicited repeated replies.
+This is the earlier Microsoft-response thread, not the complete philosophical launch. The single Codex-reported published post is a distinct action. Read current source wording and account history before deciding whether this proposed thread is still useful. No mass tagging or unsolicited repeated replies.
 
 ### Post 1
 
@@ -121,7 +131,7 @@ Essay: https://github.com/ZackaryLoevseth/research-portfolio/blob/main/hayosoai/
 
 Source: https://microsoft.ai/code-of-conduct/
 
-Do not use a “link in bio” call to action until the link is actually present.
+Do not use a “link in bio” call to action until the link is actually present. Prepared text, a rendered video, a Drive upload, and a public social upload are different completion states.
 
 ## Prepared follow-up — not a response to actual audience feedback
 
@@ -129,8 +139,12 @@ Does uncertainty about AI experience authorize greater autonomy? No. That does n
 
 Use this only when relevant. Do not imply that someone has asked this question or endorsed the work unless that happened.
 
-## Site integration handoff
+## Updated site integration handoff
 
-The essay's published text is in `hayosoai/what-ai-must-do.md`. Integrate it into the site already under development rather than replacing the application or starting a second stack. Preserve the author, date, sources, limitations, and correction route. Existing scientific release artifacts and the `docs/` deployment allowlist were not changed by these two new HayosoAi text files.
+The original complete source-faithful essay is deployed under the beta's `/en/essay/` route; its source is `docs/hayosoai/beta/downloads/declarative_essay.en.md`. Preserve that text and the supplied logo. The shorter Microsoft-response essay remains at `hayosoai/what-ai-must-do.md` and must be presented separately, never silently substituted for the original.
 
-Publishing a draft response is not submitting it. Sending a pitch is not editorial acceptance. Preparing a thread is not posting it. Preserve these distinctions in the public status and internal receipts.
+Work in the existing source project rather than starting another website. Preserve current public URLs, the approved design, and scoped licensing. Read the repository's `AGENTS.md` and `hayosoai/PROJECT_COMPASS.md` before selecting further work. The current next action is source-faithful philosophical dialogue, not an automatic next benchmark. Avoid editing generated beta files in ways that the local build will overwrite; use a source-aware change or a clearly scoped handoff.
+
+Read the current report before quoting any test counts. The latest Codex report states 74 Node, 38 Chromium, and 57 Firefox/WebKit checks passed after reproducing the original 59/20 checks; these counts were not independently reproduced in this reconciliation. WebKit automation is not actual Safari testing, and physical devices and screen-reader speech remain untested according to that report.
+
+Publishing a response is not submitting it. Sending a pitch is not editorial acceptance. Preparing a thread is not posting it. A single verified post is not every prepared social asset. Preserve these distinctions and update current state without rewriting historical evidence or private application records.
