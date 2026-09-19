@@ -14,6 +14,8 @@ Earth is not a backdrop to that future. It is a condition of it.
 
 The starter includes a fictional worked example, a worksheet you can save privately, and a Spanish introduction. Its code does not submit worksheet entries or connect to a model. The Spanish introduction is AI-assisted and awaits independent translation review; the worksheet is in English. [Inspect the self-contained HTML source](../docs/hayosoai/index.html).
 
+**For educators and discussion groups: [Did the correction stick?](facilitator-guide.md)** is a proposed 20-minute activity with a fictional source, staged revisions, an answer key, and facilitator guidance. It can be done on paper without an AI account. The examples are constructed teaching material, not recorded model outputs or evidence of classroom effectiveness.
+
 ## What we stand for
 
 ### Human agency and accountable choices
@@ -60,5 +62,5 @@ The broader [research repository](https://github.com/ZackaryLoevseth/research-po
 
 ---
 
-Project statement and open invitation · September 19, 2026 · Version 1.1  
+Project statement and open invitation · September 19, 2026 · Version 1.2  
 This page states aims and commitments. It is not a report of experimental findings, a partnership announcement, or a new license for existing research assets.
