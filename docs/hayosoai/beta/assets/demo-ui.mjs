@@ -1,5 +1,5 @@
-import { GRAPH, createInitialState, withdrawRoot, resetState } from './demo-engine.mjs';
-import words from './demo-strings.mjs';
+import { GRAPH, createInitialState, withdrawRoot, resetState } from './demo-engine.mjs?v=e4e6f1852fbb68f3';
+import words from './demo-strings.mjs?v=511ff43bf954e375';
 
 let state = createInitialState();
 const $ = selector => document.querySelector(selector);
