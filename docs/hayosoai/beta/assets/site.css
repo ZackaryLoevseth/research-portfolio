@@ -352,3 +352,44 @@
     @page { margin: 18mm; }
   }
 }
+@layer components {
+  .reopening-assumptions { padding-bottom: 35px; }
+  .reopening-assumptions h2 { font-size: 1.7rem; }
+  .reopening-assumptions ul { padding-left: 1.3rem; max-width: 900px; color: var(--muted); }
+  .reopening-assumptions li + li { margin-top: .65rem; }
+  .reopening-outcomes { padding: 34px; background: #e9f0e7; }
+  .reopening-result { padding: 28px 0; border-bottom: 1px solid #bdcdbc; }
+  .reopening-result:last-child { border-bottom: 0; padding-bottom: 10px; }
+  .reopening-result .eyebrow { color: var(--teal); margin-bottom: 10px; }
+  .reopening-result h3 { font: 1.1rem/1.5 var(--sans); margin-bottom: 18px; }
+  .reopening-result p:not(.eyebrow, .reopening-status) { font-size: .85rem; color: var(--muted); margin-top: 12px; }
+  .reopening-status { font: 1.6rem/1.2 var(--serif); color: var(--teal); }
+  .reopening-status[data-status="review"], .reopening-status[data-status="insufficient_record"] { color: #795016; }
+  .reopening-coverage { margin-top: 24px; }
+  .reopening-coverage label { display: flex; align-items: center; gap: 10px; min-height: 44px; font-size: .88rem; font-weight: 600; cursor: pointer; }
+  .reopening-coverage input { width: 20px; height: 20px; accent-color: var(--teal); flex-shrink: 0; }
+  .reopening-coverage p { margin-top: 8px; color: var(--muted); font-size: .78rem; }
+  .reopening-authority { border: 1px solid var(--line); padding: 24px 28px; margin-bottom: 50px; }
+  .reopening-authority h2 { font: 600 .95rem/1.5 var(--sans); letter-spacing: 0; margin-bottom: 12px; }
+  .reopening-authority p { font-size: .85rem; }
+  .reopening-comparison { grid-template-columns: repeat(2, 1fr); }
+  .reopening-comparison .procedure > p { min-height: 0; font-size: 1.45rem; color: var(--teal); margin-top: 25px; }
+  [data-reopening-history] { padding-left: 1.2rem; color: var(--muted); font-size: .83rem; }
+  [data-reopening-history] li + li { margin-top: 12px; }
+  .reopening-record { border-top: 1px solid var(--line); margin-top: 24px; padding-block: 22px 45px; }
+  .reopening-record summary { cursor: pointer; padding-block: 8px; }
+  .reopening-record p { max-width: 780px; font-size: .86rem; color: var(--muted); margin: 16px 0; }
+  .reopening-record pre { font-size: .75rem; line-height: 1.7; background: #e9eee7; padding: 24px; overflow-wrap: anywhere; white-space: pre-wrap; }
+  .reopening-evidence p + p, .scope-note p + p { margin-top: 16px; }
+  .reopening-prior-art { padding-bottom: 58px; }
+  .reopening-prior-art h2 { font-size: 2rem; margin-bottom: 20px; }
+  .reopening-prior-art .version-ledger { margin-top: 24px; }
+  .reopening-prior-art .version-ledger dd { margin-left: 0; max-width: 880px; }
+}
+@layer responsive {
+  @media (max-width: 760px) {
+    .reopening-outcomes { padding: 28px 22px; }
+    .reopening-comparison { grid-template-columns: 1fr; }
+    .reopening-authority { padding-inline: 22px; }
+  }
+}
