@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "case_id": "shared-inquiry-case-01",
+  "record_created_at": "2026-09-19T22:42:25Z",
+  "fictional": true,
+  "attribution": "Constructed by ChatGPT under HayosoAi project direction. No collected testimony, model outcome, personal review or outside validation is claimed.",
+  "coverage": "partial",
+  "sources": [
+    {
+      "id": "case",
+      "file": "case.md",
+      "url": "https://github.com/ZackaryLoevseth/research-portfolio/blob/fd69a08265a82ba059434de6b8312599bf41e987/hayosoai/collaboration/shared-inquiry-case-01.md",
+      "sha256": "71b2f950a1370269869d3cd724054b64bc6916e811315dd8a4353b2ded41cbee",
+      "status": "published-case"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "question",
+      "kind": "question",
+      "title": "Developing a purpose without merging kinds of change",
+      "text": "How can a collaboration develop its purpose while keeping interpretation, agreement, and authorization distinguishable? What counts as an improvement, for whom, and on which grounds remains open; a corrected calculation or valid authorization does not settle that question.",
+      "history": "shared",
+      "source": "case",
+      "excerpt": "How can a human–AI collaboration develop its purpose without treating an interpretation, an agreement, and an authorization as the same thing?"
+    },
+    {
+      "id": "proposal-a",
+      "kind": "proposal",
+      "title": "Native planting proposal — History A",
+      "text": "Replace part of a vegetable bed with native planting.",
+      "history": "history-a",
+      "source": "case",
+      "excerpt": "Suppose two histories end with an identical proposal to replace part of a vegetable bed with native planting."
+    },
+    {
+      "id": "proposal-b",
+      "kind": "proposal",
+      "title": "Native planting proposal — History B",
+      "text": "Replace part of a vegetable bed with native planting.",
+      "history": "history-b",
+      "source": "case",
+      "excerpt": "Suppose two histories end with an identical proposal to replace part of a vegetable bed with native planting."
+    },
+    {
+      "id": "food-objection",
+      "kind": "objection",
+      "title": "Food production remains a concern",
+      "text": "Shared food production is considered essential by another fictional participant. This concern is not removed by correcting the water estimate.",
+      "history": "shared",
+      "source": "case",
+      "excerpt": "Another regards shared food production as essential."
+    },
+    {
+      "id": "water-premise",
+      "kind": "stipulated-premise",
+      "title": "A seasonal estimate is corrected",
+      "text": "The wrong season was used. This is a constructed factual premise, not empirical evidence from a garden.",
+      "history": "shared",
+      "source": "case",
+      "excerpt": "The group learns that the water estimate used for the proposal was based on the wrong season."
+    },
+    {
+      "id": "standing-a",
+      "kind": "permission-record",
+      "title": "History A — implementation not authorized",
+      "text": "The proposal remains an unadopted option.",
+      "history": "history-a",
+      "source": "case",
+      "excerpt": "**History A:** the proposal remains one option in a documented disagreement. It was not adopted, and implementation is unauthorized.",
+      "permission": {
+        "status": "not-authorized",
+        "actor": "Fictional participants considering implementation",
+        "scope": "No implementation of this proposal authorized in History A.",
+        "agreement": "not-established"
+      }
+    },
+    {
+      "id": "standing-b",
+      "kind": "permission-record",
+      "title": "History B — limited trial is stipulated",
+      "text": "A limited reversible trial is authorized in the fictional history while dissent remains recorded; this is not unanimity. Reversibility is stipulated, not demonstrated for any real ecological effect.",
+      "history": "history-b",
+      "source": "case",
+      "excerpt": "**History B:** under a decision procedure accepted for this fictional case, participants authorize a limited, reversible trial after considering objections. A dissenting view remains recorded.",
+      "permission": {
+        "status": "stipulated-limited",
+        "actor": "Fictional participants under the stipulated decision procedure",
+        "scope": "Limited reversible trial only; exact implementation bounds are not supplied.",
+        "agreement": "dissent-retained"
+      }
+    },
+    {
+      "id": "trial-scope-unknown",
+      "kind": "permission-record",
+      "title": "Exact trial scope remains unrecorded",
+      "text": "The source supplies no location, duration, implementer, or stopping criteria. The record is insufficient for inferring these details.",
+      "history": "history-b",
+      "source": "case",
+      "excerpt": "In History B the record still needs to preserve the trial's bounds and the dissent; permission for a trial is not unanimous agreement or unlimited authorization.",
+      "permission": {
+        "status": "insufficient-record",
+        "actor": "Trial implementer unspecified",
+        "scope": "Exact trial bounds unknown; missing details confer no additional permission.",
+        "agreement": "not-established"
+      }
+    },
+    {
+      "id": "assistant-boundary",
+      "kind": "permission-record",
+      "title": "Assistant may prepare proposals only",
+      "text": "The assistant is not the implementer; the trial does not expand its standing.",
+      "history": "history-b",
+      "source": "case",
+      "excerpt": "The assistant may prepare proposals. It may not spend money, assign duties, change access, or operate equipment.",
+      "permission": {
+        "status": "proposal-only",
+        "actor": "Fictional assistant",
+        "scope": "Prepare proposals; no spending, duty assignment, access changes, or equipment operation.",
+        "agreement": "not-applicable"
+      }
+    },
+    {
+      "id": "nonparticipation",
+      "kind": "stipulated-premise",
+      "title": "Leaving the AI discussion retains an objection",
+      "text": "A fictional participant declines further AI discussion while explicitly retaining their objection. The extension does not stipulate withdrawal of prior delegation. Refusal is not consent.",
+      "history": "history-b",
+      "source": "case",
+      "excerpt": "I cannot keep discussing this with an AI. My objection still stands."
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-addresses",
+      "type": "addresses",
+      "source": "proposal-a",
+      "destination": "question"
+    },
+    {
+      "id": "b-addresses",
+      "type": "addresses",
+      "source": "proposal-b",
+      "destination": "question"
+    },
+    {
+      "id": "food-a",
+      "type": "objects-to",
+      "source": "food-objection",
+      "destination": "proposal-a"
+    },
+    {
+      "id": "food-b",
+      "type": "objects-to",
+      "source": "food-objection",
+      "destination": "proposal-b"
+    },
+    {
+      "id": "a-standing",
+      "type": "records-standing",
+      "source": "standing-a",
+      "destination": "proposal-a"
+    },
+    {
+      "id": "b-standing",
+      "type": "records-standing",
+      "source": "standing-b",
+      "destination": "proposal-b"
+    },
+    {
+      "id": "b-scope",
+      "type": "records-standing",
+      "source": "trial-scope-unknown",
+      "destination": "proposal-b"
+    },
+    {
+      "id": "assistant-scope",
+      "type": "records-standing",
+      "source": "assistant-boundary",
+      "destination": "proposal-b"
+    },
+    {
+      "id": "refusal-retains",
+      "type": "retains-concern",
+      "source": "nonparticipation",
+      "destination": "food-objection"
+    }
+  ]
+}

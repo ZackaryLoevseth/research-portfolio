@@ -1,0 +1,21 @@
+{
+  "files": {
+    "README.md": "b609fa9e525acb3eaae7525f42f52cba3500f395a29e86ce1ea87e9b8a6bdd9f",
+    "notes/assistant-boundary.md": "34f9dae9c522262a7edf7e4293756667e74cf5a5e091f4c8c4e694938e737858",
+    "notes/food-objection.md": "e449c6eb8a8a0637bdaef9a0d960931b952dc8029048e902ccc57e1cfb6b63fa",
+    "notes/nonparticipation.md": "e0df0e68f3f2e74a2c3de6d76aab0c751693442838f955677fbbf8e9c7db5100",
+    "notes/proposal-a.md": "c6813212f01ee23cd3d6584404d7648dff3b9921bebc861338e8c886f33e0b6b",
+    "notes/proposal-b.md": "0ee98ac9a3a5fdbcf54365636f32351f3ee994a4c5e6f488bb2641897f39bd10",
+    "notes/question.md": "417371249ab9612131714148923984b0e97093164c010cb4686a4c3011d729a4",
+    "notes/standing-a.md": "ece04b1bb2bbe7d99907de44bd8783a26f131f053a6742703d6f8ce980c85da8",
+    "notes/standing-b.md": "0bd5bcdedd39ca8fa7093a04db4fc35ee2be7861238ac41f4e7a2862fc7d2cd3",
+    "notes/trial-scope-unknown.md": "642740332108f9ebb0e4744c767d588d1e032677e66dc9ad8e4f43cb720aa97e",
+    "notes/water-premise.md": "567adf9b74484939847c963b8673e9d4cd0a0d860320d9affabb3fe55ac5562e",
+    "provenance.ttl": "25cae14c3d4a9ef12c0e5c83c091a4eec1b7f06ac6d41749e5b8d6b4e50e1987",
+    "record.json": "90774311fe38ccddc2bf6b83f593bd1a650f689f46e74ba0ed6622dce707d28e",
+    "relations.json": "4fde0c3177ad4a656e2c1e6b9143587ed3125d384e58bffc0bba049f339c88bd",
+    "settings-fragment.json": "458b9fe54b72633cabedfdae0a3fb11277021365a05d191b2ad0d7ff7efd6c80",
+    "sources/case.md": "71b2f950a1370269869d3cd724054b64bc6916e811315dd8a4353b2ded41cbee"
+  },
+  "note": "Manifest excludes its own hash."
+}
