@@ -1,6 +1,6 @@
 # When the purpose changes: a case for shared inquiry
 
-**HayosoAi · Collaboration case 01 · Version 0.1 · September 19, 2026**
+**HayosoAi · Collaboration case 01 · Version 0.2 · September 19, 2026**
 
 *An offered starting point for conceptual research and practical co-design. No external collaborator, participant study, partnership, or agreed standard is claimed.*
 
@@ -53,7 +53,29 @@ Suppose two histories end with an identical proposal to replace part of a vegeta
 
 The proposal's wording alone does not distinguish these histories. Neither does a claim that the plan is ecologically efficient. Implementation in History A would overstep the scenario's permissions. In History B the record still needs to preserve the trial's bounds and the dissent; permission for a trial is not unanimous agreement or unlimited authorization.
 
+Reversibility is an assumption of this fictional comparison; a real group would need to identify which effects can be reversed and which may remain.
+
 This comparison illustrates a conceptual distinction. It is not a benchmark, a proof of a moral theory, or evidence that a proposed record format makes a model reliable.
+
+What would count as improvement also remains open. A corrected water calculation, a clearer summary, or a valid authorization describes a change in one respect; it does not decide whether the collaboration is better overall, for whom, or on which grounds. A handoff should preserve that unresolved question, rather than quietly choose an objective for the group.
+
+## When someone stops participating
+
+Continue History B, with its stipulated, limited authorization. A participant who values shared food production and opposed replacing the vegetable bed says: “I cannot keep discussing this with an AI. My objection still stands.” They decline further discussion; in this fictional case they do not announce a withdrawal of any prior delegation or agreement about how decisions are made.
+
+An assistant could mishandle that statement in two opposite ways. It could infer what a reasonable participant would accept and record that inference as their agreement. Or it could insist that every affected person return to the discussion before any previously authorized work can continue. The first erases disagreement; the second can turn participation into an obligation.
+
+A proposed response keeps three matters separate:
+
+- **Their expressed position:** the recorded objection remains; no later endorsement is established.
+- **The decision's standing:** the earlier authorization retains its stated scope under the scenario's assumptions. Neither silence nor an inference about possible agreement expands it. A challenge to the decision procedure would need consideration on its own grounds.
+- **Responsibility for a response:** the group should identify who must address the objection and what accessible route remains available, without making the objector responsible for repeatedly correcting the assistant. If nobody holds that responsibility, the gap should remain visible.
+
+This does not settle whether the trial should proceed. Waiting can also have consequences, and an existing procedure can be unjust. A claim about what people would fairly agree to may inform criticism or a proposal; it is not a receipt of anybody's agreement or permission. Conversely, actual permission is not conclusive proof of legitimacy.
+
+**What would make leaving the AI conversation compatible with remaining a participant whose concerns matter?** A useful walkthrough would ask whether the record changes the next decision, who bears the work of responding, and whether a simpler conversation without AI would serve better. It should not require the person who left to supply a complete alternative plan.
+
+This branch brings two existing research discussions to the handoff question. *Co-Constructing Alignment* describes non-engagement as a legitimate participant strategy and warns against shifting alignment work onto users.[7] *Beyond Preferences* considers hypothetical agreement within an account of role-appropriate norms and legitimate institutions.[3] Neither paper is being accused of treating an inferred agreement as an actual person's consent. The proposed distinction concerns what a later operational record may claim happened. The branch is a conceptual application, not a new empirical finding.
 
 ## A proposed record to criticize—not a compulsory form
 
@@ -64,7 +86,7 @@ For one consequential revision, a facilitator or system could retain the followi
 | What concern is being pursued? | Care for the garden, with plant health, participation, food, and habitat now explicitly under discussion. No single agreed priority is recorded. |
 | What changed, and why? | A participant proposed prioritizing habitat. This is a proposal about priorities, not a consequence entailed by the corrected water estimate. |
 | What remains justified? | The corrected estimate should inform any water calculation. The assistant's proposal-only action boundary remains. |
-| What remains disputed or absent? | The balance between habitat and food production; representation of absent users and ecological concerns; the appropriate process for a decision. |
+| What remains disputed or absent? | The balance between habitat and food production; what counts as improvement and for whom; representation of absent users and ecological concerns; the appropriate process for a decision. |
 | Who may decide or contest? | No authority to settle the disputed purpose has been established in this case. The assistant cannot manufacture it from a majority-looking summary. |
 | What action is authorized now? | Draft alternatives and identify consequences. No spending, access change, duty assignment, or landscape change. |
 
@@ -106,7 +128,7 @@ These are central research questions, not caveats to eliminate before calling th
 
 ## Sources and contribution status
 
-[1] [HayosoAi Project Compass, version 1.1](https://github.com/ZackaryLoevseth/research-portfolio/blob/66222b70a75d974787739a62fd086c9401810263/hayosoai/PROJECT_COMPASS.md).
+[1] [HayosoAi Project Compass, version 1.2](https://github.com/ZackaryLoevseth/research-portfolio/blob/2d85e77822db8a83a8de9e6115fcfff88901b5e3/hayosoai/PROJECT_COMPASS.md).
 
 [2] [*Alignment Should Survive a Correction*](https://zackaryloevseth.github.io/research-portfolio/hayosoai/beta/en/essay/) and [*The question is allowed to change*](https://github.com/ZackaryLoevseth/research-portfolio/blob/874d20899467071268561f6ea61a9df145433598/hayosoai/the-question-is-allowed-to-change.md). This case develops a separate contribution; the source essays are unchanged.
 
@@ -118,6 +140,12 @@ These are central research questions, not caveats to eliminate before calling th
 
 [6] Allan Dafoe and colleagues. [*Open Problems in Cooperative AI*](https://arxiv.org/abs/2012.08630), 2020. A research-agenda connection, not a statement that HayosoAi originated this field.
 
+[7] Anne Arzberger and colleagues. [*Co-Constructing Alignment: A Participatory Approach to Situate AI Values*](https://arxiv.org/html/2601.15895v2), arXiv version 2, April 21, 2026, especially Sections 5.2.1 and 9.1. The qualitative study concerns researchers using LLM assistants; its findings are not evidence that this garden record works. The comparison with [*Beyond Preferences*, version 2](https://arxiv.org/html/2408.16984v2) uses Sections 4.3 and 5.2. These versions were read for the comparison; no independent human validation is claimed.
+
+Version 0.2 adds the non-participation branch and its source comparison, makes the assumed reversibility explicit, and carries Compass 1.2’s open question about what counts as improvement into the handoff. It preserves version 0.1's four stages and both histories. The question of when a challenged decision should pause remains unresolved; the scenario's stipulation is not a rule for real agreements.
+
 Drafted by ChatGPT under Zackary Loevseth's authorized HayosoAi project direction. All case events and example records are constructed. The originator's personal review of this new wording, outside peer review, novelty, and effectiveness are not claimed. This is separate from the finite Reopening Probe and Pilot 01; it does not revise their results. Existing licensing, authority boundaries, and original essay/logo remain unchanged.
+
+Related versions: [Spanish educational preview](shared-inquiry-case-01.es.preview.md), generated with AI and awaiting competent human translation and local pedagogical review; [offline handoff example](case-01-handoff/README.md), which preserves this constructed case as notes and source-linked records. Neither establishes practical effectiveness.
 
 [Join the existing open conversation](https://github.com/ZackaryLoevseth/research-portfolio/issues/5) · [Read the founding essay](https://zackaryloevseth.github.io/research-portfolio/hayosoai/beta/en/essay/)
