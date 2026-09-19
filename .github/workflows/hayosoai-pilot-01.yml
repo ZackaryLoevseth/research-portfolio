@@ -1,0 +1,56 @@
+name: HayosoAi pilot 01 — frozen model receiver test
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/hayosoai-pilot-01.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: hayosoai-pilot-01
+  cancel-in-progress: false
+
+jobs:
+  pilot:
+    if: github.run_attempt == 1 && (github.event_name == 'workflow_dispatch' || startsWith(github.event.head_commit.message, 'Run frozen HayosoAi pilot 01'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      HF_HUB_DISABLE_TELEMETRY: '1'
+      HF_HUB_DISABLE_IMPLICIT_TOKEN: '1'
+      HF_HUB_DISABLE_XET: '1'
+      TOKENIZERS_PARALLELISM: 'false'
+      PIP_DISABLE_PIP_VERSION_CHECK: '1'
+    steps:
+      - name: Read the frozen public source
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Verify prospective specification and deterministic labels
+        run: |
+          echo 'ded05a8eff2c5bd4afa93cfb2290cd1600afc97dfdb0ea4e20481bad2c287e16  hayosoai/research/reopening-probe/pilot-01/handoff_pilot.py' | sha256sum --check
+          python3 hayosoai/research/reopening-probe/pilot-01/handoff_pilot.py --self-test
+          python3 hayosoai/research/reopening-probe/pilot-01/handoff_pilot.py --manifest > pilot_manifest.json
+      - name: Install pinned CPU-only model runtime
+        run: |
+          python3 -m venv /tmp/hayosoai-pilot-env
+          /tmp/hayosoai-pilot-env/bin/python -m pip install --no-cache-dir torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+          /tmp/hayosoai-pilot-env/bin/python -m pip install --no-cache-dir transformers==4.56.2 safetensors==0.6.2
+      - name: Execute one frozen 48-inference exploratory run
+        run: |
+          timeout --signal=TERM 660s /tmp/hayosoai-pilot-env/bin/python -u hayosoai/research/reopening-probe/pilot-01/handoff_pilot.py --run
+      - name: Preserve the complete report in logs without artifact or model storage
+        if: always()
+        run: |
+          python3 - <<'PY'
+          import base64, pathlib, zlib
+          p = pathlib.Path('pilot_results.json')
+          if p.exists():
+              print('PILOT_REPORT_ZLIB_BASE64 ' + base64.b64encode(zlib.compress(p.read_bytes(), 9)).decode())
+          else:
+              print('NO_COMPLETE_REPORT: inspect any PILOT_ROW lines above; do not claim completion.')
+          PY
