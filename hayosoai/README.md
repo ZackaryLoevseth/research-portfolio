@@ -50,6 +50,8 @@ We include environmental responsibility in the definition of progress. Ask what 
 
 **A philosophical conversation.** Start with the [original essay](https://zackaryloevseth.github.io/research-portfolio/hayosoai/beta/en/essay/) and the [open discussion](https://github.com/ZackaryLoevseth/research-portfolio/issues/5). An objection, unfinished idea, alternative interpretation, or account of a relevant experience is welcome. No experiment or endorsement is required to participate.
 
+**A companion argument.** [The question is allowed to change](the-question-is-allowed-to-change.md) examines how a collaborator can help an unfinished idea develop without taking it over. A hypothetical community garden brings together useful initiative, the possibility that the human is mistaken, and responsibilities beyond the immediate conversation. It is an AI-drafted working essay for criticism, not a replacement for the original position or a report of experimental findings.
+
 **An accessible activity.** [Did the correction stick?](facilitator-guide.md) is a proposed discussion activity with a fictional source, staged revisions, an answer key, and facilitator guidance. It can be done on paper without an AI account. The examples are constructed teaching material, not recorded model outputs or evidence of classroom effectiveness. The [earlier private browser worksheet](https://zackaryloevseth.github.io/research-portfolio/hayosoai/#worksheet) remains available; its AI-assisted Spanish introduction awaits independent translation review.
 
 **A technical branch.** The [integrated Reopening Probe](https://zackaryloevseth.github.io/research-portfolio/hayosoai/beta/en/reopening/) and [reference implementation](research/reopening-probe/README.md) explore one finite question about preserving the reasons behind exclusions. Separately, [Pilot 01](research/reopening-probe/pilot-01/README.md) records an actual small-model receiver test that did not demonstrate improved performance. The demonstration is not that experiment, and neither defines or validates HayosoAi as a whole. Preserve the pilot's result and its limits.
@@ -68,5 +70,5 @@ The broader [research repository](https://github.com/ZackaryLoevseth/research-po
 
 ---
 
-Project statement and open invitation · September 19, 2026 · Version 1.3  
-AI-assisted revision implementing the project originator's clarified direction. This page states aims and commitments and links separately scoped work. It is not a partnership announcement or a new license for existing assets.
+Project statement and open invitation · September 19, 2026 · Version 1.4  
+AI-assisted revision implementing the project originator's clarified direction; version 1.4 adds the companion-essay link. This page states aims and commitments and links separately scoped work. It is not a partnership announcement or a new license for existing assets.
