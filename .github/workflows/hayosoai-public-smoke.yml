@@ -1,0 +1,89 @@
+name: HayosoAi public page check
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/hayosoai/**'
+      - '.github/workflows/hayosoai-public-smoke.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: hayosoai-public-page-check
+  cancel-in-progress: true
+
+jobs:
+  verify-public-pages:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Read the exact source revision
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Compare deployed public HTML with repository bytes
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import datetime
+          import hashlib
+          import json
+          import os
+          import pathlib
+          import time
+          import urllib.error
+          import urllib.request
+
+          # GET requests only, to this repository's public site. No account
+          # credentials, forms, private data, analytics, or external actions.
+          root = pathlib.Path('docs/hayosoai')
+          base = 'https://zackaryloevseth.github.io/research-portfolio/hayosoai/'
+          reports = []
+          failed = False
+          for name in ('index.html', 'facilitator.html'):
+              source = root / name
+              if not source.is_file():
+                  continue
+              expected = hashlib.sha256(source.read_bytes()).hexdigest()
+              url = base + ('' if name == 'index.html' else name)
+              report = {'url': url, 'expected_sha256': expected, 'success': False}
+              for attempt in range(1, 7):
+                  try:
+                      request = urllib.request.Request(url, headers={
+                          'User-Agent': 'HayosoAi-public-site-check/1.0',
+                          'Cache-Control': 'no-cache',
+                      })
+                      with urllib.request.urlopen(request, timeout=12) as response:
+                          data = response.read(2_000_001)
+                          if len(data) > 2_000_000:
+                              raise ValueError('Unexpectedly large public page')
+                          actual = hashlib.sha256(data).hexdigest()
+                          report.update(http_status=response.status,
+                                        final_url=response.url,
+                                        bytes=len(data), actual_sha256=actual,
+                                        content_type=response.headers.get('Content-Type'),
+                                        attempt=attempt)
+                          report['success'] = response.status == 200 and actual == expected
+                          if report['success']:
+                              break
+                  except (urllib.error.URLError, TimeoutError, ValueError) as error:
+                      report.update(error=str(error), attempt=attempt)
+                  if attempt < 6:
+                      time.sleep(8)
+              report['checked_at_utc'] = datetime.datetime.now(datetime.timezone.utc).isoformat()
+              reports.append(report)
+              failed = failed or not report['success']
+          if not reports:
+              raise SystemExit('No HayosoAi HTML files found; no verification performed.')
+          output = json.dumps({'source_commit': os.environ.get('GITHUB_SHA'),
+                               'checks': reports}, indent=2)
+          print(output)
+          summary = os.environ.get('GITHUB_STEP_SUMMARY')
+          if summary:
+              with open(summary, 'a', encoding='utf-8') as handle:
+                  handle.write('# HayosoAi public-page verification\n\n```json\n' + output + '\n```\n')
+          raise SystemExit(1 if failed else 0)
+          PY
