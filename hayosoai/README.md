@@ -10,7 +10,9 @@ We seek peaceful coexistence: cooperation without manipulation, learning without
 
 Earth is not a backdrop to that future. It is a condition of it.
 
-**[Take part in the open cooperation exercise](https://github.com/ZackaryLoevseth/research-portfolio/issues/5)** · **[Read the opening essay](what-ai-must-do.md)**
+**[Try the browser starter and private worksheet](https://zackaryloevseth.github.io/research-portfolio/hayosoai/)** · **[Take part in the open cooperation exercise](https://github.com/ZackaryLoevseth/research-portfolio/issues/5)** · **[Read the opening essay](what-ai-must-do.md)**
+
+The starter includes a fictional worked example, a worksheet you can save privately, and a Spanish introduction. Its code does not submit worksheet entries or connect to a model. The Spanish introduction is AI-assisted and awaits independent translation review; the worksheet is in English. [Inspect the self-contained HTML source](../docs/hayosoai/index.html).
 
 ## What we stand for
 
@@ -58,5 +60,5 @@ The broader [research repository](https://github.com/ZackaryLoevseth/research-po
 
 ---
 
-Project statement and open invitation · September 19, 2026 · Version 1.0  
+Project statement and open invitation · September 19, 2026 · Version 1.1  
 This page states aims and commitments. It is not a report of experimental findings, a partnership announcement, or a new license for existing research assets.
