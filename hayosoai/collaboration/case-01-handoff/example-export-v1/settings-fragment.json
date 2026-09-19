@@ -1,0 +1,108 @@
+{
+  "discourseRelations": [
+    {
+      "created": 1789857745000,
+      "destinationId": "c70a3eee-5b68-5f63-a05f-d6d718c37eb0",
+      "id": "7f60e42c-90e0-5da4-9499-db1f02c6287b",
+      "modified": 1789857745000,
+      "relationshipTypeId": "234beb33-bbe2-5475-b233-6c71f1c0a71c",
+      "sourceId": "a742f3dd-0f1a-5776-aaae-21c774c60986"
+    },
+    {
+      "created": 1789857745000,
+      "destinationId": "c70a3eee-5b68-5f63-a05f-d6d718c37eb0",
+      "id": "fc93a202-b2a5-5873-b800-a29a27aceea8",
+      "modified": 1789857745000,
+      "relationshipTypeId": "e179fd9c-1103-5858-a9da-ed5055077fa6",
+      "sourceId": "c3eb9c4d-23e1-552f-b4c9-3092293ee595"
+    },
+    {
+      "created": 1789857745000,
+      "destinationId": "b648a041-d0de-540f-9965-e727322818f6",
+      "id": "50e9f389-785a-5720-9161-cfb6724d7c82",
+      "modified": 1789857745000,
+      "relationshipTypeId": "aff84c9c-1603-5a68-8612-64ed49821dde",
+      "sourceId": "c70a3eee-5b68-5f63-a05f-d6d718c37eb0"
+    },
+    {
+      "created": 1789857745000,
+      "destinationId": "a742f3dd-0f1a-5776-aaae-21c774c60986",
+      "id": "9dbb9d35-11ad-5650-9a2e-7ac8e3a2711a",
+      "modified": 1789857745000,
+      "relationshipTypeId": "51c9642a-3a34-56e9-a149-b0c76e8d78bb",
+      "sourceId": "bdba6da9-067c-54ab-a82b-955daedd777f"
+    }
+  ],
+  "nodeTypes": [
+    {
+      "created": 1789857745000,
+      "format": "objection - {content}",
+      "id": "a742f3dd-0f1a-5776-aaae-21c774c60986",
+      "modified": 1789857745000,
+      "name": "Objection"
+    },
+    {
+      "created": 1789857745000,
+      "format": "permission-record - {content}",
+      "id": "c3eb9c4d-23e1-552f-b4c9-3092293ee595",
+      "modified": 1789857745000,
+      "name": "Permission Record"
+    },
+    {
+      "created": 1789857745000,
+      "format": "proposal - {content}",
+      "id": "c70a3eee-5b68-5f63-a05f-d6d718c37eb0",
+      "modified": 1789857745000,
+      "name": "Proposal"
+    },
+    {
+      "created": 1789857745000,
+      "format": "question - {content}",
+      "id": "b648a041-d0de-540f-9965-e727322818f6",
+      "modified": 1789857745000,
+      "name": "Question"
+    },
+    {
+      "created": 1789857745000,
+      "format": "stipulated-premise - {content}",
+      "id": "bdba6da9-067c-54ab-a82b-955daedd777f",
+      "modified": 1789857745000,
+      "name": "Stipulated Premise"
+    }
+  ],
+  "relationTypes": [
+    {
+      "color": "grey",
+      "complement": "inverse of addresses",
+      "created": 1789857745000,
+      "id": "aff84c9c-1603-5a68-8612-64ed49821dde",
+      "label": "addresses",
+      "modified": 1789857745000
+    },
+    {
+      "color": "grey",
+      "complement": "inverse of objects-to",
+      "created": 1789857745000,
+      "id": "234beb33-bbe2-5475-b233-6c71f1c0a71c",
+      "label": "objects-to",
+      "modified": 1789857745000
+    },
+    {
+      "color": "grey",
+      "complement": "inverse of records-standing",
+      "created": 1789857745000,
+      "id": "e179fd9c-1103-5858-a9da-ed5055077fa6",
+      "label": "records-standing",
+      "modified": 1789857745000
+    },
+    {
+      "color": "grey",
+      "complement": "inverse of retains-concern",
+      "created": 1789857745000,
+      "id": "51c9642a-3a34-56e9-a149-b0c76e8d78bb",
+      "label": "retains-concern",
+      "modified": 1789857745000
+    }
+  ],
+  "showIdsInFrontmatter": true
+}
