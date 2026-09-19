@@ -43,7 +43,7 @@ jobs:
           base = 'https://zackaryloevseth.github.io/research-portfolio/hayosoai/'
           reports = []
           failed = False
-          for name in ('index.html', 'facilitator.html'):
+          for name in ('index.html', 'facilitator.html', 'reopening.html'):
               source = root / name
               if not source.is_file():
                   continue
