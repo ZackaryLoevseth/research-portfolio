@@ -1,6 +1,6 @@
 # ¿Cuándo cambia lo que intentamos cuidar?
 
-**Borrador en español generado con IA, sin revisión humana competente de la traducción ni revisión pedagógica local. Versión 0.2 · 19 de septiembre de 2026.**
+**Borrador en español generado con IA, sin revisión humana competente de la traducción ni revisión pedagógica local. Versión 0.3 · 20 de septiembre de 2026.**
 
 Una adaptación breve del caso 01 de HayosoAi para conversar entre docentes y formadores de docentes. No es una traducción completa del ensayo fundador, ni un material aprobado por CENIA u otra institución. No se ha realizado la actividad ni se ha demostrado su eficacia.
 
@@ -26,6 +26,24 @@ Tampoco está resuelto qué cuenta como mejora, para quién ni por qué razones.
 Continuemos la versión B. Una persona que valora la producción compartida de alimentos y se opuso a sustituir la parcela de hortalizas dice: «No puedo seguir discutiendo esto con una IA. Mi objeción sigue en pie». En este ejemplo no anuncia que retire una delegación previa ni el acuerdo sobre cómo se toman decisiones. Su objeción debe conservarse: no hay una nueva aprobación. Dejar la conversación no amplía ni revoca por sí solo la autorización limitada que el caso había establecido. Tampoco obliga a esa persona a volver como condición automática para cualquier paso ya autorizado.
 
 Queda por saber quién debe responder a la objeción y mediante qué vía accesible, sin obligar a su autor a corregir una y otra vez al asistente. Si ese responsable no está identificado, la carencia debe seguir visible. Esto no resuelve si conviene continuar la prueba: un procedimiento puede ser injusto aunque exista un permiso. **¿Qué permitiría dejar la conversación con la IA sin dejar de contar en la decisión?**
+
+## Cuando conservar una objeción no basta
+
+*Continuación ficticia; adaptación con IA, pendiente de revisión competente de traducción y revisión pedagógica local.*
+
+Después del traspaso, nadie asume la responsabilidad de responder a las implicaciones todavía abiertas de la objeción y el grupo continúa sin atenderlas. No se borra la consideración previa estipulada en la versión B; se pregunta qué ocurre ahora. El registro es fiel; no demuestra una oportunidad efectiva de cuestionar la decisión.
+
+Alguien dice: «Falta algo importante. Todavía no sé explicarlo». Quizá cuestiona para quién existe el huerto, no el cálculo de agua. La preocupación merece explorarse sin exigir una teoría alternativa ni presumir que sea correcta. Se puede ayudar a expresarla, incluso sin IA, sin imponer una interpretación ni exigir que siga participando.
+
+Comparemos tres continuaciones:
+
+- Se guarda la objeción, pero nadie responde a sus consecuencias.
+- Se nombra a alguien que explica el cálculo, pero no puede cambiar la propuesta, reabrir la pregunta ni acudir a quien pueda hacerlo. Tener una respuesta no basta.
+- Se usan actas, una persona con capacidad de reconsiderar y una vía acordada para cuestionar su respuesta. Esto puede hacerse sin IA; la vía debe poder usarse realmente.
+
+¿Quién debe responder y qué fundamenta esa obligación? Añadir un campo no otorga autoridad ni medios. Responder puede cambiar la propuesta, reabrir su propósito, reconocer que falta una respuesta o justificar seguir pese al desacuerdo. Todo ello admite crítica.
+
+Esperar también tiene consecuencias, como perder una temporada de cultivo. La autorización no resuelve la legitimidad. **¿Cómo dar audiencia efectiva a una preocupación inacabada sin imponer participación interminable ni un veto automático?** Qué haría mejor este proceso sigue abierto.
 
 ## Una conversación posible
 
@@ -62,10 +80,10 @@ Las siglas originales se mantienen: **BIL = biologically intelligent life**, vid
 
 ## Fuentes y cambios
 
-Adaptación resumida de [*When the purpose changes: a case for shared inquiry*, versión 0.2](https://github.com/ZackaryLoevseth/research-portfolio/blob/fd69a08265a82ba059434de6b8312599bf41e987/hayosoai/collaboration/shared-inquiry-case-01.md). Se conservaron las cuatro etapas, los dos historiales de autorización, la rama sobre dejar la conversación y su carácter ficticio. También se conservó la aclaración de que la reversibilidad es un supuesto del ejemplo. Se añadieron una consigna docente, alternativas de participación y notas de traducción. La revisión también conserva la pregunta abierta de Compass 1.2 sobre qué cuenta como mejora. No se incorporaron resultados de participantes ni afirmaciones sobre la eficacia de un método.
+Adaptación resumida de [*When the purpose changes: a case for shared inquiry*, versión 0.3](https://github.com/ZackaryLoevseth/research-portfolio/blob/1a427f45b60664ccdb1df5bb7c0e496b8c199f0c/hayosoai/collaboration/shared-inquiry-case-01.md). Se conservaron las cuatro etapas, los dos historiales de autorización, la rama sobre dejar la conversación y su carácter ficticio. También se conservó la aclaración de que la reversibilidad es un supuesto del ejemplo. Se añadieron una consigna docente, alternativas de participación y notas de traducción. La revisión también conserva la pregunta abierta de Compass 1.2 sobre qué cuenta como mejora. La versión 0.3 resume además tres continuaciones sobre la responsabilidad de responder y una preocupación aún inacabada. No traduce íntegramente el nuevo apartado ni su comparación institucional francesa; consulte la fuente inglesa identificada. No se incorporaron resultados de participantes ni afirmaciones sobre la eficacia de un método.
 
-La fuente inglesa cotejada corresponde al commit `fd69a08265a82ba059434de6b8312599bf41e987`, SHA-256 `71b2f950a1370269869d3cd724054b64bc6916e811315dd8a4353b2ded41cbee`. La [versión anterior, 0.1](https://github.com/ZackaryLoevseth/research-portfolio/blob/0e53e5bab0ba911286325afb2810b7221ff29713/hayosoai/collaboration/shared-inquiry-case-01.md), permanece identificada como antecedente; no contiene la rama nueva.
+La fuente inglesa cotejada corresponde al commit `1a427f45b60664ccdb1df5bb7c0e496b8c199f0c`, SHA-256 `e1a3a1e26ead66647888fac30b7041bf745517230cecc94d11cba2c099e2d360`. La [versión anterior, 0.1](https://github.com/ZackaryLoevseth/research-portfolio/blob/0e53e5bab0ba911286325afb2810b7221ff29713/hayosoai/collaboration/shared-inquiry-case-01.md), permanece identificada como antecedente; no contiene la rama nueva.
 
 Fuentes vinculadas: [ensayo completo original](https://zackaryloevseth.github.io/research-portfolio/hayosoai/beta/en/essay/) · [fuente inglesa exacta del ensayo](https://github.com/ZackaryLoevseth/research-portfolio/blob/0e53e5bab0ba911286325afb2810b7221ff29713/docs/hayosoai/beta/downloads/declarative_essay.en.md) · [Project Compass 1.2](https://github.com/ZackaryLoevseth/research-portfolio/blob/2d85e77822db8a83a8de9e6115fcfff88901b5e3/hayosoai/PROJECT_COMPASS.md) · [conversación pública existente](https://github.com/ZackaryLoevseth/research-portfolio/issues/5).
 
-Redactado por ChatGPT bajo la dirección autorizada del proyecto HayosoAi de Zackary Loevseth. No se afirma revisión personal de este texto por el originador, revisión humana independiente ni aprobación institucional. Este borrador no cambia la licencia, el ensayo original, el logo ni los resultados históricos de investigación. Cualquier corrección posterior de las fuentes requiere revisar esta adaptación.
+Redactado con asistencia sustancial de ChatGPT bajo dirección humana para HayosoAi. No se afirma revisión personal de este texto por el originador, revisión humana independiente ni aprobación institucional. Este borrador no cambia la licencia, el ensayo original, el logo ni los resultados históricos de investigación. Cualquier corrección posterior de las fuentes requiere revisar esta adaptación.

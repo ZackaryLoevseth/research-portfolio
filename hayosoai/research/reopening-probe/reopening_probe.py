@@ -5,7 +5,7 @@ Python 3.10+, standard library only. No network, telemetry, credentials, or mode
 Grounds are ORs of AND-sets of premise IDs. Withdrawal removes support; it does
 not assert that the premise is false. Reconsideration never establishes a candidate
 or grants execution permission. All cases are constructed, not observed transcripts.
-Generated with ChatGPT under Zackary Loevseth's project direction, 2026-09-19.
+Generated with ChatGPT under human direction for HayosoAi, 2026-09-19.
 """
 from __future__ import annotations
 import argparse

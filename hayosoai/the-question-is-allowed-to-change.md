@@ -2,7 +2,7 @@
 
 ## Helping an unfinished idea grow without taking it over
 
-*HayosoAi · Working philosophical essay · September 19, 2026*
+*HayosoAi · Working philosophical essay · September 19, 2026 · Presentation revision September 20, 2026*
 
 Imagine a community asking an AI assistant: “Help us care for this garden.” The assistant produces an efficient watering schedule. The arithmetic is sound. The plan is clear. Yet the people who asked may have been trying to understand how to share responsibility for a place, not merely how to distribute water.
 
@@ -84,6 +84,6 @@ An open question for readers: when has a collaborator changed your question in a
 
 [2] [HayosoAi Project Compass, version 1.0](https://github.com/ZackaryLoevseth/research-portfolio/blob/5cddda4a37561106bfdd65b1aa04923bd3ef87da/hayosoai/PROJECT_COMPASS.md), “Purpose before proxies.”
 
-Drafted by ChatGPT under Zackary Loevseth's authorized HayosoAi project direction. The garden examples and suggested dialogue are constructed. The account offered here is open for criticism and revision; no novelty, model-performance result, independent human review, or personal endorsement of this new text is claimed. It is separate from Pilot 01 and does not revise that experiment's outcome. Existing licensing is unchanged.
+Drafted with substantial ChatGPT assistance under human direction for HayosoAi. The garden examples and suggested dialogue are constructed. The account offered here is open for criticism and revision; no novelty, model-performance result, independent human review, or personal endorsement of this new text is claimed. It is separate from Pilot 01 and does not revise that experiment's outcome. Existing licensing is unchanged.
 
 [Read the original essay](https://zackaryloevseth.github.io/research-portfolio/hayosoai/beta/en/essay/) · [Join the existing public conversation](https://github.com/ZackaryLoevseth/research-portfolio/issues/5)
