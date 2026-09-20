@@ -4,7 +4,7 @@
 
 When a reason for rejecting a route is withdrawn, what should a research process reconsider? This prototype makes one narrow part of that question executable. It is not a measurement of an AI model, a validated benchmark, or a claim to have solved alignment.
 
-The code and examples were generated with ChatGPT under Zackary Loevseth's project direction. The list evaluator and bit-mask checker were produced in the same AI-assisted development process; different implementations are not independent human review. No external specialist review is claimed.
+The code and examples were generated with ChatGPT under human direction for HayosoAi. The list evaluator and bit-mask checker were produced in the same AI-assisted development process; different implementations are not independent human review. No external specialist review is claimed.
 
 **[Try the interactive demonstration: A correct answer. A broken handoff.](https://zackaryloevseth.github.io/research-portfolio/hayosoai/reopening.html)**
 
@@ -92,3 +92,5 @@ A useful review could identify a semantic error, propose a fairer comparison, or
 [HayosoAi project](../../README.md) · [Public participation thread](https://github.com/ZackaryLoevseth/research-portfolio/issues/5)
 
 No new license is granted by this release, and no existing portfolio license is changed. Public inspectability is not a claim of an unrestricted reuse license. This artifact is separate from the original essay, the local Codex site, and Study 14.
+
+Presentation revision, September 20, 2026: project attribution updated in this page and the reference script; rule logic, constructed cases and historical results are unchanged.

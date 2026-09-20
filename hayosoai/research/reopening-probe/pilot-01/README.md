@@ -60,7 +60,7 @@ Model: [Qwen/Qwen3-0.6B](https://huggingface.co/Qwen/Qwen3-0.6B), revision `c189
 
 Actual loaded parameter count: 596,049,920. Recorded model-load time: 10.3094 seconds. Inference-loop time: 116.5655 seconds. Total recorded input tokens: 16,728; output tokens including termination: 96. Setup and downloads are outside the inference-loop timing. No paid inference service or user API key was used. Energy, water, and emissions are unmeasured.
 
-Code, cases, checking, and analysis are AI-authored under Zackary Loevseth's project direction. Different checking implementations from this same process are not independent human review. No novelty, third-party endorsement, general safety, or efficacy claim is established.
+Code, cases, checking, and analysis are AI-authored under human direction for HayosoAi. Different checking implementations from this same process are not independent human review. No novelty, third-party endorsement, general safety, or efficacy claim is established.
 
 ## Inspect the entire report without running a model
 
@@ -94,3 +94,5 @@ The mathematical point and the empirical question remain distinct: preserving en
 [Reference model and finite audit](../README.md) · [Public participation](https://github.com/ZackaryLoevseth/research-portfolio/issues/5)
 
 No model weights or private application materials are included. No new license is granted by this report, and no existing portfolio licenses or scientific releases are changed.
+
+Presentation revision, September 20, 2026: project attribution updated. The frozen script, raw report, integrity references, reported outcomes and evidential limits are unchanged.

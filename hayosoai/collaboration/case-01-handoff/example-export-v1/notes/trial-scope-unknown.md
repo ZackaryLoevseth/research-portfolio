@@ -5,7 +5,7 @@ kind: "permission-record"
 fictional: true
 history: "history-b"
 coverage: "partial"
-source_sha256: "71b2f950a1370269869d3cd724054b64bc6916e811315dd8a4353b2ded41cbee"
+source_sha256: "e1a3a1e26ead66647888fac30b7041bf745517230cecc94d11cba2c099e2d360"
 ---
 
 # Exact trial scope remains unrecorded
@@ -14,9 +14,9 @@ Fictional case record. Derivation is not support, agreement, or authorization. T
 
 The source supplies no location, duration, implementer, or stopping criteria. The record is insufficient for inferring these details.
 
-Attribution: Constructed by ChatGPT under HayosoAi project direction. No collected testimony, model outcome, personal review or outside validation is claimed.
+Attribution: Handoff edition 2, derived from case 0.3. Constructed with substantial ChatGPT assistance under human direction for HayosoAi. No collected testimony, model outcome, personal review or outside validation is claimed.
 
-Source: [published-case](https://github.com/ZackaryLoevseth/research-portfolio/blob/fd69a08265a82ba059434de6b8312599bf41e987/hayosoai/collaboration/shared-inquiry-case-01.md); exact bytes: [source](../sources/case.md).
+Source: [published-case](https://github.com/ZackaryLoevseth/research-portfolio/blob/1a427f45b60664ccdb1df5bb7c0e496b8c199f0c/hayosoai/collaboration/shared-inquiry-case-01.md); exact bytes: [source](../sources/case.md).
 
 Source excerpt:
 

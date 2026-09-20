@@ -35,6 +35,14 @@ class ExportTests(unittest.TestCase):
             self.assertIn(self.record["attribution"], note)
         self.assertIn("Refusal is not consent", (out / "notes/nonparticipation.md").read_text())
 
+    def test_receiving_note_preserves_unassigned_response_without_inventing_permission(self):
+        out = self.run_export()
+        note = (out / "notes/nonparticipation.md").read_text()
+        self.assertIn("does not identify who is responsible for responding", note)
+        self.assertIn("or an accessible response route", note)
+        self.assertIn("does not settle whether the trial should proceed", note)
+        self.assertNotIn("Permission status", note)
+
     def test_same_proposal_different_standing_and_unknown_scope(self):
         out = self.run_export()
         nodes = {n["id"]: n for n in json.loads((out / "record.json").read_text())["nodes"]}
