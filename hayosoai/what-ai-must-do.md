@@ -2,7 +2,7 @@
 
 ### Safety requirements should survive changes in our scientific understanding.
 
-**Zackary Loevseth · HayosoAi · September 19, 2026**  
+**HayosoAi · September 19, 2026**  
 Position essay · Version 1.0
 
 We do not have to settle what an AI system experiences before specifying who may authorize its actions. Nor should an assertion about experience—positive or negative—become a substitute for a tested safety mechanism.
@@ -87,6 +87,6 @@ That is the contribution offered here: one distinction, proposed wording, and a 
 
 ### About HayosoAi
 
-HayosoAi is Zackary Loevseth’s independent human–AI research project, developing ideas and practices for research that preserves evidence, correction, and human accountability. Its broader concerns include the people, societies, and environment affected by AI.
+HayosoAi is an independent human–AI research project, developing ideas and practices for research that preserves evidence, correction, and human accountability. Its broader concerns include the people, societies, and environment affected by AI.
 
 [Research portfolio](https://zackaryloevseth.github.io/research-portfolio/) · [Raise a substantive correction](https://github.com/ZackaryLoevseth/research-portfolio/issues)
