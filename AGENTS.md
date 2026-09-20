@@ -6,6 +6,14 @@ Before selecting a substantial HayosoAi task, read `hayosoai/PROJECT_COMPASS.md`
 
 Essential correction: HayosoAi's philosophical inquiry, clarification of unfinished ideas, peaceful human–AI cooperation, and care for Earth are not conditional on obtaining proof or a positive benchmark. Apply evidence standards to the particular claim being made, without substituting an easier-to-measure project for the actual purpose. Difficulty of proof is neither proof nor disproof. Do not automatically choose another experiment merely because the previous work was experimental.
 
+## Public project identity
+
+Use **HayosoAi** as the public-facing project identity. Do not add or restore the originator's personal name, personal contact details, or biographical attribution in HayosoAi pages, bylines, public documents, social copy, screenshots, downloadable derivatives, or public issue/comment bodies. Retain accurate disclosure of human direction and AI assistance without inventing a team, corporation, affiliation, or independent review.
+
+This public-presentation direction does not request deleting, anonymizing, or otherwise changing emails, private applications, private working records, or the applicant's identity in correspondence. It does not authorize altering unrelated research authorship, third-party credits, legal rights notices, account ownership, repository visibility, usernames, or Git history. Address any such changes separately. Preserve the original philosophical content and approved logo.
+
+Current hosting and GitHub account URLs may still expose a personal account identifier. Do not break functional links by substituting an unverified project URL, and do not claim anonymity or completed removal from history, caches, forks, or third-party copies. Reconcile source pages and generated downloads before publishing; older source copies must not silently restore personal bylines. Keep any detailed removal inventory and personal identifiers in private working records, not a new public audit trail.
+
 ## Do not presuppose what “better” means
 
 The originator's clarification, recorded in Compass 1.2, is: **“We don't know what better means.”** The criteria of improvement can themselves be under investigation; this is not merely uncertainty about how to optimize a settled objective. Before consequentially ranking actions, make the relevant grounds and unresolved tradeoffs visible. Distinguish a local observation such as greater speed, a corrected calculation, wider adoption, or a shorter text from a claim that the collaboration is better overall. Neither user approval nor AI confidence settles that question by itself.
