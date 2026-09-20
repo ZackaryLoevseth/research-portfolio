@@ -1,6 +1,6 @@
 # When feedback questions the task
 
-**HayosoAi · Working research note · Version 0.1 · September 20, 2026**
+**HayosoAi · Working research note · Version 0.1.1 · September 20, 2026**
 
 *A source-grounded comparison and an offered design question. This note develops the existing garden case; it is not a new benchmark, a completed participant study, or a replacement for the founding essay.*
 
@@ -16,7 +16,7 @@ The following is a selective comparison, not a systematic review. Descriptions i
 
 In the original **Cooperative Inverse Reinforcement Learning** formulation, the human and robot share a reward function with static parameters observed by the human but initially unknown to the robot. The formal game supports teaching and information-seeking within that setup. This is a specific modeling assumption, not a description of all human purposes or all subsequent assistance research. Section 3.1 and Definition 1 specify the parameters and observation structure. [1]
 
-**Question for this inquiry:** what changes when the person is not withholding an already settled answer, but is still developing what deserves consideration? A formal model may be extendable to address this. The original assumption alone does not answer it.
+**Question for this inquiry:** what changes when the person does not yet have an already settled answer to communicate, but is still developing what deserves consideration? A formal model may be extendable to address this. The original assumption alone does not answer it.
 
 ### A representation that omits what the person means
 
@@ -90,7 +90,7 @@ For example, a proposed handoff for variation C might read:
 
 This is an ordinary prose note, not a prescribed schema. It records a provisional interpretation as provisional, and avoids making the software's preferred reading look like the participant's consent. The next recipient can disagree with the reading without needing to erase the original concern.
 
-A small interface could offer “that is not what I meant” alongside an editable interpretation. But adding a button does not create an accessible process, assign responsibility, or establish that the interpretation is fair. A team must be able to say that ordinary minutes or a non-AI conversation serve the issue with less burden.
+A small interface could offer “that is not what I meant” alongside an editable interpretation. Not using that control must not count as confirmation of the interpretation. Acknowledging receipt of a challenge must not be recorded as answering it. But adding a button does not create an accessible process, assign responsibility, or establish that the interpretation is fair. A team must be able to say that ordinary minutes or a non-AI conversation serve the issue with less burden.
 
 The near-term practical question is **whether a receiving person can tell what was asserted, what was inferred, what remains disputed, and what may be acted on**. A second question is whether that distinction affects how they respond. Neither is identical to deciding which garden plan is better overall.
 
@@ -128,4 +128,6 @@ The intended bridge is between an existing learning method and a question about 
 
 Primary-source passages checked September 20, 2026. This is selective reading, not a complete survey, and the source papers do not endorse HayosoAi. The source-derived claims are concentrated in Section 1; the cases, distinctions, proposed interface, and next research question are AI-assisted conceptual development from the existing HayosoAi case. They have not received independent human review and no effectiveness or novelty claim is established.
 
-The [founding essay](../../docs/hayosoai/beta/downloads/declarative_essay.en.md) and [Project Compass](../PROJECT_COMPASS.md) remain the source context. The essay's physicalist account and identification of consciousness with interpretive intelligence, distinct from felt experience, are philosophical positions, not findings established by this note. The original essay and logo are unchanged. The case, its exports, and Pilot 01 were not edited or rerun. No new license, institutional endorsement, or external adoption is implied. Drafted by ChatGPT under HayosoAi project direction.
+The [founding essay](../../docs/hayosoai/beta/downloads/declarative_essay.en.md) and [Project Compass](../PROJECT_COMPASS.md) remain the source context. The essay's physicalist account and identification of consciousness with interpretive intelligence, distinct from felt experience, are philosophical positions, not findings established by this note. The original essay and logo are unchanged. This note reports no new model or participant experiment and does not revise Pilot 01’s results. No new license, institutional endorsement, or external adoption is implied. Drafted by ChatGPT under HayosoAi project direction.
+
+Version 0.1.1 clarifies the CIRL comparison, keeps an unedited interpretation unconfirmed, distinguishes acknowledgment from an answer, and scopes this note’s research-status statement separately from concurrent case revisions.
