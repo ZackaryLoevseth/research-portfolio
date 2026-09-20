@@ -18,7 +18,8 @@ Microsoft's formal consultation response remains **unsubmitted** according to th
 
 ## Microsoft consultation response — not submitted
 
-Author: Zackary Loevseth  
+Public project identity: HayosoAi
+
 Affiliation: HayosoAi — independent human–AI research project
 
 Official route recorded during launch research: https://forms.cloud.microsoft/r/qrsWVA6gEZ

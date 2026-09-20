@@ -1,7 +1,7 @@
 # Did the correction stick?
 
 **A HayosoAi discussion exercise about cooperation without surrendering judgment.**  
-Zackary Loevseth · HayosoAi · September 19, 2026 · Version 1.0
+HayosoAi · September 20, 2026 · Version 1.0.1
 
 ## At a glance
 

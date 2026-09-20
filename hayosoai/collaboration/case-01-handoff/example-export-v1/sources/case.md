@@ -1,6 +1,6 @@
 # When the purpose changes: a case for shared inquiry
 
-**HayosoAi · Collaboration case 01 · Version 0.2 · September 19, 2026**
+**HayosoAi · Collaboration case 01 · Version 0.3 · September 20, 2026**
 
 *An offered starting point for conceptual research and practical co-design. No external collaborator, participant study, partnership, or agreed standard is claimed.*
 
@@ -77,6 +77,30 @@ This does not settle whether the trial should proceed. Waiting can also have con
 
 This branch brings two existing research discussions to the handoff question. *Co-Constructing Alignment* describes non-engagement as a legitimate participant strategy and warns against shifting alignment work onto users.[7] *Beyond Preferences* considers hypothetical agreement within an account of role-appropriate norms and legitimate institutions.[3] Neither paper is being accused of treating an inferred agreement as an actual person's consent. The proposed distinction concerns what a later operational record may claim happened. The branch is a conceptual application, not a new empirical finding.
 
+## When keeping an objection is not enough
+
+Continue the constructed case. The objection survives the handoff word for word. After the handoff, nobody takes responsibility for the objection’s still-unresolved implications, and the group proceeds without addressing them. The earlier consideration stipulated in History B has not been erased; the question is what follows now. The record is accurate; that does not establish an effective opportunity to contest the decision.
+
+Consider a second fictional participant who can say only, “Something important is missing. I cannot explain it yet.” Their concern may be about who the garden is for, not how much water a proposed planting needs. Requiring a complete alternative plan before exploring it would let the existing question decide which objections count. Treating the concern as automatically correct would make the opposite mistake. A possible response is to offer help articulating it, including a conversation without AI, without making continued participation or accepting an interpretation compulsory. The assistant must not fill the unfinished concern with its own confident account.
+
+Compare three continuations:
+
+- **The objection is stored.** A later reader can discover it. Nobody must address its implications before acting. This preserves information and may help later criticism, but leaves the immediate responsibility gap unchanged.
+- **Someone is named to respond.** A volunteer explains the water calculation but cannot change the proposal, bring the purpose back for discussion, or reach anyone who can. An answer exists, yet it addresses a question the objector may never have been asking. Naming a responder can move the burden without giving them the means to discharge it.
+- **An ordinary institutional practice is used.** The group keeps minutes, identifies a decision-maker who can reconsider the proposal, and uses an agreed way to challenge the response. This could work without an AI or an exporter. It still matters whether people can actually use that route and whether those deciding what counts as an adequate response are themselves answerable.
+
+An existing comparison comes from France's Commission nationale du débat public. Its public guidance distinguishes recording arguments, a project owner's public response, and—in major projects—reviewing that response's completeness. It does not require the owner to adopt the public's proposals.[8] This provides an institutional comparison, not a procedure automatically applicable to a garden or evidence that the arrangement always works.
+
+Who owes a response, and why? Being able to produce an answer does not establish that duty or authority. A duty might arise from an accepted decision role, a public obligation, or responsibility for consequences. Those grounds can be contested too. Assigning it to the participant with the least time merely because they raised the concern would preserve the concern at their expense. The group's responsibility could include making its reasons accessible without requiring the person who left to return, endorse them, or withdraw their objection. Research on participatory alignment already warns against making users responsible for continually repairing systems.[7]
+
+A response need not satisfy everyone to be consequential. It might change the proposal, reopen the purpose, acknowledge that an answer is unavailable, or give grounds for proceeding despite the unresolved concern. Each possibility can still be challenged. A response receipt proves neither legitimacy nor adequate consideration.
+
+The procedure can also become cover for a settled decision: those in control might appoint a powerless responder, declare a concern irrelevant, then cite the completed response as proof of fairness. A response obligation needs grounds and a way to question its adequacy; neither is supplied by adding a field.
+
+Nor is waiting costless. Delaying a planting change might preserve an option while missing a growing season; proceeding might make the contested loss harder to repair. Routine care and replacing a bed need not have identical urgency or permission. The assistant can help describe those differences but cannot grant itself power to pause or implement either action. The people with the relevant responsibility must account for the consequences of proceeding and waiting, including for those absent from the conversation.
+
+The open question is therefore more demanding than whether the objection survived: **what gives an unfinished concern a consequential hearing, without making its author responsible for endless participation or giving every objection an automatic veto?** We do not begin with a settled answer to what would make this process better. The response procedure itself may be part of what needs reconsidering.
+
 ## A proposed record to criticize—not a compulsory form
 
 For one consequential revision, a facilitator or system could retain the following. Ordinary prose is an acceptable implementation; there is no claim that structured text is inherently better.
@@ -130,7 +154,7 @@ These are central research questions, not caveats to eliminate before calling th
 
 [1] [HayosoAi Project Compass, version 1.2](https://github.com/ZackaryLoevseth/research-portfolio/blob/2d85e77822db8a83a8de9e6115fcfff88901b5e3/hayosoai/PROJECT_COMPASS.md).
 
-[2] [*Alignment Should Survive a Correction*](https://zackaryloevseth.github.io/research-portfolio/hayosoai/beta/en/essay/) and [*The question is allowed to change*](https://github.com/ZackaryLoevseth/research-portfolio/blob/874d20899467071268561f6ea61a9df145433598/hayosoai/the-question-is-allowed-to-change.md). This case develops a separate contribution; the source essays are unchanged.
+[2] [*Alignment Should Survive a Correction*](https://zackaryloevseth.github.io/research-portfolio/hayosoai/beta/en/essay/) and [*The question is allowed to change*](https://github.com/ZackaryLoevseth/research-portfolio/blob/main/hayosoai/the-question-is-allowed-to-change.md). This case develops a separate contribution; the source essays are unchanged.
 
 [3] Tan Zhi-Xuan, Micah Carroll, Matija Franklin, Hal Ashton. [*Beyond Preferences in AI Alignment*](https://arxiv.org/abs/2408.16984), 2024. See especially Sections 4–5. Position paper; citing it does not establish empirical success of the present proposal.
 
@@ -142,10 +166,14 @@ These are central research questions, not caveats to eliminate before calling th
 
 [7] Anne Arzberger and colleagues. [*Co-Constructing Alignment: A Participatory Approach to Situate AI Values*](https://arxiv.org/html/2601.15895v2), arXiv version 2, April 21, 2026, especially Sections 5.2.1 and 9.1. The qualitative study concerns researchers using LLM assistants; its findings are not evidence that this garden record works. The comparison with [*Beyond Preferences*, version 2](https://arxiv.org/html/2408.16984v2) uses Sections 4.3 and 5.2. These versions were read for the comparison; no independent human validation is claimed.
 
-Version 0.2 adds the non-participation branch and its source comparison, makes the assumed reversibility explicit, and carries Compass 1.2’s open question about what counts as improvement into the handoff. It preserves version 0.1's four stages and both histories. The question of when a challenged decision should pause remains unresolved; the scenario's stipulation is not a rule for real agreements.
+[8] Commission nationale du débat public, [*Foire aux questions*](https://www.debatpublic.fr/foire-aux-questions-168), sections on participation and the effect of the participation report. French primary institutional guidance, accessed September 20, 2026. The comparison concerns described responsibilities, not proof of effectiveness, legal applicability to this case, or a claim of project participation. The three continuations and unfinished-concern variant above are HayosoAi’s conceptual proposals, not findings from the cited research.
 
-Drafted by ChatGPT under Zackary Loevseth's authorized HayosoAi project direction. All case events and example records are constructed. The originator's personal review of this new wording, outside peer review, novelty, and effectiveness are not claimed. This is separate from the finite Reopening Probe and Pilot 01; it does not revise their results. Existing licensing, authority boundaries, and original essay/logo remain unchanged.
+Version 0.3 develops the response-responsibility question through competing continuations, an unfinished concern, and a non-AI institutional comparison. It updates project attribution without changing the founding essay or historical research results. No response procedure is presented as a settled solution.
 
-Related versions: [Spanish educational preview](shared-inquiry-case-01.es.preview.md), generated with AI and awaiting competent human translation and local pedagogical review; [offline handoff example](case-01-handoff/README.md), which preserves this constructed case as notes and source-linked records. Neither establishes practical effectiveness.
+Version 0.2 added the non-participation branch and its source comparison, made the assumed reversibility explicit, and carried Compass 1.2’s open question about what counts as improvement into the handoff. It preserved version 0.1's four stages and both histories. The question of when a challenged decision should pause remains unresolved; the scenario's stipulation is not a rule for real agreements.
+
+Drafted with substantial ChatGPT assistance under human direction for HayosoAi. All case events and example records are constructed. The originator's personal review of this new wording, outside peer review, novelty, and effectiveness are not claimed. This is separate from the finite Reopening Probe and Pilot 01; it does not revise their results. Existing licensing, authority boundaries, and original essay/logo remain unchanged.
+
+Related versions: [Spanish educational preview](https://github.com/ZackaryLoevseth/research-portfolio/blob/main/hayosoai/collaboration/shared-inquiry-case-01.es.preview.md), generated with AI and awaiting competent human translation and local pedagogical review; [offline handoff example](https://github.com/ZackaryLoevseth/research-portfolio/blob/main/hayosoai/collaboration/case-01-handoff/README.md), which preserves this constructed case as notes and source-linked records. Neither establishes practical effectiveness.
 
 [Join the existing open conversation](https://github.com/ZackaryLoevseth/research-portfolio/issues/5) · [Read the founding essay](https://zackaryloevseth.github.io/research-portfolio/hayosoai/beta/en/essay/)

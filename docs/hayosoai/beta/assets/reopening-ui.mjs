@@ -1,5 +1,5 @@
 import {createProbeState, updateProbeState, setCoverage, probeSnapshot} from './reopening-engine.mjs?v=3e1c2c812ee929e3';
-import words from './reopening-strings.mjs?v=7295916934fffb34';
+import words from './reopening-strings.mjs?v=839120a6c46cd003';
 
 const format = (template, values) => Object.entries(values).reduce((text, [key, value]) => text.replaceAll(`{${key}}`, value), template);
 

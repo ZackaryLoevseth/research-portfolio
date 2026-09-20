@@ -393,3 +393,31 @@
     .reopening-authority { padding-inline: 22px; }
   }
 }
+
+/* The companion case uses the existing reading layout. */
+.case-entry { padding-block: 38px 0; max-width: 1120px; }
+.case-entry .large-copy { max-width: 850px; }
+.case-entry p { margin-bottom: 20px; max-width: 850px; }
+.case-jumps { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-block: 24px; }
+.case-jumps a { padding-block: 8px; }
+.case-source-link { color: var(--muted); }
+.case-prose { min-width: 0; }
+.case-prose h1 + p { font: .85rem/1.6 var(--sans); color: var(--teal); }
+.case-prose li { margin-bottom: 16px; }
+.case-prose ul { padding-left: 1.25em; }
+.case-prose a, .case-walkthrough a { overflow-wrap: anywhere; }
+.case-table { width: 100%; border-collapse: collapse; table-layout: fixed; font: .93rem/1.7 var(--sans); margin-block: 28px; }
+.case-table th, .case-table td { text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); padding: 15px 12px; overflow-wrap: anywhere; }
+.case-table thead th { background: var(--paper); }
+.case-table th:first-child { width: 42%; }
+.case-walkthrough { max-width: 1050px; border-top: 1px solid var(--line); padding-block: 55px; }
+.case-walkthrough p, .case-walkthrough ol { max-width: 760px; margin-block: 22px; line-height: 1.8; }
+.case-walkthrough li { padding-bottom: 16px; }
+.case-walkthrough h3 { margin-top: 38px; }
+@media (max-width: 600px) {
+  .site-header nav { flex-wrap: wrap; justify-content: flex-start; gap: 0 20px; }
+  .case-table { font-size: .85rem; }
+  .case-table th, .case-table td { padding: 12px 8px; }
+  .case-jumps { gap: 0 18px; }
+}
+@media print { .case-entry, .case-walkthrough { display: none; } .case-table { font-size: 9pt; } }
