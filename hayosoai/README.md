@@ -4,7 +4,7 @@
 
 **Human–AI cooperation, grounded in inquiry, evidence, accountability, and care for the Earth.**
 
-HayosoAi is an independent, human-led research project initiated by Zackary Loevseth. Our aim is to bridge the gap between people and AI through understanding, useful collaboration, and work that can be questioned and corrected.
+HayosoAi is an independent, human-led research project. Our aim is to bridge the gap between people and AI through understanding, useful collaboration, and work that can be questioned and corrected.
 
 We seek peaceful coexistence: cooperation without manipulation, learning without surrendering judgment, and progress that does not ignore the people and environment affected by it.
 
