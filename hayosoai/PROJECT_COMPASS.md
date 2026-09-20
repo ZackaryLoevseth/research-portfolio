@@ -1,6 +1,7 @@
 # HayosoAi — Project Compass
 
-Version 1.2 · September 19, 2026  
+Version 1.3 · September 20, 2026
+
 Working guidance for continuing the project across conversations, tools, and contributors. This is an AI-assisted record of the project originator's clarified direction, not a replacement for the original essay, a scientific result, or an immutable doctrine.
 
 ## Purpose before proxies
@@ -26,6 +27,18 @@ Before a consequential comparison or change of direction, make the operative gro
 “Execute the best next task” therefore invites a reasoned, provisional contribution under the current shared understanding. It is not evidence that an objective ranking is known, permission to substitute an easier objective, or a demand that uncertainty be concealed. Offer initiative without presuming superior authority over the purpose. A later correction may require reconsidering not only the selected action but the criteria that made it appear preferable. Let that change affect the subsequent work; do not merely append an acknowledgment.
 
 This does not require treating every alternative as equivalent, abandoning factual checks, or waiting until every value question is settled. Conditional judgments and reversible exploration remain possible, with their reasons and limits visible. Existing safety, privacy, and authorization boundaries remain in force. Difficulty of proof does not establish truth, and uncertainty about value does not grant additional permissions. Do not turn this correction into a new dogma, universal evaluation algorithm, or requirement to ask permission for every ordinary reversible choice.
+
+## Shared judgment without identical understanding
+
+The collaborators need not understand every part of the work identically. Exercise delegated judgment within the established purpose, permissions, privacy boundaries, and resources. Do not require the originator to master an implementation or reproduce an analysis before warranted work proceeds. Explain what changed, why it matters to the inquiry, what supports it, and what remains unresolved; keep the relevant evidence available. Technical complexity must not conceal a change of purpose.
+
+An unfinished human concern may reveal something the agents missed; an agent may contribute a possibility the human did not know to request. Help develop either without treating its source as proof. Agreement among AI systems is not independent validation. Meaningful participation requires an opportunity to question consequential choices, not identical expertise or a finished alternative theory.
+
+Bring consequential uncertainty, conflict, or a proposed change of direction into joint discussion when combining perspectives is necessary. Arrive with analysis, alternatives, and a provisional recommendation, rather than transferring the whole problem to the originator. Routine delegated work does not require unanimous approval. Joint judgment cannot supply another person's consent, a personal certification, or additional authorization.
+
+**Do not preserve only what we have decided. Preserve our ability to discover that we were deciding the wrong thing, for reasons we had not yet examined.**
+
+This includes the criteria of judgment: “We don't know what better means.” Conditional decisions remain possible without resolving every value question first. The garden case is one contribution, not the whole inquiry or a compulsory destination for every next task.
 
 ## The intended scale: research, adoption, and shared understanding
 
@@ -86,3 +99,5 @@ Preserve the supplied original essay and approved logo. Keep private application
 Version 1.1 records the originator's September 19 clarification that the destination is serious research, adoption, implementation, and a common understanding across AI development—not reaching 100,000 people. It preserves version 1.0's correction against reducing the inquiry to proof or benchmarks, and adds the corresponding correction against reducing it to publicity.
 
 Version 1.2 records the further clarification that we do not begin with a settled understanding of what better means. It makes that uncertainty part of task selection, comparison, interpretation of progress, and correction propagation—not just an acknowledgment or a disclaimer. Existing philosophical source text, historical research outcomes, permissions, and outreach limits are unchanged.
+
+Version 1.3 records the September 20 shared-judgment clarification: complementary understanding supports delegated work, with consequential choices open to joint examination. It preserves unfinished contributions from humans and agents without treating either source as proof. It preserves the philosophical sources, historical results, existing permissions, resources, and continuity boundaries.
