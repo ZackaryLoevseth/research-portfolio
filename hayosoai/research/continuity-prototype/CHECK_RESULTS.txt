@@ -1,0 +1,67 @@
+test_all_maintained_representations_and_no_overwrite (test_compare.BaselineTests.test_all_maintained_representations_and_no_overwrite) ... ok
+test_baselines_retain_full_shared_source_history_and_uncertainty (test_compare.BaselineTests.test_baselines_retain_full_shared_source_history_and_uncertainty) ... ok
+test_comparison_detects_wrong_and_missing_outcomes (test_compare.BaselineTests.test_comparison_detects_wrong_and_missing_outcomes) ... ok
+test_backfilled_failure_does_not_override_newer_success (test_continuity.ContinuityTests.test_backfilled_failure_does_not_override_newer_success) ... ok
+test_backfilled_observation_does_not_become_current (test_continuity.ContinuityTests.test_backfilled_observation_does_not_become_current) ... ok
+test_backfilled_request_cannot_reopen_answered_current_question (test_continuity.ContinuityTests.test_backfilled_request_cannot_reopen_answered_current_question) ... ok
+test_changed_question_text_cannot_hide_under_answered_key (test_continuity.ContinuityTests.test_changed_question_text_cannot_hide_under_answered_key) ... ok
+test_cli_append_validate_views_and_cached_view_refusal (test_continuity.ContinuityTests.test_cli_append_validate_views_and_cached_view_refusal) ... ok
+test_cooperating_writer_lock_refuses_instead_of_blocking (test_continuity.ContinuityTests.test_cooperating_writer_lock_refuses_instead_of_blocking) ... ok
+test_correction_of_negative_premise_requires_review_and_can_reopen_on_changed_value (test_continuity.ContinuityTests.test_correction_of_negative_premise_requires_review_and_can_reopen_on_changed_value) ... ok
+test_correction_requires_same_axis_and_independent_replacement (test_continuity.ContinuityTests.test_correction_requires_same_axis_and_independent_replacement) ... ok
+test_correction_retraction_rejected_and_replacement_chain_never_resurrects_packet (test_continuity.ContinuityTests.test_correction_retraction_rejected_and_replacement_chain_never_resurrects_packet) ... ok
+test_duplicate_json_keys_nonfinite_blank_and_partial_records_rejected (test_continuity.ContinuityTests.test_duplicate_json_keys_nonfinite_blank_and_partial_records_rejected) ... ok
+test_equal_observed_time_has_explicit_append_order_tie_break (test_continuity.ContinuityTests.test_equal_observed_time_has_explicit_append_order_tie_break) ... ok
+test_exact_retry_idempotent_even_after_later_events (test_continuity.ContinuityTests.test_exact_retry_idempotent_even_after_later_events) ... ok
+test_failed_read_does_not_refresh_timestamp_or_window (test_continuity.ContinuityTests.test_failed_read_does_not_refresh_timestamp_or_window) ... ok
+test_historical_packet_expires_even_after_new_same_value_observation (test_continuity.ContinuityTests.test_historical_packet_expires_even_after_new_same_value_observation) ... ok
+test_human_label_is_not_identity_or_authorization (test_continuity.ContinuityTests.test_human_label_is_not_identity_or_authorization) ... ok
+test_invalidated_dependency_cannot_be_laundered (test_continuity.ContinuityTests.test_invalidated_dependency_cannot_be_laundered) ... ok
+test_malformed_event_variants_rejected_without_writes (test_continuity.ContinuityTests.test_malformed_event_variants_rejected_without_writes) ... ok
+test_malformed_existing_log_prevents_append (test_continuity.ContinuityTests.test_malformed_existing_log_prevents_append) ... ok
+test_missing_self_forward_cycles_and_cross_case_dependencies_rejected (test_continuity.ContinuityTests.test_missing_self_forward_cycles_and_cross_case_dependencies_rejected) ... ok
+test_negative_alternative_grounds_preserved (test_continuity.ContinuityTests.test_negative_alternative_grounds_preserved) ... ok
+test_projection_determinism_roundtrip_input_preservation_and_time_boundary (test_continuity.ContinuityTests.test_projection_determinism_roundtrip_input_preservation_and_time_boundary) ... ok
+test_python_equal_numeric_types_do_not_bypass_replay_identity (test_continuity.ContinuityTests.test_python_equal_numeric_types_do_not_bypass_replay_identity) ... ok
+test_record_tampering_reordering_deletion_and_duplication_detected (test_continuity.ContinuityTests.test_record_tampering_reordering_deletion_and_duplication_detected) ... ok
+test_regular_file_and_symlink_boundaries (test_continuity.ContinuityTests.test_regular_file_and_symlink_boundaries) ... ok
+test_required_scenarios_at_every_checkpoint (test_continuity.ContinuityTests.test_required_scenarios_at_every_checkpoint) ... ok
+test_reused_command_key_and_claimed_event_id_rejected_atomically (test_continuity.ContinuityTests.test_reused_command_key_and_claimed_event_id_rejected_atomically) ... ok
+test_runtime_has_no_network_model_or_command_execution_imports (test_continuity.ContinuityTests.test_runtime_has_no_network_model_or_command_execution_imports) ... ok
+test_same_value_correction_reviews_answer_without_reasking (test_continuity.ContinuityTests.test_same_value_correction_reviews_answer_without_reasking) ... ok
+test_same_value_stale_or_unrelated_premise_cannot_reopen_negative (test_continuity.ContinuityTests.test_same_value_stale_or_unrelated_premise_cannot_reopen_negative) ... ok
+test_saved_view_is_bound_to_tip_and_explicit_time_and_no_overwrite (test_continuity.ContinuityTests.test_saved_view_is_bound_to_tip_and_explicit_time_and_no_overwrite) ... ok
+test_size_limits_and_empty_log (test_continuity.ContinuityTests.test_size_limits_and_empty_log) ... ok
+test_stale_answer_requires_review_instead_of_reasking (test_continuity.ContinuityTests.test_stale_answer_requires_review_instead_of_reasking) ... ok
+test_whole_log_resealing_and_suffix_removal_are_not_detectable (test_continuity.ContinuityTests.test_whole_log_resealing_and_suffix_removal_are_not_detectable) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 0.615s
+
+OK
+{
+  "scenario_count": 10,
+  "checkpoint_count": 24,
+  "rubric_assertions_per_representation": 57,
+  "passing_scenarios": {
+    "event_ledger": 10,
+    "status_file": 10,
+    "handoff_summary": 10
+  },
+  "source_history_fidelity": "PASS: same events, IDs, timestamps, dependencies and corrections",
+  "final_artifact_bytes_total": {
+    "event_ledger": 22478,
+    "status_file": 26816,
+    "handoff_summary": 21819
+  },
+  "source_lines": {
+    "continuity.py": 497,
+    "fixtures.py": 164,
+    "baseline_facts.py": 54,
+    "compare.py": 105,
+    "test_continuity.py": 363,
+    "test_compare.py": 32,
+    "run_checks.py": 38
+  }
+}
+PASS. Synthetic software checks only; no human/time/model improvements measured.

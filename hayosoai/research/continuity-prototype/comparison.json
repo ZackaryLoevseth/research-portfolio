@@ -1,0 +1,275 @@
+{
+  "checkpoint_count": 24,
+  "conclusion": "All three representations can preserve these distinctions when maintained. The ledger adds executable validation, replay and declared-dependency review rules. The simpler formats require fewer implementation mechanisms.",
+  "details": [
+    {
+      "assertions": 2,
+      "checkpoint": "plan",
+      "errors": {
+        "event_ledger": [],
+        "handoff_summary": [],
+        "status_file": []
+      },
+      "scenario": "drafted_vs_submitted"
+    },
+    {
+      "assertions": 2,
+      "checkpoint": "attempt",
+      "errors": {
+        "event_ledger": [],
+        "handoff_summary": [],
+        "status_file": []
+      },
+      "scenario": "drafted_vs_submitted"
+    },
+    {
+      "assertions": 2,
+      "checkpoint": "checked",
+      "errors": {
+        "event_ledger": [],
+        "handoff_summary": [],
+        "status_file": []
+      },
+      "scenario": "drafted_vs_submitted"
+    },
+    {
+      "assertions": 2,
+      "checkpoint": "submitted",
+      "errors": {
+        "event_ledger": [],
+        "handoff_summary": [],
+        "status_file": []
+      },
+      "scenario": "drafted_vs_submitted"
+    },
+    {
+      "assertions": 3,
+      "checkpoint": "valid",
+      "errors": {
+        "event_ledger": [],
+        "handoff_summary": [],
+        "status_file": []
+      },
+      "scenario": "duplicate_vs_validity"
+    },
+    {
+      "assertions": 2,
+      "checkpoint": "unpaid",
+      "errors": {
+        "event_ledger": [],
+        "handoff_summary": [],
+        "status_file": []
+      },
+      "scenario": "accepted_vs_paid"
+    },
+    {
+      "assertions": 2,
+      "checkpoint": "paid",
+      "errors": {
+        "event_ledger": [],
+        "handoff_summary": [],
+        "status_file": []
+      },
+      "scenario": "accepted_vs_paid"
+    },
+    {
+      "assertions": 3,
+      "checkpoint": "old",
+      "errors": {
+        "event_ledger": [],
+        "handoff_summary": [],
+        "status_file": []
+      },
+      "scenario": "stale_observation"
+    },
+    {
+      "assertions": 5,
+      "checkpoint": "correction",
+      "errors": {
+        "event_ledger": [],
+        "handoff_summary": [],
+        "status_file": []
+      },
+      "scenario": "correction_propagation"
+    },
+    {
+      "assertions": 3,
+      "checkpoint": "second_correction",
+      "errors": {
+        "event_ledger": [],
+        "handoff_summary": [],
+        "status_file": []
+      },
+      "scenario": "correction_propagation"
+    },
+    {
+      "assertions": 1,
+      "checkpoint": "unrelated",
+      "errors": {
+        "event_ledger": [],
+        "handoff_summary": [],
+        "status_file": []
+      },
+      "scenario": "negative_reopening"
+    },
+    {
+      "assertions": 1,
+      "checkpoint": "same",
+      "errors": {
+        "event_ledger": [],
+        "handoff_summary": [],
+        "status_file": []
+      },
+      "scenario": "negative_reopening"
+    },
+    {
+      "assertions": 2,
+      "checkpoint": "changed",
+      "errors": {
+        "event_ledger": [],
+        "handoff_summary": [],
+        "status_file": []
+      },
+      "scenario": "negative_reopening"
+    },
+    {
+      "assertions": 2,
+      "checkpoint": "reopen",
+      "errors": {
+        "event_ledger": [],
+        "handoff_summary": [],
+        "status_file": []
+      },
+      "scenario": "negative_reopening"
+    },
+    {
+      "assertions": 5,
+      "checkpoint": "failure",
+      "errors": {
+        "event_ledger": [],
+        "handoff_summary": [],
+        "status_file": []
+      },
+      "scenario": "failed_read_after_success"
+    },
+    {
+      "assertions": 3,
+      "checkpoint": "recovered",
+      "errors": {
+        "event_ledger": [],
+        "handoff_summary": [],
+        "status_file": []
+      },
+      "scenario": "failed_read_after_success"
+    },
+    {
+      "assertions": 3,
+      "checkpoint": "repeat",
+      "errors": {
+        "event_ledger": [],
+        "handoff_summary": [],
+        "status_file": []
+      },
+      "scenario": "repeated_answered_requests"
+    },
+    {
+      "assertions": 2,
+      "checkpoint": "repeat_fresh",
+      "errors": {
+        "event_ledger": [],
+        "handoff_summary": [],
+        "status_file": []
+      },
+      "scenario": "repeated_answered_requests"
+    },
+    {
+      "assertions": 2,
+      "checkpoint": "different",
+      "errors": {
+        "event_ledger": [],
+        "handoff_summary": [],
+        "status_file": []
+      },
+      "scenario": "repeated_answered_requests"
+    },
+    {
+      "assertions": 1,
+      "checkpoint": "revised",
+      "errors": {
+        "event_ledger": [],
+        "handoff_summary": [],
+        "status_file": []
+      },
+      "scenario": "repeated_answered_requests"
+    },
+    {
+      "assertions": 2,
+      "checkpoint": "revised_answer",
+      "errors": {
+        "event_ledger": [],
+        "handoff_summary": [],
+        "status_file": []
+      },
+      "scenario": "repeated_answered_requests"
+    },
+    {
+      "assertions": 2,
+      "checkpoint": "closed",
+      "errors": {
+        "event_ledger": [],
+        "handoff_summary": [],
+        "status_file": []
+      },
+      "scenario": "closure_not_available_slots"
+    },
+    {
+      "assertions": 2,
+      "checkpoint": "slots",
+      "errors": {
+        "event_ledger": [],
+        "handoff_summary": [],
+        "status_file": []
+      },
+      "scenario": "closure_not_available_slots"
+    },
+    {
+      "assertions": 3,
+      "checkpoint": "plan_only",
+      "errors": {
+        "event_ledger": [],
+        "handoff_summary": [],
+        "status_file": []
+      },
+      "scenario": "planned_not_executed"
+    }
+  ],
+  "final_artifact_bytes_total": {
+    "event_ledger": 22478,
+    "handoff_summary": 21819,
+    "status_file": 26816
+  },
+  "limits": [
+    "No measured human time, maintenance error rate, model performance or overall value.",
+    "Baseline assertions were authored with knowledge of these synthetic scenarios.",
+    "Byte counts compare final log vs final baseline document per scenario; ledger views and all systems' earlier checkpoints are excluded. Formats have different verbosity.",
+    "Declared dependencies cannot discover omitted grounds or establish source truth."
+  ],
+  "method": "Separate literal baseline facts; complete shared input history; same checkpoint rubric. Maintained final artifacts, not competing automated update engines or a blinded study.",
+  "passing_scenarios": {
+    "event_ledger": 10,
+    "handoff_summary": 10,
+    "status_file": 10
+  },
+  "rubric_assertions_per_representation": 57,
+  "scenario_count": 10,
+  "source_history_fidelity": "PASS: same events, IDs, timestamps, dependencies and corrections",
+  "source_lines": {
+    "baseline_facts.py": 54,
+    "compare.py": 105,
+    "continuity.py": 497,
+    "fixtures.py": 164,
+    "run_checks.py": 38,
+    "test_compare.py": 32,
+    "test_continuity.py": 363
+  }
+}

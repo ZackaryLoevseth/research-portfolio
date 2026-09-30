@@ -1,0 +1,103 @@
+{
+  "base_commit": "eb790357777a4b60f2dd132fccef22f7ffd9d378",
+  "comparison": {
+    "assertions_per_representation": 57,
+    "checkpoints": 24,
+    "event_ledger_pass": 10,
+    "maintained_handoff_summary_pass": 10,
+    "maintained_status_file_pass": 10,
+    "method": "Carefully maintained artifacts with identical full source histories; no measured human, time or model improvements.",
+    "scenarios": 10
+  },
+  "deployment_status": "This content receipt records local checks; it does not assert live deployment.",
+  "files": [
+    {
+      "bytes": 28517,
+      "path": "docs/hayosoai/beta/downloads/continuity-prototype-v0.zip",
+      "sha256": "9c3b42067d321f2098ac9d7f128402a6f60f891bf2b85b4c5aa05e19e29239b5"
+    },
+    {
+      "bytes": 8398,
+      "path": "docs/hayosoai/beta/en/continuity/index.html",
+      "sha256": "4bfd8941b59a2748fed03acbd0918c4eb223975d48e1c53ecbae21e68539e693"
+    },
+    {
+      "bytes": 6830,
+      "path": "docs/hayosoai/beta/en/index.html",
+      "sha256": "e9e66acd9ee00a1dc5d326747a7ae31a448f887e1495bf76115e4a0962be3b5f"
+    },
+    {
+      "bytes": 6254,
+      "path": "docs/hayosoai/beta/en/research/index.html",
+      "sha256": "7bb765cfb94d8ffe771a62cc1860d4a17e27d6d19863993175aee97658e83848"
+    },
+    {
+      "bytes": 19,
+      "path": "hayosoai/research/continuity-prototype/.gitignore",
+      "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793"
+    },
+    {
+      "bytes": 6496,
+      "path": "hayosoai/research/continuity-prototype/CHECK_RESULTS.txt",
+      "sha256": "5d328ee49227af244353532f5b46cccd6cd32b2a5e083203a4d3a21b023dc979"
+    },
+    {
+      "bytes": 11374,
+      "path": "hayosoai/research/continuity-prototype/README.md",
+      "sha256": "99f6be76e74c00d25954e06115aa2797d93c434858f104baa0612acdf5828999"
+    },
+    {
+      "bytes": 3358,
+      "path": "hayosoai/research/continuity-prototype/baseline_facts.py",
+      "sha256": "a20687377a2a81da8336ba1557b6ecf8f265e32be023326433ae30ab4c743de5"
+    },
+    {
+      "bytes": 6115,
+      "path": "hayosoai/research/continuity-prototype/compare.py",
+      "sha256": "908580fc30fd1c066208ba92b40b81f2fe4eb38af7440cc165e7cd60243facaf"
+    },
+    {
+      "bytes": 6870,
+      "path": "hayosoai/research/continuity-prototype/comparison.json",
+      "sha256": "1ab52f0bc91bf5b5315a0d9d79a317012fb454e7041b8b74ce4e3aaccd037361"
+    },
+    {
+      "bytes": 25919,
+      "path": "hayosoai/research/continuity-prototype/continuity.py",
+      "sha256": "25839e1a38655bcc4d4ac164e1a6d4bae1ec982a69b94a67371b86ca76b986f2"
+    },
+    {
+      "bytes": 9891,
+      "path": "hayosoai/research/continuity-prototype/fixtures.py",
+      "sha256": "9bb22e55aa5379ef6adc0571c5f8a5fbb96615fd07b8617b7fbcafa51c7124ac"
+    },
+    {
+      "bytes": 1382,
+      "path": "hayosoai/research/continuity-prototype/run_checks.py",
+      "sha256": "e580ea9137b096f8db435411bcbf93c895ae05373ed96fe348ba2f0a84688972"
+    },
+    {
+      "bytes": 1531,
+      "path": "hayosoai/research/continuity-prototype/test_compare.py",
+      "sha256": "b0c36dae915e7a9b9d8a810ccf33f68c9c72384a5889edb2061f021791385797"
+    },
+    {
+      "bytes": 19235,
+      "path": "hayosoai/research/continuity-prototype/test_continuity.py",
+      "sha256": "6908345351a5e50a34e38379e78f326ae4e8491fe7d2770b2513fbd861352ec5"
+    }
+  ],
+  "identity_limit": "SHA256 identifies payloads, not truth; manifest excludes its own hash.",
+  "local_checks": {
+    "correction_model_tests": 13,
+    "english_beta_local_links": 143,
+    "essay_logo_byte_identity": "PASS",
+    "heading_id_asset_checks": "PASS",
+    "portfolio_publication_preflight": "PASS",
+    "prototype_test_methods": 36
+  },
+  "publication_source": "main:/docs, existing branch GitHub Pages workflow",
+  "recorded_date": "2026-09-30",
+  "release": "HayosoAi offline research continuity prototype v0",
+  "scope": "Synthetic-only technical branch, source/tests ZIP and English beta entries. Existing essay, logo and frozen scientific releases unchanged."
+}
