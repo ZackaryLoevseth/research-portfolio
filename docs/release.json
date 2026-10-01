@@ -1,6 +1,6 @@
 {
-  "release": "research-record-2026-09-07",
-  "kind": "objective-research-record-presentation",
+  "release": "hayosoai-portfolio-2026-10-01",
+  "kind": "unified-hayosoai-research-portfolio-presentation",
   "scientific_assets": "Existing manuscripts, certificates, attribution records, and approved resume retained unchanged",
   "eti_release": "FOUNDATIONAL_WORKING_MANUSCRIPT; SEPARATE_FINITE_NOTE_PACKAGE_UNCHANGED",
   "study14": "NO_COMPARATIVE_RESULTS",
@@ -10,8 +10,15 @@
     "path": "assets/publications/eti/ETI_Foundations.pdf"
   },
   "presentation": {
-    "title": "Current results",
-    "format": "Ongoing research record",
-    "updated": "2026-09-07"
+    "title": "HayosoAi",
+    "format": "Research portfolio",
+    "updated": "2026-10-01"
+  },
+  "security_disclosures": {
+    "source": "../content/security-disclosures.json",
+    "published_ids": [
+      "CVE-2026-96573"
+    ],
+    "metadata_checked": "2026-10-01"
   }
 }

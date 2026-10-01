@@ -5,6 +5,8 @@ on:
     paths:
       - 'docs/**'
       - 'tests/**'
+      - 'content/security-disclosures.json'
+      - 'scripts/build-security.mjs'
       - '.github/workflows/portfolio-checks.yml'
   push:
     branches: [portfolio-foundations-20260907]
@@ -25,3 +27,5 @@ jobs:
         run: node --test tests/correction.test.cjs
       - name: Publication preflight, exact manuscript and certificate
         run: node tests/portfolio-preflight.cjs
+      - name: Published disclosure source matches presentation
+        run: node scripts/build-security.mjs --check
