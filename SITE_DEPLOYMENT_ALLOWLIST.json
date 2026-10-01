@@ -1,5 +1,5 @@
 {
-  "release": "research-first-2026-09-07",
+  "release": "hayosoai-portfolio-2026-10-01",
   "publishing_source": "main:/docs",
   "files": [
     {
@@ -10,20 +10,20 @@
     },
     {
       "path": "docs/404.html",
-      "sha256": "c86a7bfdab0fe5fff8e7999eaec2815b607e8311d7761193dcbef53ab80650e7",
-      "bytes": 2918,
+      "sha256": "aad0bb3166cdf634b7f10b4f96df1f0301ed414b2942afb72270ddc380667b49",
+      "bytes": 2719,
       "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
     },
     {
       "path": "docs/about.html",
-      "sha256": "30e029e9f123b31e23de5df0f1c655c437f03d81db996bc6838d733ccb13876d",
-      "bytes": 2794,
+      "sha256": "92f3085f982e653f213ed86baa1637ec1880ab21d89cb421a2ffbf0065904763",
+      "bytes": 2664,
       "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
     },
     {
       "path": "docs/applied.html",
-      "sha256": "3961b7d679a84f4579d3d55c3ab0d358d8febf835a477f46bbcb283f99d15cbf",
-      "bytes": 2719,
+      "sha256": "67453edf6d7ff37c59aba8d26d7d512ecd8697b77a33db90d2fe900d023adc33",
+      "bytes": 2632,
       "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
     },
     {
@@ -79,6 +79,18 @@
       "sha256": "79541e6bda8927eae24d78a05b69114050c20afce87b66272fce1367de063e90",
       "bytes": 1896,
       "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/eti/ETI_Foundations.pdf",
+      "sha256": "e87a88c4dedbd9d53978d4bb90dbfe5186aacc007950dc5a8d87a5b2a31e2578",
+      "bytes": 177843,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/assets/publications/eti/source.json",
+      "sha256": "10909257194de269de95ca639f97af04c19419789accfa4cc69859a98fbfaeec",
+      "bytes": 530,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
     },
     {
       "path": "docs/assets/publications/graffiti3/ai-use-disclosure.md",
@@ -178,20 +190,26 @@
     },
     {
       "path": "docs/contact.html",
-      "sha256": "77ebf7c0b9c8ee813307887245af649674ffc441a430a0e75e3441302284f14c",
-      "bytes": 2596,
+      "sha256": "d7a781eb6566a11c30d89d4209f5e3aca68717ee03831f817f2588d87d140226",
+      "bytes": 2569,
       "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
     },
     {
+      "path": "docs/correction.js",
+      "sha256": "7732c289ffbfef90d0e440ac597b4beeb4c23fab8c68e9f07ded7efd8328a1de",
+      "bytes": 6645,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
       "path": "docs/evaluation.html",
-      "sha256": "ef9f6dc6fef4b5663c293c0d218e118fc4cf761c8868197604c946965a3f430b",
-      "bytes": 5464,
+      "sha256": "bb1c9e106d5a423bcce185b8fb53ab82c71da0c0b70088a687f51db3ea12b85d",
+      "bytes": 5204,
       "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
     },
     {
       "path": "docs/evidence.html",
-      "sha256": "b0a19a4017bd6c817f08895c10b98ef880de101b69d98c9a55910f314b19dae1",
-      "bytes": 4643,
+      "sha256": "8aca932c668f9e4261741849f9769e4bcd61d7461d4317b516c3bb8ffcbb4c0a",
+      "bytes": 4407,
       "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
     },
     {
@@ -201,57 +219,219 @@
       "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
     },
     {
+      "path": "docs/foundations.html",
+      "sha256": "4f24d5066732221e6c3312bb96410e0969d4ca93e6a3625163c0848aa3adf7f2",
+      "bytes": 7520,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/hayosoai/beta/assets/demo-engine.mjs",
+      "sha256": "e4e6f1852fbb68f36f61c841a1571688678d2a08a5c396edccc2ff3704e26827",
+      "bytes": 5616,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/hayosoai/beta/assets/demo-strings.mjs",
+      "sha256": "511ff43bf954e3754e23e99f3eb2307a22f2fb0cac4759d641d290bc89816bd6",
+      "bytes": 1337,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/hayosoai/beta/assets/demo-ui.mjs",
+      "sha256": "38b188695b4468f9343292a9609db57f8c8edb41b7635359cafaa69c61894298",
+      "bytes": 5034,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/hayosoai/beta/assets/hayosoai-logo.png",
+      "sha256": "5d2e60892f43e23f96428420f1664618308b358aeec8cbd484834d346f75f578",
+      "bytes": 888909,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/hayosoai/beta/assets/reading-ui.mjs",
+      "sha256": "2abaec97a62680ce141a162d423a96e4b63402e48915cbf7b440a8959814cdc1",
+      "bytes": 390,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/hayosoai/beta/assets/reopening-engine.mjs",
+      "sha256": "3e1c2c812ee929e37a6161a4ddf87ec76ea97e75018628a002613e0d57a2f798",
+      "bytes": 4240,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/hayosoai/beta/assets/reopening-strings.mjs",
+      "sha256": "839120a6c46cd00394837593587bc568a5d2ce3017511f6675d20838a2d1760a",
+      "bytes": 9085,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/hayosoai/beta/assets/reopening-ui.mjs",
+      "sha256": "5492ea3c29d8e64057e35db66421cde440b068533a51ca0705a271549912d820",
+      "bytes": 4197,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/hayosoai/beta/assets/site.css",
+      "sha256": "69398a5e265ad20205ab7007a111341834a1a8b23227d284487a0beb206aec25",
+      "bytes": 29458,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/hayosoai/beta/downloads/continuity-prototype-v0.zip",
+      "sha256": "9c3b42067d321f2098ac9d7f128402a6f60f891bf2b85b4c5aa05e19e29239b5",
+      "bytes": 28517,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/hayosoai/beta/downloads/declarative_essay.en.md",
+      "sha256": "059dddf41f4b40ec0484f55dbee872e970f0bfb55c64629938475623287c2b53",
+      "bytes": 12735,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/hayosoai/beta/downloads/reopening-probe/PILOT_PROTOCOL.md",
+      "sha256": "af13542561e767c6d514cf2c66a7ff60c8ab62ee7c8cde0f93a9c5fe65fa4aa4",
+      "bytes": 4848,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/hayosoai/beta/downloads/reopening-probe/PILOT_SUPPLEMENT_NO_MODEL_v0.1.0.md",
+      "sha256": "68e6862595bc08cb4da30699037180888d66d56e23bc62b42b27f0cbd87f96b5",
+      "bytes": 12783,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/hayosoai/beta/downloads/shared-inquiry-case-01.en.md",
+      "sha256": "e1a3a1e26ead66647888fac30b7041bf745517230cecc94d11cba2c099e2d360",
+      "bytes": 24727,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/hayosoai/beta/en/case/index.html",
+      "sha256": "504256446e70898c1ba7cf103bde5743c081c6feb807c5a683baddbd063aae5a",
+      "bytes": 34949,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/hayosoai/beta/en/continuity/index.html",
+      "sha256": "4bfd8941b59a2748fed03acbd0918c4eb223975d48e1c53ecbae21e68539e693",
+      "bytes": 8398,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/hayosoai/beta/en/demonstration/index.html",
+      "sha256": "c4af4a8af04260c451a598d83411afb8a65e32670823c843b35b2ecbb70065b7",
+      "bytes": 10867,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/hayosoai/beta/en/essay/index.html",
+      "sha256": "72b19f3f11a8894ffd2698a9301670dfc0eaef68e27757975a3fb195dfdc436a",
+      "bytes": 19120,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/hayosoai/beta/en/index.html",
+      "sha256": "e9e66acd9ee00a1dc5d326747a7ae31a448f887e1495bf76115e4a0962be3b5f",
+      "bytes": 6830,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/hayosoai/beta/en/reopening/index.html",
+      "sha256": "15030267169f23559c9e6d9e0f494cef6ac017f00b3e83ce4a6575a0e039e5f7",
+      "bytes": 14884,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/hayosoai/beta/en/research/index.html",
+      "sha256": "7bb765cfb94d8ffe771a62cc1860d4a17e27d6d19863993175aee97658e83848",
+      "bytes": 6254,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/hayosoai/beta/index.html",
+      "sha256": "7dba4774c2de120bd64428f0b3a59ddfbad68845b02c5e17f0edcf0aeebc64f4",
+      "bytes": 6339,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/hayosoai/index.html",
+      "sha256": "20d8ff67c0dab9f982c9a31507e5ba8759f971824f5b637b36ed160b650f7c45",
+      "bytes": 16153,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/hayosoai/reopening.html",
+      "sha256": "83c5b10b33daa01aeac4293535f8e21c656afa7f38dd7a6c0c2634f9af7466ae",
+      "bytes": 18709,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/hayosoai-portfolio.css",
+      "sha256": "0360b5b15a225e048326d1d10143960c0d34d81750e2907a2d89ea5fa5920bf1",
+      "bytes": 14995,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
       "path": "docs/human-ai-systems.html",
-      "sha256": "939bc351ca0ba4c2ab7bf768a4f28e6d10c66f122837404314fa8b2cbb455f3a",
-      "bytes": 7962,
+      "sha256": "e9b489f25a6d733a828b8fdd2545c6d4f819456f775ea958f3c1cf0bc6f5fc73",
+      "bytes": 8086,
       "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
     },
     {
       "path": "docs/index.html",
-      "sha256": "4990ef9ec92ca0227ce6c969357a7292758dd999f39e145345ad6beb5e970d00",
-      "bytes": 8566,
+      "sha256": "9b3ffaa1f7ccca98f1db7917e4a4cd820d4838bfa85b234018d5bc3ab9894e8b",
+      "bytes": 17820,
       "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
     },
     {
       "path": "docs/mathematics.html",
-      "sha256": "7cb5b77610bb8785a3f4854664576c677f7cf6d7b8f54e94af5ec7b1308ce9bc",
-      "bytes": 9158,
+      "sha256": "fa5ca1ba37a196225c6ff897214189e96e867450de2d5c0819258766157f7bf2",
+      "bytes": 9281,
       "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
     },
     {
       "path": "docs/methods.html",
-      "sha256": "0446ff6691041773418451aa58d538e1e3243f6377aaa10de91286285208cb48",
-      "bytes": 4708,
+      "sha256": "cc951e4142f0fe28bebf24b35f5c51f3d29d95a99d1ab0453156be2c75200bd1",
+      "bytes": 4296,
       "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
     },
     {
       "path": "docs/papers.html",
-      "sha256": "79893767dce5ccc62d6ab5205a09c29ce7793d4eb103e32ba8371d32d17b1d0d",
-      "bytes": 6516,
+      "sha256": "09391ece461cddf4c35e68deb6ef8bb3ca7fb18f21cde9da7ee8dd72f7b04e93",
+      "bytes": 6606,
       "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
     },
     {
+      "path": "docs/portfolio.css",
+      "sha256": "9540a358cd0062d907a469d77dafa435ead5715f839601a06380730753c2693f",
+      "bytes": 15680,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
       "path": "docs/publications.html",
-      "sha256": "541eac9f6f1dbe3818e479024187ce6ccd17ee015f79c03b82d43076cb40e600",
-      "bytes": 2812,
+      "sha256": "d5e20f94644ccfc9d7eeb74e10950bff4628fe521ffa04764389f44ccfcdb24e",
+      "bytes": 2668,
       "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
     },
     {
       "path": "docs/release.json",
-      "sha256": "94a9c7cced44b6a3ef455a82fdd82c53336bdbd2795e59b465ca43b5a996e04b",
-      "bytes": 267,
+      "sha256": "cdcfa508351a42843c76bf42d128d278ebb04df823df95f21388637e55462ef3",
+      "bytes": 868,
       "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
     },
     {
       "path": "docs/research-resume.html",
-      "sha256": "a653ebe614cfe9103fbdd7f017ea4ad2afa41109e21c2ba09b785f5c1e4ec92a",
-      "bytes": 2844,
+      "sha256": "fc513e4ce7d87b7856d69f76df7578a3f71314314c551515d5a681a0694d7616",
+      "bytes": 2712,
       "scope": "AUTHORIZED_CV_LANDING_PAGE_UPDATE"
     },
     {
       "path": "docs/research.html",
-      "sha256": "55f3e528b841813ab0f9923c5ccd5ee0e2462a7f8282b66108dff1c993d0d3bd",
-      "bytes": 2686,
+      "sha256": "5226a26fd0eaa94bc51d257a9edac10e59111038d8fcaa2cc119f8bc55d44ba2",
+      "bytes": 2614,
       "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
     },
     {
@@ -261,9 +441,15 @@
       "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
     },
     {
+      "path": "docs/security.html",
+      "sha256": "4e393a08892586a9235af6a096ecba4b53fc48daf22149135ee34c2f2ef39797",
+      "bytes": 4570,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
       "path": "docs/sitemap.xml",
-      "sha256": "976d2162cfed858954c7cc45512165104e5b86f428f173f1860bacfc48bd9de1",
-      "bytes": 722,
+      "sha256": "bc77bcb66f6af5fbd767fef0b939c3b64b84c92e790f0a59c9659cc288498d81",
+      "bytes": 1488,
       "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
     },
     {
@@ -289,6 +475,18 @@
       "sha256": "81e41f673a3502c4890f7009eadd34b246fea1be81f0f72a394d19949cbfcca3",
       "bytes": 732,
       "scope": "AUTHORIZED_WEBSITE_PRESENTATION_OR_UNCHANGED_PUBLIC_ASSET"
+    },
+    {
+      "path": "docs/totient-explorer.html",
+      "sha256": "fd8971584b128880fb5e657ec604face314afa355d3bf32f8cdd928a262f7103",
+      "bytes": 18222,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
+    },
+    {
+      "path": "docs/totient.js",
+      "sha256": "d6177549d6066c82940e77b9492bcd88d5682c6f11aab7ff871e5dbc8e0ea2c5",
+      "bytes": 2999,
+      "scope": "PUBLIC_SITE_PRESENTATION_OR_PREVIOUSLY_PUBLISHED_RESEARCH_ASSET"
     }
   ]
 }

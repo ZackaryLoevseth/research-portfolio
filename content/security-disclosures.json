@@ -1,0 +1,16 @@
+{
+  "verified_on": "2026-10-01",
+  "entries": [
+    {
+      "id": "CVE-2026-96573",
+      "product": "Appointment Hour Booking",
+      "publication_date": "2026-09-30",
+      "publisher": "Wordfence Intelligence",
+      "status": "published",
+      "advisory_url": "https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/appointment-hour-booking/appointment-hour-booking-1597-unauthenticated-stored-dom-based-cross-site-scripting-via-booking-form-single-line-field-via-schedule-calendar-list-renderer",
+      "patched_version": "1.5.98",
+      "cvss": "7.2",
+      "severity": "High"
+    }
+  ]
+}
