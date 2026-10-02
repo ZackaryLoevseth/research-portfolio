@@ -50,6 +50,16 @@ requireCheck('embedded certificate matches pinned source', () => {
     }
   });
 });
+requireCheck('KeeperHub contribution keeps its public source and attribution', () => {
+  const html = fs.readFileSync(path.join(docs, 'index.html'), 'utf8');
+  const contribution = html.match(/<article class="project" id="keeperhub-generation-stream">([\s\S]*?)<\/article>/);
+  assert.ok(contribution, 'KeeperHub contribution missing');
+  assert.match(contribution[1], /AI-assisted/);
+  assert.match(contribution[1], /Merged into staging/);
+  assert.match(contribution[1], /datetime="2026-09-08"/);
+  assert.match(contribution[1], /href="https:\/\/github\.com\/KeeperHub\/keeperhub\/pull\/2340"/);
+  assert.match(contribution[1], /Original issue diagnosis and accepted plan by <a href="https:\/\/github\.com\/KeeperHub\/keeperhub\/issues\/2333">Yoh5<\/a>/);
+});
 if (failures.length) {
   console.error('\nNOT READY TO PUBLISH:', failures.length, 'failed checks.');
   process.exitCode = 1;
